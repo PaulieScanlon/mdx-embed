@@ -1,0 +1,29 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "MDX Embed docs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006 -s ./public --ci",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/mdx-embed.git"
+  },
+  "author": "Paul Scanlon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/mdx-embed/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
+  "dependencies": {
+    "@storybook/addon-docs": "^6.0.16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@storybook/react": "^6.0.16",
+    "babel-loader": "^8.1.0"
+  }
+}

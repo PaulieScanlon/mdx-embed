@@ -1,8 +1,10 @@
 {
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "storybook": "yarn workspace docs storybook",
+    "storybook:build": "yarn workspace docs storybook:build"
+  },
   "workspaces": [
-    "packages/mdx-embed",
-    "packages/gatsby-plugin-mdx-embed"
+    "packages/*"
   ]
 }
