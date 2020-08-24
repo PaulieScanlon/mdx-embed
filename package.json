@@ -1,8 +1,6 @@
 {
   "private": true,
-  "scripts": {
-    "release": "yarn workspace mdx-embed publish && yarn workspace gatsby-plugin-mdx-embed publish"
-  },
+  "scripts": {},
   "workspaces": [
     "packages/mdx-embed",
     "packages/gatsby-plugin-mdx-embed"

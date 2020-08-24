@@ -12,3 +12,8 @@ The new goal of MDX Embed is to allow it's use with any MDX Project. Whilst the 
 - New package for `mdx-embed`
 - New package for `gatsby-plugin-mdx-embed`
 - Potentially a package for Next, if they have a similar plugin system, else just use `mdx-embed`
+
+## npm
+
+- [mdx-embed](https://www.npmjs.com/package/mdx-embed)
+- [gatsby-plugin-mdx-embed](https://www.npmjs.com/package/gatsby-plugin-mdx-embed)
