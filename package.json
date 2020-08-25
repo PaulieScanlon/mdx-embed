@@ -8,12 +8,6 @@
     "storybook": "yarn workspace docs storybook",
     "storybook:build": "yarn workspace docs storybook:build"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn workspace mdx-embed lint:fix && yarn workspace mdx-embed prettier",
-      "pre-push": ""
-    }
-  },
   "workspaces": [
     "docs",
     "packages/*"
