@@ -12,7 +12,7 @@ export interface ICodePenProps {
 export const CodePen: FunctionComponent<ICodePenProps> = ({
   codePenId,
   height = 500,
-  tabs = 'result'
+  tabs = 'result',
 }: ICodePenProps) => (
   <GeneralObserver>
     <iframe
@@ -20,7 +20,7 @@ export const CodePen: FunctionComponent<ICodePenProps> = ({
       className="codepen-mdx-embed"
       height={height}
       style={{
-        width: '100%'
+        width: '100%',
       }}
       scrolling="no"
       src={`https://codepen.io/team/codepen/embed/${codePenId}?height=265&theme-id=default&default-tab=${tabs}`}

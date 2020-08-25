@@ -8,5 +8,6 @@
     "module": "commonjs",
     "target": "es5",
     "jsx": "react"
-  }
+  },
+  "exclude": ["docs/storybook-static"]
 }
