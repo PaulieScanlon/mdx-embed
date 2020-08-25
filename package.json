@@ -5,6 +5,7 @@
     "storybook:build": "yarn workspace docs storybook:build"
   },
   "workspaces": [
+    "docs",
     "packages/*"
   ]
 }
