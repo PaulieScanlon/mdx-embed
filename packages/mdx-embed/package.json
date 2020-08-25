@@ -4,6 +4,10 @@
   "description": "The new MDX Embed",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier --config .prettierrc.js --write \"**/*.{json,js,ts,tsx}\"",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix --quiet",
+    "build": "webpack",
     "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +20,27 @@
   "bugs": {
     "url": "https://github.com/PaulieScanlon/mdx-embed/issues"
   },
-  "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme"
+  "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.47",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.10.0",
+    "@typescript-eslint/parser": "^3.10.0",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-react": "^7.20.6",
+    "husky": "^4.2.5",
+    "prettier": "^2.1.0",
+    "source-map-loader": "^1.0.2",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "peerDependencies": {
+    "@mdx-js/mdx": "^1.6.16",
+    "@mdx-js/react": "^1.6.16",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }

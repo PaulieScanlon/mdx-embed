@@ -1,8 +1,18 @@
 {
   "private": true,
   "scripts": {
+    "prettier": "yarn workspace mdx-embed prettier",
+    "lint": "yarn workspace mdx-embed lint",
+    "lint:fix": "yarn workspace mdx-embed lint:fix",
+    "build": "yarn workspace mdx-embed build",
     "storybook": "yarn workspace docs storybook",
     "storybook:build": "yarn workspace docs storybook:build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn workspace mdx-embed lint:fix && yarn workspace mdx-embed prettier",
+      "pre-push": ""
+    }
   },
   "workspaces": [
     "docs",

@@ -1,0 +1,1 @@
+export { MdxEmbedProvider } from './MdxEmbedProvider'
