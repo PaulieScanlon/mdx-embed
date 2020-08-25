@@ -2,7 +2,7 @@
   "name": "gatsby-plugin-mdx-embed",
   "version": "0.0.1",
   "description": "Gatsby plugin of MDX Embed",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
