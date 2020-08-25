@@ -9,7 +9,6 @@ module.exports = {
     libraryTarget: 'commonjs2',
     library: 'mdx-embed',
   },
-  devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.ts', '.tsx'],
   },
@@ -17,17 +16,11 @@ module.exports = {
     rules: [
       {
         test: /\.ts(x?)$/,
-
         use: [
           {
             loader: 'ts-loader',
           },
         ],
-      },
-      {
-        enforce: 'pre',
-        test: /\.js$/,
-        loader: 'source-map-loader',
       },
     ],
   },

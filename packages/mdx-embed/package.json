@@ -2,14 +2,20 @@
   "name": "mdx-embed",
   "version": "0.0.1",
   "description": "The new MDX Embed",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "prettier": "prettier --config .prettierrc.js --write \"**/*.{json,js,ts,tsx}\"",
+    "prettier": "prettier --config ../../.prettierrc.js --write \"**/*.{json,js,ts,tsx}\"",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix --quiet",
     "build": "webpack",
     "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:fix && npm run prettier",
+      "pre-push": ""
+    }
   },
   "repository": {
     "type": "git",
@@ -29,8 +35,8 @@
     "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-react": "^7.20.6",
+    "husky": "^4.2.5",
     "prettier": "^2.1.0",
-    "source-map-loader": "^1.0.2",
     "ts-loader": "^8.0.3",
     "typescript": "^4.0.2",
     "webpack": "^4.44.1",

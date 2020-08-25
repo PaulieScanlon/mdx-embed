@@ -8,8 +8,13 @@
     "storybook": "yarn workspace docs storybook",
     "storybook:build": "yarn workspace docs storybook:build"
   },
-  "workspaces": [
-    "docs",
-    "packages/*"
-  ]
+  "workspaces": {
+    "packages": [
+      "docs",
+      "packages/*"
+    ],
+    "nohoist": [
+      "husky"
+    ]
+  }
 }

@@ -1,16 +1,8 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "esModuleInterop": true,
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "declaration": true,
     "declarationDir": "./dist/types",
-    "outDir": "./dist/",
-    "sourceMap": true,
-    "noImplicitAny": false,
-    "module": "commonjs",
-    "target": "es5",
-    "jsx": "react"
+    "outDir": "./dist/"
   },
   "include": ["src/**/*"]
 }
