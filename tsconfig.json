@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
-    "noImplicitAny": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
     "module": "commonjs",
     "target": "es5",
     "jsx": "react"
   },
-  "exclude": ["docs/storybook-static"]
+  "exclude": ["packages/gatsby-plugin-mdx-embed/*", "docs/storybook-static"]
 }

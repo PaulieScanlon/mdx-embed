@@ -1,12 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "prettier": "yarn workspace mdx-embed prettier",
-    "lint": "yarn workspace mdx-embed lint",
-    "lint:fix": "yarn workspace mdx-embed lint:fix",
+    "prettier": "yarn workspace mdx-embed prettier && yarn workspace gatsby-plugin-mdx-embed prettier",
+    "lint": "yarn workspace mdx-embed lint && yarn workspace gatsby-plugin-mdx-embed lint",
+    "lint:fix": "yarn workspace mdx-embed lint:fix && yarn workspace gatsby-plugin-mdx-embed lint:fix",
     "build": "yarn workspace mdx-embed build",
     "storybook": "yarn workspace docs storybook",
-    "storybook:build": "yarn workspace docs storybook:build"
+    "storybook:build": "yarn workspace docs storybook:build",
+    "release": "yarn workspace mdx-embed publish"
   },
   "workspaces": {
     "packages": [
