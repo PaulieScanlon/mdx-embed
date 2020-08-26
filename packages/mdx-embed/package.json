@@ -1,13 +1,13 @@
 {
   "name": "mdx-embed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The new MDX Embed",
   "main": "dist/main.js",
   "scripts": {
-    "prettier": "prettier --config ../../.prettierrc.js --write \"**/*.{json,js,ts,tsx}\"",
+    "prettier": "prettier --config ../../.prettier.config.js --ignore-path ../../.prettierignore --write \"**/*.{json,js,ts,tsx}\"",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix --quiet",
-    "build": "webpack",
+    "build": "npm run lint && webpack",
     "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
   "devDependencies": {
+    "@types/node": "^14.6.0",
     "@types/react": "^16.9.47",
     "@types/react-dom": "^16.9.8",
     "@typescript-eslint/eslint-plugin": "^3.10.0",
