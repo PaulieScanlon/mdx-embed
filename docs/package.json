@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
   "dependencies": {
-    "mdx-embed": "^0.0.2"
+    "mdx-embed": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",

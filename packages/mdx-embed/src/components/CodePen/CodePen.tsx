@@ -1,12 +1,12 @@
-import React, { FunctionComponent } from 'react'
-import { GeneralObserver } from '../GeneralObserver'
+import React, { FunctionComponent } from 'react';
+import { GeneralObserver } from '../GeneralObserver';
 export interface ICodePenProps {
   /** CodePen id */
-  codePenId: string
+  codePenId: string;
   /** Height for the iFrame */
-  height?: number
+  height?: number;
   /** Which tabs to display */
-  tabs?: string[] | 'js' | 'css' | 'scss' | 'less' | 'result'
+  tabs?: string[] | 'js' | 'css' | 'scss' | 'less' | 'result';
 }
 
 export const CodePen: FunctionComponent<ICodePenProps> = ({
@@ -28,4 +28,4 @@ export const CodePen: FunctionComponent<ICodePenProps> = ({
       allowFullScreen
     />
   </GeneralObserver>
-)
+);

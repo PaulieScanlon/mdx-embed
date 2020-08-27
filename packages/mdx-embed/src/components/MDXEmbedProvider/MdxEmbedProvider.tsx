@@ -1,12 +1,12 @@
-import React, { FunctionComponent } from 'react'
-import { MDXProvider } from '@mdx-js/react'
+import React, { FunctionComponent } from 'react';
+import { MDXProvider } from '@mdx-js/react';
 
-import { CodePen } from '../../index'
+import { CodePen } from '../CodePen';
 
 const components = {
   CodePen,
-} as any
+} as any;
 
 export const MDXEmbedProvider: FunctionComponent = ({ children }) => (
   <MDXProvider components={components}>{children}</MDXProvider>
-)
+);

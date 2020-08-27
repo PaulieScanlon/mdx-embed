@@ -1,40 +1,36 @@
 {
-  "name": "gatsby-plugin-mdx-embed",
-  "version": "0.0.2",
-  "description": "Gatsby plugin of MDX Embed",
+  "name": "example-gatsby",
+  "version": "1.0.0",
+  "description": "An example Gatsby app for MDX Embed",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --config .prettierrc.js --ignore-path .prettierignore --write \"**/*.{json,js,ts,tsx}\"",
-    "publish": "npm publish",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PaulieScanlon/mdx-embed.git"
   },
+  "keywords": [
+    "Gatsby",
+    "MDX"
+  ],
   "author": "Paul Scanlon",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PaulieScanlon/mdx-embed/issues"
   },
   "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
-  "keywords": [
-    "mdx",
-    "mdx-embed",
-    "gatsby",
-    "gatsby-plugin"
-  ],
   "dependencies": {
-    "mdx-embed": "*"
-  },
-  "peerDependencies": {
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
-    "gatsby": "^2.24.50",
+    "gatsby": "^2.24.51",
+    "gatsby-plugin-mdx": "^1.2.36",
+    "gatsby-plugin-mdx-embed": "*",
+    "gatsby-source-filesystem": "^2.3.26",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "devDependencies": {
-    "prettier": "^2.1.1"
-  }
+  "devDependencies": {}
 }

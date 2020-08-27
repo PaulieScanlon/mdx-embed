@@ -15,40 +15,37 @@ export const getPadding = (aspectRatio: string) => {
     '8.5': {
       paddingTop: '62.5%',
     },
-  }
+  };
   // @ts-ignore
-  return config[aspectRatio]
-}
+  return config[aspectRatio];
+};
 
-export const createScriptTag = (
-  providerEmbedUrl: string | null,
-  providerEmbedScript: string | null
-) => {
-  const script = document.createElement(`script`)
+export const createScriptTag = (providerEmbedUrl: string | null, providerEmbedScript: string | null) => {
+  const script = document.createElement(`script`);
 
-  script.type = `text/javascript`
+  script.type = `text/javascript`;
 
   if (providerEmbedUrl) {
-    script.src = providerEmbedUrl
+    script.src = providerEmbedUrl;
   }
 
   if (providerEmbedScript) {
-    script.innerText = providerEmbedScript
+    script.innerText = providerEmbedScript;
   }
 
   script.onerror = (error) => {
-    console.error(`MdxEmbedProvider ${(error as any).type}`, error)
-  }
+    console.error(`MdxEmbedProvider ${(error as any).type}`, error);
+  };
 
-  document.getElementsByTagName(`head`)[0].appendChild(script)
-}
+  document.getElementsByTagName(`head`)[0].appendChild(script);
+};
 
 export const createStyleSheet = (href: string) => {
-  const link = document.createElement(`link`)
+  const link = document.createElement(`link`);
 
-  link.type = `text/css`
-  link.rel = `stylesheet`
-  link.href = href
+  link.type = `text/css`;
+  link.rel = `stylesheet`;
+  link.href = href;
 
-  document.getElementsByTagName(`head`)[0].appendChild(link)
-}
+  document.getElementsByTagName(`head`)[0].appendChild(link);
+};

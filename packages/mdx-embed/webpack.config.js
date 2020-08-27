@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   mode: 'production',
@@ -16,6 +16,7 @@ module.exports = {
     rules: [
       {
         test: /\.ts(x?)$/,
+        exclude: /node_modules/,
         use: [
           {
             loader: 'ts-loader',
@@ -30,4 +31,4 @@ module.exports = {
     '@mdx-js/mdx': '@mdx-js/mdx',
     '@mdx-js/react': '@mdx-js/react',
   },
-}
+};

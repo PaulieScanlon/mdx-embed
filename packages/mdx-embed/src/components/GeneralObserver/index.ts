@@ -1,1 +1,1 @@
-export { GeneralObserver } from './GeneralObserver'
+export { GeneralObserver } from './GeneralObserver';

@@ -1,1 +1,1 @@
-export { MDXEmbedProvider } from './MDXEmbedProvider'
+export { MDXEmbedProvider } from './MDXEmbedProvider';
