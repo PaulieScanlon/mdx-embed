@@ -1,10 +1,12 @@
-import React from 'react';
-import { MDXEmbedProvider } from 'mdx-embed';
+// const React = require('react');
+// const { MDXEmbedProvider } = require('mdx-embed');
 
-export const wrapRootElement = ({ element }) => {
-  return (
-    <div style={{ border: '1px solid red' }}>
-      <MDXEmbedProvider>{element}</MDXEmbedProvider>;
-    </div>
-  );
+// exports.wrapRootElement = ({ element }) => {
+//   return <MDXEmbedProvider>{element}</MDXEmbedProvider>;
+// };
+
+import React from 'react';
+
+export const wrapPageElement = ({ element }) => {
+  return <div style={{ border: '5px solid red' }}>{element}</div>;
 };

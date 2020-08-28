@@ -1,5 +1,5 @@
 {
-  "name": "example-gatsby",
+  "name": "demo",
   "version": "1.0.0",
   "description": "An example Gatsby app for MDX Embed",
   "main": "index.js",
@@ -13,8 +13,8 @@
     "url": "git+https://github.com/PaulieScanlon/mdx-embed.git"
   },
   "keywords": [
-    "Gatsby",
-    "MDX"
+    "gatsby",
+    "mdx"
   ],
   "author": "Paul Scanlon",
   "license": "MIT",

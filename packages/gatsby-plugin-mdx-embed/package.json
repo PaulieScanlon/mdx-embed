@@ -24,9 +24,6 @@
     "gatsby",
     "gatsby-plugin"
   ],
-  "dependencies": {
-    "mdx-embed": "*"
-  },
   "peerDependencies": {
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",

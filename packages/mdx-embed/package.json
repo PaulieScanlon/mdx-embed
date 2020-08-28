@@ -7,6 +7,7 @@
     "prettier": "prettier --config .prettierrc.js --ignore-path .prettierignore --write \"**/*.{json,js,ts,tsx}\"",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix --quiet",
+    "develop": "webpack --watch",
     "build": "webpack",
     "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
