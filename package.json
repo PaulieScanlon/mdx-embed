@@ -8,7 +8,6 @@
     "build": "yarn workspace mdx-embed build",
     "storybook": "yarn workspace docs storybook",
     "storybook:build": "yarn workspace docs storybook:build",
-    "release": "yarn workspace mdx-embed publish",
     "gatsby-demo:develop": "yarn workspace gatsby-demo develop",
     "gatsby-demo:clean": "yarn workspace gatsby-demo clean",
     "deploy": "yarn workspace docs deploy"

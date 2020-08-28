@@ -9,7 +9,6 @@
     "lint:fix": "eslint . --ext .ts,.tsx --fix --quiet",
     "develop": "webpack --watch",
     "build": "tsc",
-    "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "husky": {
