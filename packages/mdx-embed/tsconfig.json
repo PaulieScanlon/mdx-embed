@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "sourceMap": true,
-    "noImplicitAny": false,
+    "target": "es2015",
     "module": "commonjs",
-    "target": "es5",
+    "allowJs": true,
     "jsx": "react",
-    "declarationDir": "./dist/types",
-    "outDir": "./dist/"
+    "declaration": true,
+    "outDir": "./dist/",
+    "noImplicitUseStrict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
