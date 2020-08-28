@@ -29,5 +29,6 @@
     "mdx-embed": "*",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  }
+  },
+  "gitHead": "bef9cf91c8f86819cd7fbe9da2d68bfae4b5b2c3"
 }
