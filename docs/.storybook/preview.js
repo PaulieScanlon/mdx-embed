@@ -2,7 +2,7 @@ import React from 'react';
 import { addParameters } from '@storybook/react';
 import { DocsContainer } from '@storybook/addon-docs/blocks';
 
-import { MDXEmbedProvider } from 'mdx-embed';
+import { MDXEmbedProvider } from '../../packages/mdx-embed/src';
 
 addParameters({
   docs: {

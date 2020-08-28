@@ -18,9 +18,7 @@
     "url": "https://github.com/PaulieScanlon/mdx-embed/issues"
   },
   "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
-  "dependencies": {
-    "mdx-embed": "*"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@mdx-js/mdx": "^1.6.16",
