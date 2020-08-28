@@ -22,5 +22,9 @@
     "nohoist": [
       "husky"
     ]
+  },
+  "name": "mdx-embed",
+  "devDependencies": {
+    "lerna": "^3.22.1"
   }
 }
