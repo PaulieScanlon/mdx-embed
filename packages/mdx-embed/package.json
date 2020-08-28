@@ -1,6 +1,6 @@
 {
   "name": "mdx-embed",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The new MDX Embed",
   "main": "dist/index.js",
   "scripts": {
