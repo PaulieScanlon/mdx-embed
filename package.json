@@ -9,8 +9,8 @@
     "storybook": "yarn workspace docs storybook",
     "storybook:build": "yarn workspace docs storybook:build",
     "release": "yarn workspace mdx-embed publish",
-    "demo:develop": "yarn workspace demo develop",
-    "demo:clean": "yarn workspace demo clean",
+    "gatsby-demo:develop": "yarn workspace gatsby-demo develop",
+    "gatsby-demo:clean": "yarn workspace gatsby-demo clean",
     "start": "npm-run-all --parallel develop ex-gatsby:dev"
   },
   "workspaces": {

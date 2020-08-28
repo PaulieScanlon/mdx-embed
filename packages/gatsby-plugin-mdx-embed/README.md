@@ -1,1 +1,0 @@
-# gatsby-plugin-mdx-embed
