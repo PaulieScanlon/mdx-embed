@@ -19,7 +19,10 @@
     "url": "https://github.com/PaulieScanlon/mdx-embed/issues"
   },
   "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
-  "dependencies": {},
+  "dependencies": {
+    "emotion-theming": "^10.0.27",
+    "theme-ui": "^0.3.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@mdx-js/mdx": "^1.6.16",
