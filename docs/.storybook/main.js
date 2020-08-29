@@ -8,7 +8,7 @@ module.exports = {
       shouldExtractLiteralValuesFromEnum: true,
       shouldExtractValuesFromUnion: true,
       propFilter: (prop) =>
-        prop.parent ? !/node_modules/.test(prop.parent.fileName) : true,
-    },
-  },
-}
+        prop.parent ? !/node_modules/.test(prop.parent.fileName) : true
+    }
+  }
+};
