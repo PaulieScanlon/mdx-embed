@@ -1,5 +1,4 @@
-// Provider
-export { MDXEmbedProvider } from './components/MDXEmbedProvider';
-
 // Components
-export { CodePen } from './components/CodePen';
+export { CodePen } from './components/codepen';
+// Provider
+export { MDXEmbedProvider } from './components/mdx-embed-provider';
