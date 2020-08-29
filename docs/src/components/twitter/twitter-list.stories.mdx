@@ -1,0 +1,35 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { TwitterList } from '../../../../packages/mdx-embed/src/components/twitter';
+
+<Meta title="Components/Twitter/TwitterList" component={TwitterList} />
+
+# TwitterList
+
+Display a TwitterList by including the component in your `.mdx`. The `username` and `listName` props are required.
+
+<ArgsTable of={TwitterList} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <TwitterList username="PaulieScanlon" listName="ask-gatsby" height="400px" />
+  </Story>
+</Canvas>
+
+## Width
+
+<Canvas>
+  <Story name="width">
+    <TwitterList username="PaulieScanlon" listName="ask-gatsby" height="400px" width="100%" />
+  </Story>
+</Canvas>
+
+## Theme
+
+<Canvas>
+  <Story name="theme">
+    <TwitterList username="PaulieScanlon" listName="ask-gatsby" theme="dark" height="400px" />
+  </Story>
+</Canvas>

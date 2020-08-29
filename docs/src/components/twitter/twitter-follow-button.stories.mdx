@@ -1,0 +1,43 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { TwitterFollowButton } from '../../../../packages/mdx-embed/src/components/twitter';
+
+<Meta title="Components/Twitter/TwitterFollowButton" component={TwitterFollowButton} />
+
+# TwitterFollowButton
+
+Display a TwitterFollowButton by including the component in your `.mdx`. The `username` prop is required.
+
+<ArgsTable of={TwitterFollowButton} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <TwitterFollowButton username="PaulieScanlon" />
+  </Story>
+</Canvas>
+
+## Show followers
+
+<Canvas>
+  <Story name="show-followers">
+    <TwitterFollowButton username="gatsbyjs" showFollowers={true} />
+  </Story>
+</Canvas>
+
+## Show username
+
+<Canvas>
+  <Story name="show-username">
+    <TwitterFollowButton username="PaulieScanlon" showUsername={false} />
+  </Story>
+</Canvas>
+
+## Size
+
+<Canvas>
+  <Story name="size">
+    <TwitterFollowButton username="PaulieScanlon" size="large" />
+  </Story>
+</Canvas>

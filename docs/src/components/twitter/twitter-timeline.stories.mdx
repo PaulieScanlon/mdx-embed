@@ -1,0 +1,43 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { TwitterTimeline } from '../../../../packages/mdx-embed/src/components/twitter';
+
+<Meta title="Components/Twitter/TwitterTimeline" component={TwitterTimeline} />
+
+# TwitterTimeline
+
+Display a TwitterTimeline by including the component in your `.mdx`. The `username` prop is required.
+
+<ArgsTable of={TwitterTimeline} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <TwitterTimeline username="PaulieScanlon" height="400px" />
+  </Story>
+</Canvas>
+
+## Width
+
+<Canvas>
+  <Story name="width">
+    <TwitterTimeline username="PaulieScanlon" height="400px" width="100%" />
+  </Story>
+</Canvas>
+
+## Theme
+
+<Canvas>
+  <Story name="theme">
+    <TwitterTimeline username="PaulieScanlon" theme="dark" height="400px" />
+  </Story>
+</Canvas>
+
+## Show Likes
+
+<Canvas>
+  <Story name="show-likes">
+    <TwitterTimeline username="PaulieScanlon" showLikes={true} height="400px" />
+  </Story>
+</Canvas>

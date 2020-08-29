@@ -1,0 +1,27 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { TwitterMentionButton } from '../../../../packages/mdx-embed/src/components/twitter';
+
+<Meta title="Components/Twitter/TwitterMentionButton" component={TwitterMentionButton} />
+
+# TwitterMentionButton
+
+Display a TwitterMentionButton by including the component in your `.mdx`. The `username` prop is required.
+
+<ArgsTable of={TwitterMentionButton} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <TwitterMentionButton username="PaulieScanlon" />
+  </Story>
+</Canvas>
+
+## Size
+
+<Canvas>
+  <Story name="size">
+    <TwitterMentionButton username="PaulieScanlon" size="large" />
+  </Story>
+</Canvas>

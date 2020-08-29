@@ -1,0 +1,27 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { TwitterHashtagButton } from '../../../../packages/mdx-embed/src/components/twitter';
+
+<Meta title="Components/Twitter/TwitterHashtagButton" component={TwitterHashtagButton} />
+
+# TwitterHashtagButton
+
+Display a TwitterHashtagButton by including the component in your `.mdx`. The `hashtag` prop is required.
+
+<ArgsTable of={TwitterHashtagButton} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <TwitterHashtagButton hashtag="#100DaysOfGatsby" />
+  </Story>
+</Canvas>
+
+## Size
+
+<Canvas>
+  <Story name="size">
+    <TwitterHashtagButton hashtag="#100DaysOfGatsby" size="large" />
+  </Story>
+</Canvas>
