@@ -1,6 +1,6 @@
-import { Meta, Story, Source, ArgsTable } from "@storybook/addon-docs/blocks";
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs/blocks";
 
-import { YouTube } from "../../../packages/mdx-embed/src/components/YouTube";
+import { YouTube } from "../../../packages/mdx-embed/src/components/youtube";
 
 <Meta title="Components/YouTube" component={YouTube} />
 
@@ -12,35 +12,35 @@ Display YouTube by including the component in your `.mdx`. The `youTubeId` prop 
 
 ## Usage
 
-<Story name="usage">
-  <YouTube youTubeId="mM5_T-F1Yn4" />
-</Story>
-
-<Source ID="usage" />
+<Canvas>
+  <Story name="usage">
+    <YouTube youTubeId="mM5_T-F1Yn4" />
+  </Story>
+</Canvas>
 
 ## Aspect Ratio
 
-<Story name="aspectRatio">
-  <YouTube youTubeId="mM5_T-F1Yn4" aspectRatio="4:3" />
-</Story>
-
-<Source ID="aspectRatio" />
+<Canvas>
+  <Story name="aspectRatio">
+    <YouTube youTubeId="mM5_T-F1Yn4" aspectRatio="4:3" />
+  </Story>
+</Canvas>
 
 ## Skip To
 
-<Story name="skipTo">
-  <YouTube youTubeId="PS2784YfPpw" skipTo={{ h: 0, m: 38, s: 44 }} />
-</Story>
-
-<Source ID="skipTo" />
+<Canvas>
+  <Story name="skipTo">
+    <YouTube youTubeId="PS2784YfPpw" skipTo={{ h: 0, m: 38, s: 44 }} />
+  </Story>
+</Canvas>
 
 ## Auto Play
 
-<Story name="autoPlay">
-  <YouTube youTubeId="PS2784YfPpw" autoPlay="true" />
-</Story>
-
-<Source ID="autoPlay" />
+<Canvas>
+  <Story name="autoPlay">
+    <YouTube youTubeId="PS2784YfPpw" autoPlay="true" />
+  </Story>
+</Canvas>
 
 ## Help
 
