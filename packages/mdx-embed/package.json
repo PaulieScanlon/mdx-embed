@@ -4,7 +4,7 @@
   "description": "The new MDX Embed",
   "main": "dist/index.js",
   "scripts": {
-    "prettier": "prettier --config .prettierrc.js --ignore-path .prettierignore --write \"**/*.{json,js,ts,tsx}\"",
+    "prettier": "prettier --config ../../.prettierrc.js --ignore-path ../../.prettierignore --write \"**/*.{json,js,ts,tsx}\"",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix --quiet",
     "build:types": "tsc --emitDeclarationOnly",
@@ -58,6 +58,5 @@
     "@mdx-js/react": "^1.6.16",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  },
-  "gitHead": "bef9cf91c8f86819cd7fbe9da2d68bfae4b5b2c3"
+  }
 }
