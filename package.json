@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "prettier": "yarn workspace mdx-embed prettier && yarn workspace gatsby-plugin-mdx-embed prettier",
+    "prettier": "yarn workspace mdx-embed prettier && yarn workspace gatsby-plugin-mdx-embed prettier && yarn workspace docs prettier",
     "lint": "yarn workspace mdx-embed lint",
     "lint:fix": "yarn workspace mdx-embed lint:fix",
     "develop": "yarn workspace mdx-embed develop",

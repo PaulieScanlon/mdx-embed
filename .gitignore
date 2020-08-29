@@ -105,5 +105,9 @@ dist
 
 # Storybook
 storybook-static
+
+
 # Local Netlify folder
 .netlify
+
+.DS_Store
