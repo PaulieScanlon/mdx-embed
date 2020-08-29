@@ -1,0 +1,19 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { PinterestFollowButton } from '../../../../packages/mdx-embed/src/components/pinterest';
+
+<Meta title="Components/Pinterest/PinterestFollowButton" component={PinterestFollowButton} />
+
+# PinterestFollowButton
+
+Display a PinterestFollowButton by including the component in your `.mdx`. The `username` prop is required.
+
+<Props of={PinterestFollowButton} />
+
+## Wsage
+
+<Canvas>
+  <Story name="usage">
+    <PinterestFollowButton username="pauliescanlon80" />
+  </Story>
+</Canvas>
