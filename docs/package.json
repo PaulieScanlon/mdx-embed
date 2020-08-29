@@ -4,10 +4,17 @@
   "description": "MDX Embed docs",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier --config .prettierrc.js --ignore-path .prettierignore --write \"**/*.{json,js,ts,tsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook --docs -p 6006 -s ./public --ci",
     "storybook:build": "build-storybook --docs -s ./public",
     "deploy": "npm run storybook:build && netlify deploy --prod"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier",
+      "pre-push": ""
+    }
   },
   "repository": {
     "type": "git",
@@ -30,6 +37,7 @@
     "@storybook/addon-docs": "^6.0.17",
     "@storybook/react": "^6.0.16",
     "babel-loader": "^8.1.0",
+    "husky": "^4.2.5",
     "react-docgen-typescript": "^1.20.3"
   }
 }
