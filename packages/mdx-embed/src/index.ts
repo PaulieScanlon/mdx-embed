@@ -3,6 +3,8 @@ export { CodePen } from './components/codepen';
 
 export { Instagram } from './components/instagram';
 
+export { Pin, PinterestBoard, PinterestFollowButton } from './components/pinterest';
+
 export {
   Tweet,
   TwitterFollowButton,

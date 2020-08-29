@@ -1,0 +1,35 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { PinterestBoard } from '../../../../packages/mdx-embed/src/components/pinterest';
+
+<Meta title="Components/Pinterest/PinterestBoard" component={PinterestBoard} />
+
+# PinterestBoard
+
+Display a PinterestBoard by including the component in your `.mdx`. The `pinterestLink` prop is required.
+
+<Props of={PinterestBoard} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <PinterestBoard pinterestLink="fromspacewithlove/astronauts/" />
+  </Story>
+</Canvas>
+
+## Width
+
+<Canvas>
+  <Story name="width">
+    <PinterestBoard pinterestLink="fromspacewithlove/astronauts/" width={900} />
+  </Story>
+</Canvas>
+
+## Variant
+
+<Canvas>
+  <Story name="variant">
+    <PinterestBoard pinterestLink="fromspacewithlove" variant="user" />
+  </Story>
+</Canvas>

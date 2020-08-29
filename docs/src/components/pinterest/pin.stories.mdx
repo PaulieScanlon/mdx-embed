@@ -1,0 +1,27 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Pin } from '../../../../packages/mdx-embed/src/components/pinterest';
+
+<Meta title="Components/Pinterest/Pin" component={Pin} />
+
+# Pin
+
+Display a Pin by including the component in your `.mdx`. The `pinId` prop is required.
+
+<ArgsTable of={Pin} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Pin pinId="637963103444140543" />
+  </Story>
+</Canvas>
+
+## Size
+
+<Canvas>
+  <Story name="size">
+    <Pin pinId="637963103444140543" size="large" />
+  </Story>
+</Canvas>
