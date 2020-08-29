@@ -1,0 +1,43 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Tweet } from '../../../../packages/mdx-embed/src/components/twitter';
+
+<Meta title="Components/Twitter/Tweet" component={Tweet} />
+
+# Tweet
+
+Display a Tweet by including the component in your `.mdx`. The `tweetLink` prop is required.
+
+<ArgsTable of={Tweet} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Tweet tweetLink="PaulieScanlon/status/1232982448310497286" />
+  </Story>
+</Canvas>
+
+## Theme
+
+<Canvas>
+  <Story name="theme">
+    <Tweet tweetLink="PaulieScanlon/status/1232982448310497286" theme="dark" />
+  </Story>
+</Canvas>
+
+## Align
+
+<Canvas>
+  <Story name="align">
+    <Tweet tweetLink="PaulieScanlon/status/1232982448310497286" align="right" />
+  </Story>
+</Canvas>
+
+## Hide Conversation
+
+<Canvas>
+  <Story name="hide-conversation">
+    <Tweet tweetLink="https://twitter.com/geekgalgroks/status/1255864483739729922" hideConversation={true} />
+  </Story>
+</Canvas>
