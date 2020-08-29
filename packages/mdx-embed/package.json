@@ -1,7 +1,7 @@
 {
   "name": "mdx-embed",
   "version": "0.0.3",
-  "description": "The new MDX Embed",
+  "description": "Embed 3rd party media content in MDX - no imports required",
   "main": "dist/index.js",
   "scripts": {
     "prettier": "prettier --config ../../.prettierrc.js --ignore-path ../../.prettierignore --write \"**/*.{json,js,ts,tsx}\"",
