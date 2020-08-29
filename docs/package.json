@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006 -s ./public --ci",
-    "storybook:build": "build-storybook -s ./public",
+    "storybook": "start-storybook --docs -p 6006 -s ./public --ci",
+    "storybook:build": "build-storybook --docs -s ./public",
     "deploy": "npm run storybook:build && netlify deploy --prod"
   },
   "repository": {
