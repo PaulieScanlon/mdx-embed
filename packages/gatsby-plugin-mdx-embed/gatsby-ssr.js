@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDXEmbedProvider } from 'mdx-embed';
 
-export const wrapPageElement = ({ element }) => {
+export const wrapRootElement = ({ element }) => {
   return <MDXEmbedProvider>{element}</MDXEmbedProvider>;
 };
