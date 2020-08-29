@@ -1,0 +1,19 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Instagram } from '../../../packages/mdx-embed/src/components/instagram';
+
+<Meta title="Components/Instagram" component={Instagram} />
+
+# Instagram
+
+Display an Instagram post by including the component in your `.mdx`. The `instagramId` prop is required.
+
+<ArgsTable of={Instagram} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Instagram instagramId="B7ISOoHne6s" />
+  </Story>
+</Canvas>

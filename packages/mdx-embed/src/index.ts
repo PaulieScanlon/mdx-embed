@@ -1,6 +1,8 @@
 // Components
 export { CodePen } from './components/codepen';
 
+export { Instagram } from './components/instagram';
+
 export {
   Tweet,
   TwitterFollowButton,
