@@ -1,6 +1,6 @@
 import { MDXProvider } from '@mdx-js/react';
 import React, { FunctionComponent } from 'react';
-import { CodePen } from '../code-pen';
+import { CodePen } from '../codepen';
 
 const components = {
   CodePen,
