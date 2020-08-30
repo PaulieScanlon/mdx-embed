@@ -1,0 +1,31 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Strava } from '../../../packages/mdx-embed/src/components/strava';
+
+<Meta title="Components/Strava" component={Strava} />
+
+# Strava
+
+Display a Strava activity by including the component in your `.mdx`. The `activityId` prop is required.
+
+<ArgsTable of={Strava} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Strava activityId="3857744534/embed/063fb45ce16095ff076c485ef6b14a01bf0e10e1" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a summary of a strava activity, navigate to the activity page on Strava.com (embed links aren't available on the mobile app). From there, click the "share" icon. The `activityId` should be everything after `https://www.strava.com/activities/`.
+
+Then use it in the component like this.
+
+```jsx
+<Strava activityId="3857744534/embed/063fb45ce16095ff076c485ef6b14a01bf0e10e1" />
+```
