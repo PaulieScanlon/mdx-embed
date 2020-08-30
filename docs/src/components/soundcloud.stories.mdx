@@ -1,0 +1,64 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { SoundCloud } from '../../../packages/mdx-embed/src/components/soundcloud';
+
+<Meta title="Components/SoundCloud" component={SoundCloud} />
+
+# SoundCloud
+
+Display a SoundCloud by including the component in your `.mdx`. The `soundCloudLink` prop is required.
+
+<ArgsTable of={SoundCloud} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <SoundCloud soundCloudLink="tracks/499997862" />
+  </Story>
+</Canvas>
+
+## Color
+
+<Canvas>
+  <Story name="color">
+    <SoundCloud soundCloudLink="tracks/188189839" color="e23f88" />
+  </Story>
+</Canvas>
+
+## Visual
+
+<Canvas>
+  <Story name="visual">
+    <SoundCloud soundCloudLink="tracks/196287837" visual={true} width="300px" height="300px" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a SoundCloud player using the `<SoundCloud />` component grab the `tracks` or `albums` and the `id` from the src URL in the Embed code.
+
+```html
+<iframe
+  width="100%"
+  height="166"
+  scrolling="no"
+  frameborder="no"
+  allow="autoplay"
+  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/499997862&color=%23ff00f5&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+></iframe>
+```
+
+The `tracks` or `album` and `id` are these bits.
+
+```
+tracks/499997862
+```
+
+Then use it in the component like this.
+
+```jsx
+<SoundCloud soundCloudLink="tracks/499997862" />
+```
