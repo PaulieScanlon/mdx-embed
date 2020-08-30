@@ -1,0 +1,55 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Lbry } from '../../../packages/mdx-embed/src/components/lbry';
+
+<Meta title="Components/Lbry" component={Lbry} />
+
+# Lbry
+
+Display a Lbry by including the component in your `.mdx`. The `lbryId` prop is required.
+
+<ArgsTable of={Lbry} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Lbry lbryId="get-wordpress-data-into-the-gatsby" />
+  </Story>
+</Canvas>
+
+## SkipTo
+
+<Canvas>
+  <Story name="tabs">
+    <Lbry lbryId="get-wordpress-data-into-the-gatsby" skipTo={{ s: 271 }} />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Lbry video using the `<Lbry />` component grab the `lbryId` from the share dialog under 'Embed this content' on Lbry, this will give you the `src` URL, you'll need to grab everything after `/embed`.
+
+```
+https://lbry.tv/$/embed/get-wordpress-data-into-the-gatsby
+```
+
+The `lbryId` is this bit.
+
+```
+get-wordpress-data-into-the-gatsby
+```
+
+Then use it in the component like this.
+
+```jsx
+<Lbry lbryId="get-wordpress-data-into-the-gatsby" />
+```
+
+Skip to, you'll need to add in the seconds, you can get this value from the Lbry share dialog under 'Embed this content' so to skip to 4m 31s use the component like this.
+
+```jsx
+<Lbry lbryId="get-wordpress-data-into-the-gatsby" skipTo={{ s: 271 }} />
+```
