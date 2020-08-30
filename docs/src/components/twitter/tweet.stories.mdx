@@ -41,3 +41,23 @@ Display a Tweet by including the component in your `.mdx`. The `tweetLink` prop 
     <Tweet tweetLink="https://twitter.com/geekgalgroks/status/1255864483739729922" hideConversation={true} />
   </Story>
 </Canvas>
+
+## Help
+
+To embed a Tweet using the `<Tweet />` component open the menu next to any Tweet and grab the `username`, `status` and `id` from the Embed Tweet URL.
+
+```
+https://twitter.com/PaulieScanlon/status/1201514996838141952
+```
+
+The `username`, `status` and `id` are these bits.
+
+```
+PaulieScanlon/status/1201514996838141952
+```
+
+Then use it in the component like this.
+
+```jsx
+<Tweet tweetLink="PaulieScanlon/status/1201514996838141952" />
+```
