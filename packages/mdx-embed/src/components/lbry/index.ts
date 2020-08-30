@@ -1,1 +1,1 @@
-export * from './lbry';
+export { Lbry } from './lbry';
