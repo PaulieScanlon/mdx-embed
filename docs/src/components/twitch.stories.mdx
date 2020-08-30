@@ -1,0 +1,65 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Twitch } from '../../../packages/mdx-embed/src/components/twitch';
+
+<Meta title="Components/Twitch" component={Twitch} />
+
+# Twitch
+
+Display Twitch by including the component in your `.mdx`. The `TwitchId` prop is required.
+
+<ArgsTable of={Twitch} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Twitch twitchId="679474192" parent="mdx-embed.com" />
+  </Story>
+</Canvas>
+
+## Skip to
+
+<Canvas>
+  <Story name="skipTo">
+    <Twitch
+      twitchId="679474192"
+      skipTo={{
+        h: 1,
+        m: 1,
+        s: 53,
+      }}
+      parent="mdx-embed.com"
+    />
+  </Story>
+</Canvas>
+
+## Channel
+
+<Canvas>
+  <Story name="channel">
+    <Twitch channel="jlengstorf" parent="mdx-embed.com" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Twitch video using the `<Twitch />` component grab the `twitchId` from the share Video Link URL.
+
+```
+https://www.twitch.tv/videos/510143691
+```
+
+The `TwitchId` is this bit.
+
+```
+510143691
+```
+
+Then use it in the component like this.
+
+```jsx
+<Twitch twitchId="510143691" />
+```
