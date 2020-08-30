@@ -1,0 +1,54 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { SimplecastEpisode } from '../../../../packages/mdx-embed/src/components/simplecast';
+
+<Meta title="Components/Simplecast/SimplecastEpisode" component={SimplecastEpisode} />
+
+# SimplecastEpisode
+
+Display a SimplecastEpisode by including the component in your `.mdx`. The `episodeId` prop is required.
+
+<ArgsTable of={SimplecastEpisode} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <SimplecastEpisode episodeId="905d603d-a7e4-4142-9bc3-16012312cc46" />
+  </Story>
+</Canvas>
+
+## Theme
+
+<Canvas>
+  <Story name="width">
+    <SimplecastEpisode episodeId="905d603d-a7e4-4142-9bc3-16012312cc46" theme="dark" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Simplecast Episode using the `<SimplecastEpisode />` component grab the `episodeId` from the embed option on the Simplecast Episode page.
+
+In the embed code dialogue the `src` will look something like this:
+
+```html
+<iframe
+  height="200px"
+  width="100%"
+  frameborder="no"
+  scrolling="no"
+  seamless
+  src="https://player.simplecast.com/905d603d-a7e4-4142-9bc3-16012312cc46"
+></iframe>
+```
+
+The `episodeId` should be everything after `https://player.simplecast.com/`
+
+Use it in the component like this:
+
+```
+<SimplecastEpisode episodeId="905d603d-a7e4-4142-9bc3-16012312cc46" />
+```
