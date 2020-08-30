@@ -1,0 +1,43 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Buzzprout } from '../../../packages/mdx-embed/src/components/buzzprout';
+
+<Meta title="Components/Buzzprout" component={Buzzprout} />
+
+# Buzzprout
+
+Display a Buzzprout podcast by including the component in your `.mdx`. The `buzzproutId` prop is required.
+
+<ArgsTable of={Buzzprout} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Buzzprout buzzproutId="1081172/4728410-react-hooks" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Buzzprout podcast episode player using the `<Buzzprout />` component grab the `buzzproutId` and episodeId from the URL.
+
+It should be everything after https://www.buzzsprout.com
+
+```
+https://www.buzzsprout.com/1081172/4728410-react-hooks
+```
+
+The `buzzproutId` is this bit.
+
+```
+1081172/4728410-react-hooks
+```
+
+Then use it in the component like this.
+
+```jsx
+<Buzzprout buzzproutId="1081172/4728410-react-hooks" />
+```
