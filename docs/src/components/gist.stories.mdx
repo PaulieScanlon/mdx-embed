@@ -1,0 +1,41 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Gist } from '../../../packages/mdx-embed/src/components/gist';
+
+<Meta title="Components/Gist" component={Gist} />
+
+# Gist
+
+Display a Gist by including the component in your `.mdx`. The `gistLink` prop is required.
+
+<ArgsTable of={Gist} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Gist gistLink="PaulieScanlon/ca0cc9239176066492cb2aba435edbf7" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed an Gist using the `<Gist />` component grab the `username` and `id` from the Gist URL.
+
+```
+https://gist.github.com/PaulieScanlon/ca0cc9239176066492cb2aba435edbf7#file-gatsby-mdx-embed-html
+```
+
+The `username` and `id` are these bits.
+
+```
+PaulieScanlon/ca0cc9239176066492cb2aba435edbf7
+```
+
+Then use it in the component like this.
+
+```jsx
+<Gist gistLink="PaulieScanlon/ca0cc9239176066492cb2aba435edbf7" />
+```
