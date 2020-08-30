@@ -1,0 +1,75 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Spotify } from '../../../packages/mdx-embed/src/components/spotify';
+
+<Meta title="Components/Spotify" component={Spotify} />
+
+# Spotify
+
+Display a Spotify player by including the component in your `.mdx`. The `spotifyLink` prop is required.
+
+<ArgsTable of={Spotify} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Spotify spotifyLink="album/65KwtzkJXw7oT819NFWmEP" />
+  </Story>
+</Canvas>
+
+## Width
+
+<Canvas>
+  <Story name="width">
+    <Spotify spotifyLink="album/65KwtzkJXw7oT819NFWmEP" width="100%" />
+  </Story>
+</Canvas>
+
+## Height
+
+<Canvas>
+  <Story name="height">
+    <Spotify spotifyLink="album/65KwtzkJXw7oT819NFWmEP" height="80px" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Spotify player using the `<Spotify />` component open the Spotify app and from the share menu grab the `track` or `album` and the `id` from the src URL in the Embed code.
+
+```html
+<iframe
+  src="https://open.spotify.com/embed/album/65KwtzkJXw7oT819NFWmEP"
+  width="300"
+  height="380"
+  frameborder="0"
+  allowtransparency="true"
+  allow="encrypted-media"
+></iframe>
+```
+
+```html
+<iframe
+  src="https://open.spotify.com/embed/track/3982V8R7oW3xyV8zASbCGG"
+  width="300"
+  height="380"
+  frameborder="0"
+  allowtransparency="true"
+  allow="encrypted-media"
+></iframe>
+```
+
+The `track` or `album` and `id` are these bits.
+
+```
+album/65KwtzkJXw7oT819NFWmEP
+```
+
+Then use it in the component like this.
+
+```jsx
+<Spotify spotifyLink="album/65KwtzkJXw7oT819NFWmEP" />
+```
