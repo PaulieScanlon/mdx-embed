@@ -1,0 +1,56 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Vimeo } from '../../../packages/mdx-embed/src/components/vimeo';
+
+<Meta title="Components/Vimeo" component={Vimeo} />
+
+# Vimeo
+
+Display a Vimeo video by including the component in your `.mdx`. The `vimeoId` prop is required.
+
+<ArgsTable of={Vimeo} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Vimeo vimeoId="38445453" />
+  </Story>
+</Canvas>
+
+## Skip to
+
+<Canvas>
+  <Story name="skipTo">
+    <Vimeo
+      vimeoId="38445453"
+      skipTo={{
+        h: 0,
+        m: 1,
+        s: 15,
+      }}
+    />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Vimeo video using the `<Vimeo />` component grab the `vimeoId` from the URL.
+
+```
+https://vimeo.com/38445453
+```
+
+The `vimeoId` is this bit.
+
+```
+38445453
+```
+
+Then use it in the component like this.
+
+```jsx
+<Vimeo vimeoId="38445453" />
+```
