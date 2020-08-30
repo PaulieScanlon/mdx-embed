@@ -1,0 +1,41 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { TikTok } from '../../../packages/mdx-embed/src/components/tiktok';
+
+<Meta title="Components/TikTok" component={TikTok} />
+
+# TikTok
+
+Display a TikTok by including the component in your `.mdx`. The `tikTokId` prop is required.
+
+<ArgsTable of={TikTok} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <TikTok tikTokId="@scout2015/video/6718335390845095173" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a TikTok player using the `<TikTok />` component grab the `username`, `video` and `id` from the TikTok URL.
+
+```
+https://www.tiktok.com/@scout2015/video/6718335390845095173#
+```
+
+The `username`, `video` and `id` are these bits.
+
+```
+@scout2015/video/6718335390845095173
+```
+
+Then use it in the component like this.
+
+```jsx
+<TikTok tikTokId="@scout2015/video/6718335390845095173" />
+```
