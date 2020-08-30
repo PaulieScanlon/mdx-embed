@@ -1,0 +1,41 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { CodeSandbox } from '../../../packages/mdx-embed/src/components/codesandbox';
+
+<Meta title="Components/CodeSandbox" component={CodeSandbox} />
+
+# CodeSandbox
+
+Display a CodeSandbox by including the component in your `.mdx`. The `codeSandboxId` prop is required.
+
+<ArgsTable of={CodeSandbox} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <CodeSandbox codeSandboxId="react-new" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a CodeSandbox using the `<CodeSandbox />` component grab the `codeSandboxId` from the URL.
+
+```
+https://codesandbox.io/s/react-new
+```
+
+The `codeSandboxId` is this bit.
+
+```
+react-new
+```
+
+Then use it in the component like this.
+
+```jsx
+<CodeSandbox codeSandboxId="react-new" />
+```
