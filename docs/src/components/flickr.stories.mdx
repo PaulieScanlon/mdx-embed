@@ -1,0 +1,49 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Flickr } from '../../../packages/mdx-embed/src/components/flickr';
+
+<Meta title="Components/Flickr" component={Flickr} />
+
+# Flickr
+
+Display a Flickr image by including the component in your `.mdx`. The `flikrLink` prop is required.
+
+<ArgsTable of={Flickr} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Flickr flickrLink="458/30740580204_7283c9987e_k.jpg" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Flickr image using the `<Flickr />` component find the img `src` in the Embed code.
+
+```html
+<a
+  data-flickr-embed="true"
+  data-header="true"
+  data-footer="true"
+  href="https://www.flickr.com/photos/123516006@N05/30740580204/in/photolist-NQrvvw-x6jo9P-rMq58s-QXKf3x-qYKbuJ-QN44WS-B43xuX-E84iyH-d9WVUR-Cvdvvu-tiBRv3-NoUEMi-23Mf13i-QZ1tX1-xUXBU1-ripXpz-tdLNbN-spCQTK-Hudqfd-DFCyKN-22KD9n1-qgCP7L-24c2WZ6-RK7QPX-AZpKwi-2d4qbWD-Ck1eXd-ranHVb-BAYBKs-G9ACAJ-CHCrGV-vosLmw-DwYQvn-QSV4XU-Bkad8D-QF8GFf-s79L6o-ERMGQG-L596Ei-Q7D5DW-JzoGNT-BPaVP2-zpCDzE-zD396a-D8vtD2-sEj6Nx-DnmS36-TuEijJ-YhiQwz-22iLYzg"
+  title="Sunset"
+  ><img src="https://live.staticflickr.com/458/30740580204_7283c9987e_k.jpg" width="2048" height="1167" alt="Sunset"
+/></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+```
+
+The `src` is this bit.
+
+```
+458/30740580204_7283c9987e_k.jpg
+```
+
+Then use it in the component like this.
+
+```jsx
+<Flickr flickrLink="458/30740580204_7283c9987e_k.jpg" />
+```
