@@ -1,0 +1,43 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { EggheadLesson } from '../../../../packages/mdx-embed/src/components/egghead';
+
+<Meta title="Components/Egghead/EggheadLesson" component={EggheadLesson} />
+
+# EggheadLesson
+
+Display a EggheadLesson by including the component in your `.mdx`. The `lessonId` prop is required.
+
+<ArgsTable of={EggheadLesson} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <EggheadLesson lessonId="gatsby-set-up-a-gatsby-site-to-use-mdx-with-gatsby-plugin-mdx-with-a-default-layout" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed an Egghead video using the `<EggheadLesson />` component grab the `lessonId` from the URL.
+
+It should be everything after `https://egghead.io/lessons/` pay attention to the url for `?pl=` this will show if the lesson relates to a playlist, you will need to remove the playlist query.
+
+```
+https://egghead.io/lessons/gatsby-set-up-a-gatsby-site-to-use-mdx-with-gatsby-plugin-mdx-with-a-default-layout?pl=using-components-in-markdown-with-mdx-5de0
+```
+
+The `lessonId` is this bit.
+
+```
+gatsby-set-up-a-gatsby-site-to-use-mdx-with-gatsby-plugin-mdx-with-a-default-layout
+```
+
+Then use it in the component like this.
+
+```jsx
+<EggheadLesson lessonId="gatsby-set-up-a-gatsby-site-to-use-mdx-with-gatsby-plugin-mdx-with-a-default-layout" />
+```
