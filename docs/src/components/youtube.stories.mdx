@@ -1,0 +1,65 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { YouTube } from '../../../packages/mdx-embed/src/components/youtube';
+
+<Meta title="Components/YouTube" component={YouTube} />
+
+# YouTube
+
+Display YouTube by including the component in your `.mdx`. The `youTubeId` prop is required.
+
+<ArgsTable of={YouTube} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <YouTube youTubeId="mM5_T-F1Yn4" />
+  </Story>
+</Canvas>
+
+## Aspect Ratio
+
+<Canvas>
+  <Story name="aspectRatio">
+    <YouTube youTubeId="mM5_T-F1Yn4" aspectRatio="4:3" />
+  </Story>
+</Canvas>
+
+## Skip To
+
+<Canvas>
+  <Story name="skipTo">
+    <YouTube youTubeId="PS2784YfPpw" skipTo={{ h: 0, m: 38, s: 44 }} />
+  </Story>
+</Canvas>
+
+## Auto Play
+
+<Canvas>
+  <Story name="autoPlay">
+    <YouTube youTubeId="PS2784YfPpw" autoPlay="true" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a YouTube video using the `<YouTube />` component grab the `youTubeId` from the URL.
+
+```
+https://www.youtube.com/watch?v=WUgvvPRH7Oc
+```
+
+The `youTubeId` is this bit.
+
+```
+WUgvvPRH7Oc
+```
+
+Then use it in the component like this.
+
+```jsx
+<YouTube youTubeId="WUgvvPRH7Oc" />
+```
