@@ -1,0 +1,49 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Wikipedia } from '../../../packages/mdx-embed/src/components/wikipedia';
+
+<Meta title="Components/Wikipedia" component={Wikipedia} />
+
+# Wikipedia
+
+Display a Wikipedia post by including the component in your `.mdx`. The `wikipediaLink` prop is required.
+
+<ArgsTable of={Wikipedia} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Wikipedia wikipediaLink="Tim_Berners-Lee" />
+  </Story>
+</Canvas>
+
+## Height
+
+<Canvas>
+  <Story name="height">
+    <Wikipedia wikipediaLink="Tim_Berners-Lee" height="400px" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Wikipedia post using the `<Wikipedia />` component grab the `wikipediaLink` from the URL.
+
+```
+https://en.wikipedia.org/wiki/Tim_Berners-Lee
+```
+
+The `wikipediaLink` is this bit.
+
+```
+Tim_Berners-Lee
+```
+
+Then use it in the component like this.
+
+```jsx
+<Wikipedia wikipediaLink="Tim_Berners-Lee" />
+```
