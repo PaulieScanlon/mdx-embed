@@ -1,6 +1,6 @@
 // Components
 export { CodePen } from './components/codepen';
-
+export { Flickr } from './components/flickr';
 export { Instagram } from './components/instagram';
 
 export { Pin, PinterestBoard, PinterestFollowButton } from './components/pinterest';

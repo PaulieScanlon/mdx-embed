@@ -34,7 +34,7 @@ export const createScriptTag = (providerEmbedUrl: string | null, providerEmbedSc
   }
 
   script.onerror = (error) => {
-    console.error(`MdxEmbedProvider ${(error as any).type}`, error);
+    console.error(`MDXEmbedProvider ${(error as any).type}`, error);
   };
 
   document.getElementsByTagName(`head`)[0].appendChild(script);
