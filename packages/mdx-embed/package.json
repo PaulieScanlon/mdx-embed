@@ -1,6 +1,6 @@
 {
   "name": "mdx-embed",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Embed 3rd party media content in MDX - no import required",
   "main": "dist/index.js",
   "scripts": {
@@ -63,6 +63,5 @@
     "@mdx-js/react": "^1.6.16",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  },
-  "dependencies": {}
+  }
 }
