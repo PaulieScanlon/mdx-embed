@@ -20,7 +20,7 @@
     "@sector/babel-plugin-package-import": "^0.3.1",
     "@sector/breadbox": "^0.0.4",
     "gray-matter": "^4.0.2",
-    "mdx-embed": "^0.0.3",
+    "mdx-embed": "*",
     "preact": "^10.4.8",
     "rehype-slug": "^3.0.0",
     "toast": "^0.2.10"
