@@ -14,12 +14,11 @@ npm install mdx-embed --save
 npm install  mdx-embed @mdx-js/mdx @mdx-js/react --save
 ```
 
-Add the `MDXEmbedProvider` to your application by importing it from `mdx-embed` and wrapping your applications `MDXRenderer`.
+Wrap your application with the `MDXEmbedProvider` and allow your MDX to render all of the provided components.
 
 ```javascript
+import React from 'react';
 import { MDXEmbedProvider } from 'mdx-embed';
 
-<MDXEmbedProvider>
-  <MDXRenderer>{body}</MDXRenderer>
-</MDXEmbedProvider>;
+export default (props) => <MDXEmbedProvider>{props.children}</MDXEmbedProvider>;
 ```
