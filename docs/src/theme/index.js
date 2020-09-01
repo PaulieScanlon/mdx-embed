@@ -1,9 +1,11 @@
 export default {
   colors: {
     primary: '#fcb42d',
+    secondary: '#1EA7FD',
     text: '#000000',
     background: '#ffffff',
-    grey: '#cccccc',
+    lightGrey: '#999999',
+    grey: '#333333',
   },
   fonts: {
     body: 'system-ui, sans-serif',
@@ -15,18 +17,31 @@ export default {
     heading: 800,
   },
   lineHeight: {
-    body: 'normal',
+    body: '1.4em',
     heading: 'normal',
   },
   space: [0, 4, 8, 16, 24],
   styles: {
+    p: {
+      variant: 'text.default',
+    },
+    a: {
+      color: 'secondary',
+      variant: 'text.default',
+    },
     hr: {
       my: 2,
       borderColor: 'transparent',
     },
   },
   text: {
-    default: {},
+    default: {
+      color: 'grey',
+      fontSize: '14px',
+      fontFamily: 'body',
+      lineHeight: 'body',
+      my: 3,
+    },
     heading: {},
   },
   buttons: {

@@ -12,7 +12,7 @@ MDX Embed allows you to easily _embed_ popular 3rd part media content such as Yo
   <Button>GitHub</Button>
 </Link>
 
-<Divider sx={{ mt: 2, mb: 4 }} />
+<Divider sx={{ my: 4 }} />
 
 ## Usage Example
 
@@ -27,7 +27,7 @@ Here's a pen, and some other blog post text
 
 ### _Which renders as 👇_
 
-<br />
+<Divider sx={{ my: 4 }} />
 
 #### My cool pen
 
@@ -35,13 +35,19 @@ Here's a pen, and some other blog post text
 
 <CodePen codePenId="PNaGbb" />
 
-<br />
+<Divider sx={{ my: 4 }} />
 
-## Testimonials
+## What other's say
 
-... TODO
+<Grid sx={{ gridTemplateColumns: ['1fr', '1fr 1fr'], gridGap: 3 }}>
+  <Quote
+    text={`As an MDX power user I was looking for a great way to enable social embeds on my site without having to roll each one myself. mdx-embed was perfect, it was easy to get up and running and provided exactly what I was looking for."`}
+    name=" Laurie Barth"
+    username="laurieontech"
+  />
+</Grid>
 
-<br />
+<Divider sx={{ my: 4 }} />
 
 ## The team
 
@@ -49,7 +55,7 @@ Here's a pen, and some other blog post text
 - Scott Spence | [@spences10](https://twitter.com/spences10)
 - Rich Haines | [@studio_hungry](https://twitter.com/studio_hungry)
 
-<br />
+<Divider sx={{ my: 4 }} />
 
 #### Legacy Contributors
 

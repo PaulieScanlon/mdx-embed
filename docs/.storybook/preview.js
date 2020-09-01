@@ -4,9 +4,15 @@ import { DocsContainer } from '@storybook/addon-docs/blocks';
 import { MDXProvider } from '@mdx-js/react';
 import { ThemeProvider } from 'emotion-theming';
 import * as ThemeUIComponents from 'theme-ui';
-import { Heading } from 'theme-ui';
+import { Heading, Text } from 'theme-ui';
 
 import theme from '../src/theme';
+import { Quote } from './components/quote';
+
+const components = {
+  ...ThemeUIComponents,
+  Quote,
+};
 
 import { MDXEmbedProvider } from 'mdx-embed';
 
@@ -15,7 +21,7 @@ addParameters({
     container: ({ children, context }) => (
       <DocsContainer context={context}>
         <ThemeProvider theme={theme}>
-          <MDXProvider components={ThemeUIComponents}>
+          <MDXProvider components={components}>
             <MDXEmbedProvider>{children}</MDXEmbedProvider>
           </MDXProvider>
         </ThemeProvider>
@@ -33,6 +39,11 @@ export const parameters = {
       h4: ({ children }) => <Heading as="h4">{children}</Heading>,
       h5: ({ children }) => <Heading as="h5">{children}</Heading>,
       h6: ({ children }) => <Heading as="h6">{children}</Heading>,
+      p: ({ children }) => (
+        <Text as="p" sx={{ ...theme.text.default }}>
+          {children}
+        </Text>
+      ),
     },
   },
 };
