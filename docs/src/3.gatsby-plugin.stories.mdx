@@ -14,19 +14,19 @@ npm install gatsby-plugin-mdx-embed --save
 ### Install peer dependencies
 
 ```js
-npm install mdx-embed @mdx-js/mdx @mdx-js/react --save
+npm install mdx-embed gatsby-plugin-mdx @mdx-js/mdx @mdx-js/react --save
 ```
 
 ### Add to gatsby-config.js
 
-Once you've installed the dependencies add `gatsby-plugin-mdx-embed` to your `gatsby.config.js` plugins array.
+Once you've installed the dependencies add gatsby-plugin-mdx`and`gatsby-plugin-mdx-embed`to your`gatsby.config.js` plugins array.
 
 ```javascript
 // gatsby-config.js
 module.exports = {
    module.exports = {
   ...
-  plugins: [`gatsby-plugin-mdx-embed`]
+  plugins: [`gatsby-plugin-mdx`, `gatsby-plugin-mdx-embed`]
   ...
 }
 ```
