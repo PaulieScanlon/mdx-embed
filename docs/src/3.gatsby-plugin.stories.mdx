@@ -2,7 +2,10 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 <Meta title="Gatsby Plugin" />
 
-# Install
+<Grid sx={{ alignItems: 'center', gridTemplateColumns: '30px auto', gridGrap: '8px' }}>
+  <Image src="/gatsby-logo.png" sx={{ width: '30px', height: '30px' }} />
+  <Heading as="h1">Install</Heading>
+</Grid>
 
 ```sh
 npm install gatsby-plugin-mdx-embed --save
@@ -11,7 +14,31 @@ npm install gatsby-plugin-mdx-embed --save
 ### Install peer dependencies
 
 ```js
-npm install @mdx-js/mdx @mdx-js/react --save
+npm install mdx-embed gatsby-plugin-mdx @mdx-js/mdx @mdx-js/react --save
 ```
 
-... add some notes explaining how `wrapRootElement` uses the `MDXEmbedProvider`
+### Add to gatsby-config.js
+
+Once you've installed the dependencies add gatsby-plugin-mdx`and`gatsby-plugin-mdx-embed`to your`gatsby.config.js` plugins array.
+
+```javascript
+// gatsby-config.js
+module.exports = {
+   module.exports = {
+  ...
+  plugins: [`gatsby-plugin-mdx`, `gatsby-plugin-mdx-embed`]
+  ...
+}
+```
+
+The Gatsby plugin works by wrapping the Gatsby "Root Element" with the `MDXEmbedProvider`. If you encounter any issues with the plugin you could try manually including the `MDXEmbedProvider` by adding the following to `gatsby-browser.js` and/or `gatsby-ssr.js`
+
+```javascript
+// gatsby-browser.js || gatsby-ssr.js
+import React from 'react';
+import { MDXEmbedProvider } from 'mdx-embed';
+
+export const wrapRootElement = ({ element }) => {
+  return <MDXEmbedProvider>{element}</MDXEmbedProvider>;
+};
+```

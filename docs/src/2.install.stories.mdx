@@ -11,7 +11,14 @@ npm install mdx-embed --save
 ### Install peer dependencies
 
 ```js
-npm install @mdx-js/mdx @mdx-js/react --save
+npm install  mdx-embed @mdx-js/mdx @mdx-js/react --save
 ```
 
-... add some notes about how to use the `MDXEmbedProvider`
+Wrap your application with the `MDXEmbedProvider` and allow your MDX to render all of the provided components.
+
+```javascript
+import React from 'react';
+import { MDXEmbedProvider } from 'mdx-embed';
+
+export default (props) => <MDXEmbedProvider>{props.children}</MDXEmbedProvider>;
+```
