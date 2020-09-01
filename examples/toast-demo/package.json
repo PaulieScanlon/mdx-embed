@@ -1,0 +1,43 @@
+{
+  "name": "toast-demo",
+  "version": "0.0.1",
+  "description": "An example Toast project for MDX Embed",
+  "license": "MIT",
+  "author": {
+    "name": "Scott Spence",
+    "email": "yo@scottspence.dev",
+    "url": "https://scottspence.com"
+  },
+  "scripts": {
+    "build": "toast incremental",
+    "serve": "npx serve public",
+    "prepare": "breadbox --dest public/web_modules",
+    "clean": "rm -rf .cache public && breadbox --dest public/web_modules"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.16",
+    "@mdx-js/preact": "^1.6.16",
+    "@sector/babel-plugin-package-import": "^0.3.1",
+    "@sector/breadbox": "^0.0.4",
+    "gray-matter": "^4.0.2",
+    "mdx-embed": "^0.0.3",
+    "preact": "^10.4.8",
+    "rehype-slug": "^3.0.0",
+    "toast": "^0.2.10"
+  },
+  "snowpack": {
+    "installOptions": {
+      "alias": {
+        "react": "preact/compat"
+      }
+    },
+    "knownEntrypoints": [
+      "preact",
+      "preact/hooks",
+      "@emotion/core",
+      "@mdx-js/preact",
+      "react-helmet",
+      "preact/compat"
+    ]
+  }
+}
