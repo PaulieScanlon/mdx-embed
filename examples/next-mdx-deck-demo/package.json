@@ -1,0 +1,45 @@
+{
+  "name": "next-mdx-deck",
+  "version": "0.1.0",
+  "description": "Presentation decks using MDX, React, and Next.JS",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "format": "prettier --write '**/*.{js,jsx}'",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^1.5.8",
+    "@next/mdx": "^9.3.4",
+    "framer-motion": "^1.10.3",
+    "mdx-embed": "*",
+    "next": "9.3.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-swipeable": "^5.5.1",
+    "react-syntax-highlighter": "^12.2.1",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "prettier": "^2.0.4"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "es5",
+    "printWidth": 70,
+    "arrowParens": "avoid",
+    "proseWrap": "always"
+  }
+}
