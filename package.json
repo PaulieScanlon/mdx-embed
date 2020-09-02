@@ -10,6 +10,7 @@
     "storybook:build": "yarn workspace docs storybook:build",
     "gatsby-demo:develop": "yarn workspace gatsby-demo develop",
     "gatsby-demo:clean": "yarn workspace gatsby-demo clean",
+    "mdx-deck-demo:start": "yarn workspace mdx-deck-demo start",
     "deploy": "yarn workspace docs deploy"
   },
   "workspaces": {
