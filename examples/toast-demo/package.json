@@ -28,16 +28,23 @@
   "snowpack": {
     "installOptions": {
       "alias": {
-        "react": "preact/compat"
+        "react": "preact/compat",
+        "@mdx-js/react": "@mdx-js/preact"
       }
     },
     "knownEntrypoints": [
       "preact",
       "preact/hooks",
-      "@emotion/core",
       "@mdx-js/preact",
-      "react-helmet",
       "preact/compat"
     ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "es5",
+    "printWidth": 70,
+    "arrowParens": "avoid",
+    "proseWrap": "always"
   }
 }
