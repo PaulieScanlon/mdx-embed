@@ -19,7 +19,7 @@ npm install mdx-embed gatsby-plugin-mdx @mdx-js/mdx @mdx-js/react --save
 
 ### Add to gatsby-config.js
 
-Once you've installed the dependencies add gatsby-plugin-mdx`and`gatsby-plugin-mdx-embed`to your`gatsby.config.js` plugins array.
+Once you've installed the dependencies add `gatsby-plugin-mdx` and `gatsby-plugin-mdx-embed`to your`gatsby.config.js` plugins array.
 
 ```javascript
 // gatsby-config.js
@@ -41,4 +41,32 @@ import { MDXEmbedProvider } from 'mdx-embed';
 export const wrapRootElement = ({ element }) => {
   return <MDXEmbedProvider>{element}</MDXEmbedProvider>;
 };
+```
+
+## Migration
+
+If you were a user of `@pauliescanlon/gatsby-mdx-embed` here's how you can migrate to the new package and plugin.
+
+**1. Remove the old plugin**
+
+```sh
+npm uninstall @paliescanlon/gatsby-mdx-embed
+```
+
+**2. Install the new dependencies**
+
+```sh
+npm install mdx-embed gatsby-plugin-mdx-embed
+```
+
+**3. Remove the old plugin from `gatsby-config.js` and add the new plugin**
+
+```diff
+// gatsby-config.js
+...
+plugins: [
+- `@pauliescanlon/gatsby-mdx-embed`
++ gatsby-plugin-mdx-embed
+]
+...
 ```
