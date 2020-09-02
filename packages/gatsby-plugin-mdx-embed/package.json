@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-mdx-embed",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Embed 3rd party media content in MDX - no import required",
   "main": "index.js",
   "scripts": {
