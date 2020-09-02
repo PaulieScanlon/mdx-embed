@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://mdxjs.com">
+  <a href="https://mdx-embed.com">
     <img alt="MDX Embed logo" src="https://www.mdx-embed.com/mdx-embed-logo.svg" width="180px" />
   </a>
 </p>
