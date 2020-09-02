@@ -6,9 +6,9 @@
 
 [![github-stars](https://img.shields.io/github/stars/pauliescanlon/mdx-embed?style=social)](https://img.shields.io/github/stars/pauliescanlon/mdx-embed?style=social) [![npm](https://img.shields.io/npm/v/mdx-embed)](https://img.shields.io/npm/v/mdx-embed)
 
-# mdx-embed
+# MDX Embed
 
-MDX Embed allows you to easily embed popular 3rd part media content such as YouTube videos, Tweets, Instagram posts and many more straight into your `.mdx` - no import required!
+Gatsby Plugin MDX Embed allows you to easily _embed_ popular 3rd part media content such as YouTube videos, Tweets, Instagram posts and many more straight into your `.mdx` - **no import required!**
 
 [https://mdx-embed.com/](https://www.mdx-embed.com/)
 
@@ -20,3 +20,15 @@ There are a number of way to use `mdx-embed`. Head over to the [docs site](https
 
 - [mdx-embed](https://www.npmjs.com/package/mdx-embed)
 - [gatsby-plugin-mdx-embed](https://www.npmjs.com/package/gatsby-plugin-mdx-embed)
+
+<br />
+
+If you're using **mdx-embed** or **gatsby-plugin-mdx-embed** in your project we'd love to hear from you!
+
+- Paul Scanlon | [@pauliescanlon](https://twitter.com/PaulieScanlon)
+- Scott Spence | [@spences10](https://twitter.com/spences10)
+- Rich Haines | [@studio_hungry](https://twitter.com/studio_hungry)
+
+<br />
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P31B7G8)

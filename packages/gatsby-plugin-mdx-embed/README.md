@@ -1,4 +1,10 @@
-# Install
+# Gatsby Plugin MDX Embed
+
+Gatsby Plugin MDX Embed allows you to easily _embed_ popular 3rd part media content such as YouTube videos, Tweets, Instagram posts and many more straight into your `.mdx` - **no import required!**
+
+[https://mdx-embed.com/](https://www.mdx-embed.com/)
+
+## Install
 
 ```sh
 npm install mdx-embed gatsby-plugin-mdx-embed --save
@@ -60,3 +66,5 @@ module.exports = {
   ...
 }
 ```
+
+For more information about how to install the plugin please see the [docs](https://www.mdx-embed.com/?path=/docs/gatsby-plugin--page)
