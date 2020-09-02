@@ -15,36 +15,44 @@ import { Spotify } from '../spotify';
 import { Strava } from '../strava';
 import { TikTok } from '../tiktok';
 import { Twitch } from '../twitch';
-import { Tweet, TwitterFollowButton, TwitterHashtagButton, TwitterList, TwitterMentionButton, TwitterTimeline, } from '../twitter';
+import {
+  Tweet,
+  TwitterFollowButton,
+  TwitterHashtagButton,
+  TwitterList,
+  TwitterMentionButton,
+  TwitterTimeline,
+} from '../twitter';
 import { Vimeo } from '../vimeo';
 import { Wikipedia } from '../wikipedia';
 import { YouTube } from '../youtube';
 const components = {
-    Buzzprout,
-    CodePen,
-    CodeSandbox,
-    EggheadLesson,
-    Flickr,
-    Gist,
-    Instagram,
-    Lbry,
-    Pin,
-    PinterestBoard,
-    PinterestFollowButton,
-    SimplecastEpisode,
-    SoundCloud,
-    Spotify,
-    Strava,
-    TikTok,
-    Twitch,
-    Tweet,
-    TwitterFollowButton,
-    TwitterHashtagButton,
-    TwitterList,
-    TwitterMentionButton,
-    TwitterTimeline,
-    Vimeo,
-    Wikipedia,
-    YouTube,
+  Buzzprout,
+  CodePen,
+  CodeSandbox,
+  EggheadLesson,
+  Flickr,
+  Gist,
+  Instagram,
+  Lbry,
+  Pin,
+  PinterestBoard,
+  PinterestFollowButton,
+  SimplecastEpisode,
+  SoundCloud,
+  Spotify,
+  Strava,
+  TikTok,
+  Twitch,
+  Tweet,
+  TwitterFollowButton,
+  TwitterHashtagButton,
+  TwitterList,
+  TwitterMentionButton,
+  TwitterTimeline,
+  Vimeo,
+  Wikipedia,
+  YouTube,
 };
-export const MDXEmbedProvider = ({ children }) => (React.createElement(MDXProvider, { components: components }, children));
+export const MDXEmbedProvider = ({ children }) =>
+  React.createElement(MDXProvider, { components: components }, children);

@@ -14,7 +14,14 @@ export { Spotify } from './components/spotify';
 export { Strava } from './components/strava';
 export { TikTok } from './components/tiktok';
 export { Twitch } from './components/twitch';
-export { Tweet, TwitterFollowButton, TwitterHashtagButton, TwitterList, TwitterMentionButton, TwitterTimeline, } from './components/twitter';
+export {
+  Tweet,
+  TwitterFollowButton,
+  TwitterHashtagButton,
+  TwitterList,
+  TwitterMentionButton,
+  TwitterTimeline,
+} from './components/twitter';
 export { Vimeo } from './components/vimeo';
 export { Wikipedia } from './components/wikipedia';
 export { YouTube } from './components/youtube';
