@@ -29,6 +29,7 @@
     "gatsby-plugin-mdx": "^1.2.36",
     "gatsby-plugin-mdx-embed": "*",
     "gatsby-source-filesystem": "^2.3.26",
+    "mdx-embed": "*",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
