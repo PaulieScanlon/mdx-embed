@@ -1,6 +1,6 @@
 # Gatsby Plugin MDX Embed
 
-Gatsby Plugin MDX Embed allows you to easily _embed_ popular 3rd part media content such as YouTube videos, Tweets, Instagram posts and many more straight into your `.mdx` - **no import required!**
+Gatsby Plugin MDX Embed allows you to easily _embed_ popular 3rd party media content such as YouTube videos, Tweets, Instagram posts and many more straight into your `.mdx` - **no import required!**
 
 [https://mdx-embed.com/](https://www.mdx-embed.com/)
 
