@@ -1,1 +1,0 @@
-export { TikTok } from './tiktok';

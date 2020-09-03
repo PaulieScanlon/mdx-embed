@@ -1,1 +1,0 @@
-export { Strava } from './strava';
