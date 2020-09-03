@@ -12,7 +12,7 @@
     "declaration": true,
     // Determine where the d.ts files are put
     "declarationDir": "./dist/types",
-    // Determina where the d.ts files are put
+    // Redirect to declarationDir
     "outDir": "./dist/",
     // Enable strictest settings like strictNullChecks & noImplicitAny.
     "strict": true,
