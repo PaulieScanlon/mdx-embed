@@ -7,13 +7,6 @@ export interface ICinnamonProps {
   cinnamonId: string;
 }
 
-// <iframe
-// width="480"
-// height="270"
-// src=https://cinnamon.video/embed?v=400419154252793300
-// frameborder="0"
-// allow="monetization; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-// allowfullscreen></iframe>
 export const Cinnamon: FunctionComponent<ICinnamonProps> = ({ cinnamonId }: ICinnamonProps) => {
   return (
     <GeneralObserver>
