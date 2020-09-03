@@ -1,0 +1,1 @@
+export { Cinnamon } from './cinnamon';
