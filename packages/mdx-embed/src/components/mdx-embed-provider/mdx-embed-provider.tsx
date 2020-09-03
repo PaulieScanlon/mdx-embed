@@ -1,7 +1,7 @@
 import { MDXProvider } from '@mdx-js/react';
 import React, { FunctionComponent } from 'react';
-
 import { Buzzprout } from '../buzzprout';
+import { Cinnamon } from '../cinnamon';
 import { CodePen } from '../codepen';
 import { CodeSandbox } from '../codesandbox';
 import { EggheadLesson } from '../egghead';
@@ -30,6 +30,7 @@ import { YouTube } from '../youtube';
 
 const components = {
   Buzzprout,
+  Cinnamon,
   CodePen,
   CodeSandbox,
   EggheadLesson,

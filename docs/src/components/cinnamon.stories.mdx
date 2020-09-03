@@ -1,0 +1,41 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Cinnamon } from '../../../packages/mdx-embed/src/components/cinnamon';
+
+<Meta title="Components/Cinnamon" component={Cinnamon} />
+
+# Cinnamon
+
+Display Cinnamon by including the component in your `.mdx`. The `cinnamonId` prop is required.
+
+<ArgsTable of={Cinnamon} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Cinnamon cinnamonId="389807855663842407" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Cinnamon video using the `<Cinnamon />` component grab the `cinnamonId` from the URL.
+
+```
+https://cinnamon.video/watch?v=389807855663842407
+```
+
+The `cinnamonId` is this bit.
+
+```
+389807855663842407
+```
+
+Then use it in the component like this.
+
+```jsx
+<Cinnamon cinnamonId="389807855663842407" />
+```
