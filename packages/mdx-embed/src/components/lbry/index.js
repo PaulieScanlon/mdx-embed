@@ -1,1 +1,0 @@
-export { Lbry } from './lbry';

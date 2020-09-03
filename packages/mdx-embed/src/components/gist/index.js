@@ -1,1 +1,0 @@
-export { Gist } from './gist';
