@@ -1,5 +1,6 @@
 import { MDXProvider } from '@mdx-js/react';
 import React, { FunctionComponent } from 'react';
+import { AirtableBase, AirtableForm } from '../airtable';
 import { Buzzprout } from '../buzzprout';
 import { Cinnamon } from '../cinnamon';
 import { CodePen } from '../codepen';
@@ -29,6 +30,8 @@ import { Wikipedia } from '../wikipedia';
 import { YouTube } from '../youtube';
 
 const components = {
+  AirtableBase,
+  AirtableForm,
   Buzzprout,
   Cinnamon,
   CodePen,
