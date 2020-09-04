@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { GeneralObserver } from '../general-observer';
 
 export interface IAirtableFormProps {
-  /** Airtable id */
+  /** Airtable Form ID */
   airtableFormId: string;
 }
 

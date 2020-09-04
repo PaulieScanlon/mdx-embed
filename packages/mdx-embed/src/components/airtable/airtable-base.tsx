@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { GeneralObserver } from '../general-observer';
 
 export interface IAirtableBaseProps {
-  /** Airtable id */
+  /** Airtable Base ID */
   airtableBaseId: string;
   /** Layout type */
   layout?: 'card' | '';
