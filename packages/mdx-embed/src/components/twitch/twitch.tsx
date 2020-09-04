@@ -30,6 +30,9 @@ export const Twitch: FunctionComponent<ITwitchProps> = ({
   collection = '',
 }: ITwitchProps) => {
   const { h, m, s } = skipTo;
+  const title = twitchId ? `twitch-${twitchId}` : `twitch`;
+  const optionalVideoParameter = twitchId ? `&video=v${twitchId}` : ``;
+  const src = `https://player.twitch.tv/?autoplay=${autoPlay}&t=${h}h${m}m${s}s${optionalVideoParameter}&channel=${channel}&collection=${collection}&parent=${parent}`;
 
   return (
     <GeneralObserver>
@@ -42,8 +45,8 @@ export const Twitch: FunctionComponent<ITwitchProps> = ({
         }}
       >
         <iframe
-          title={`twitch-${twitchId}`}
-          src={`https://player.twitch.tv/?autoplay=${autoPlay}&t=${h}h${m}m${s}s&video=v${twitchId}&channel=${channel}&collection=${collection}&parent=${parent}`}
+          title={title}
+          src={src}
           frameBorder="0"
           allow="autoplay; fullscreen"
           allowFullScreen
