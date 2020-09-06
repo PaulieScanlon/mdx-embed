@@ -1,6 +1,6 @@
-import React, {FunctionComponent} from 'react';
-import {getPadding} from '../../utils';
-import {GeneralObserver} from '../general-observer';
+import React, { FunctionComponent } from 'react';
+import { getPadding } from '../../utils';
+import { GeneralObserver } from '../general-observer';
 import Helper from './helper';
 
 export interface ITwitchProps {
