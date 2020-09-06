@@ -1,6 +1,7 @@
-import React, { FunctionComponent } from 'react';
-import { getPadding } from '../../utils';
-import { GeneralObserver } from '../general-observer';
+import React, {FunctionComponent} from 'react';
+import {getPadding} from '../../utils';
+import {GeneralObserver} from '../general-observer';
+import Helper from './helper';
 
 export interface ITwitchProps {
   /** Domain(s) that will be embedding Twitch. You must have one parent key for each domain your site uses. */
@@ -31,8 +32,8 @@ export const Twitch: FunctionComponent<ITwitchProps> = ({
 }: ITwitchProps) => {
   const { h, m, s } = skipTo;
   const title = twitchId ? `twitch-${twitchId}` : `twitch`;
-  const optionalVideoParameter = twitchId ? `&video=v${twitchId}` : ``;
-  const src = `https://player.twitch.tv/?autoplay=${autoPlay}&t=${h}h${m}m${s}s${optionalVideoParameter}&channel=${channel}&collection=${collection}&parent=${parent}`;
+  const baseUrl = `https://player.twitch.tv/?autoplay=${autoPlay}&t=${h}h${m}m${s}s&parent=${parent}`;
+  const constructedSrcURL = Helper.constructTwitchURL(twitchId, channel, collection, baseUrl);
 
   return (
     <GeneralObserver>
@@ -46,7 +47,7 @@ export const Twitch: FunctionComponent<ITwitchProps> = ({
       >
         <iframe
           title={title}
-          src={src}
+          src={constructedSrcURL}
           frameBorder="0"
           allow="autoplay; fullscreen"
           allowFullScreen

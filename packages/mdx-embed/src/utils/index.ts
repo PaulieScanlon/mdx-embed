@@ -49,3 +49,5 @@ export const createStyleSheet = (href: string) => {
 
   document.getElementsByTagName(`head`)[0].appendChild(link);
 };
+
+export const isEmptyString = (value?: string) => value === null || value === undefined || value.length === 0;
