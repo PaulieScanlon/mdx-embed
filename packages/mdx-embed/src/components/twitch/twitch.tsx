@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { getPadding } from '../../utils';
 import { GeneralObserver } from '../general-observer';
-import { constructTwitchURL } from "./constructTwitchURL";
+import { constructTwitchURL } from './utils';
 
 export interface ITwitchProps {
   /** Domain(s) that will be embedding Twitch. You must have one parent key for each domain your site uses. */
@@ -9,13 +9,13 @@ export interface ITwitchProps {
   /** Twitch id */
   twitchId?: string;
   /** Skip to a time in the video */
-  skipTo: {
+  skipTo?: {
     h?: number;
     m: number;
     s: number;
   };
   /** Auto play the video */
-  autoPlay: boolean;
+  autoPlay?: boolean;
   /** Name of the channel, for a live stream */
   channel?: string;
   /** Collection ID, for a collection of videos */
