@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { getPadding } from '../../utils';
 import { GeneralObserver } from '../general-observer';
-import Helper from './helper';
+import { constructTwitchURL } from "./constructTwitchURL";
 
 export interface ITwitchProps {
   /** Domain(s) that will be embedding Twitch. You must have one parent key for each domain your site uses. */
@@ -33,7 +33,7 @@ export const Twitch: FunctionComponent<ITwitchProps> = ({
   const { h, m, s } = skipTo;
   const title = twitchId ? `twitch-${twitchId}` : `twitch`;
   const baseUrl = `https://player.twitch.tv/?autoplay=${autoPlay}&t=${h}h${m}m${s}s&parent=${parent}`;
-  const constructedSrcURL = Helper.constructTwitchURL(twitchId, channel, collection, baseUrl);
+  const constructedSrcURL = constructTwitchURL(twitchId, channel, collection, baseUrl);
 
   return (
     <GeneralObserver>
