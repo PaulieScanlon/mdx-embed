@@ -1,0 +1,50 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { AirtableForm } from '../../../../packages/mdx-embed/src/components/airtable';
+
+<Meta title="Components/Airtable/AirtableForm" component={AirtableForm} />
+
+# AirtableForm
+
+Display an AirtableForm by including the component in your `.mdx`. The `airtableFormId` prop is required.
+
+<ArgsTable of={AirtableForm} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <AirtableForm airtableFormId="shr0dHXnGG9IA2xDc" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Airtable base using the `<AirtableForm />` component grab the `airtableFormId` and the embed code.
+
+It should be everything between `https://airtable.com/embed/` and `?`.
+
+```html
+<iframe
+  class="airtable-embed"
+  src="https://airtable.com/embed/shr0dHXnGG9IA2xDc?backgroundColor=green"
+  frameborder="0"
+  width="100%"
+  height="533"
+  style="background: transparent; border: 1px solid #ccc;"
+></iframe>
+```
+
+The `airtableFormId` is this bit.
+
+```
+shr0dHXnGG9IA2xDc
+```
+
+Then use it in the component like this.
+
+```jsx
+<AirtableForm airtableFormId="shr0dHXnGG9IA2xDc" />
+```

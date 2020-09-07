@@ -1,0 +1,67 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { AirtableBase } from '../../../../packages/mdx-embed/src/components/airtable';
+
+<Meta title="Components/Airtable/AirtableBase" component={AirtableBase} />
+
+# AirtableBase
+
+Display an AirtableBase by including the component in your `.mdx`. The `airtableBaseId` prop is required.
+
+<ArgsTable of={AirtableBase} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <AirtableBase airtableBaseId="shrVJbC9yrwSS18XZ" />
+  </Story>
+</Canvas>
+
+## Controls
+
+<Canvas>
+  <Story name="controls">
+    <AirtableBase airtableBaseId="shrVJbC9yrwSS18XZ" viewControls="off" />
+  </Story>
+</Canvas>
+
+## Layout
+
+<Canvas>
+  <Story name="layout">
+    <AirtableBase airtableBaseId="shrVJbC9yrwSS18XZ" layout="card" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Airtable base using the `<AirtableBase />` component grab the `airtableBaseId` and the embed code.
+
+It should be everything between `https://airtable.com/embed/` and `?`.
+
+```html
+<iframe
+  class="airtable-embed"
+  src="https://airtable.com/embed/shrVJbC9yrwSS18XZ?backgroundColor=green&layout=card&viewControls=on"
+  frameborder="0"
+  onmousewheel=""
+  width="100%"
+  height="533"
+  style="background: transparent; border: 1px solid #ccc;"
+></iframe>
+```
+
+The `airtableBaseId` is this bit.
+
+```
+shrVJbC9yrwSS18XZ
+```
+
+Then use it in the component like this.
+
+```jsx
+<AirtableBase airtableBaseId="shrVJbC9yrwSS18XZ" />
+```
