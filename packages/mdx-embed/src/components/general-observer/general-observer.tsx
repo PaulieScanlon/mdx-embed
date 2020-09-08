@@ -30,7 +30,7 @@ export const GeneralObserver: FunctionComponent<GeneralObserverProps> = ({ child
   }, [ref]);
 
   return (
-    <div ref={ref as RefObject<HTMLDivElement>}>
+    <div ref={ref as RefObject<HTMLDivElement>} data-testid="general-observer">
       {isChildVisible ? children : <div style={{ height, width: '100%' }} />}
     </div>
   );
