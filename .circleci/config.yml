@@ -9,11 +9,6 @@ jobs:
       - checkout
       - run: yarn install
       - run: yarn test -u
-      - run:
-          name: 'Run Jest and Collect Coverage Reports'
-          command: yarn test:coverage
-      - store_artifacts:
-          path: coverage
 
 workflows:
   build-and-test:
