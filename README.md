@@ -4,7 +4,7 @@
   </a>
 </p>
 
-[![github-stars](https://img.shields.io/github/stars/pauliescanlon/mdx-embed?style=social)](https://img.shields.io/github/stars/pauliescanlon/mdx-embed?style=social) [![npm](https://img.shields.io/npm/v/mdx-embed)](https://img.shields.io/npm/v/mdx-embed)
+[![github-stars](https://img.shields.io/github/stars/pauliescanlon/mdx-embed?style=social)](https://img.shields.io/github/stars/pauliescanlon/mdx-embed?style=social) [![npm](https://img.shields.io/npm/v/mdx-embed)](https://img.shields.io/npm/v/mdx-embed) [![circle-ci](https://circleci.com/gh/PaulieScanlon/mdx-embed.svg?style=shield)](https://app.circleci.com/pipelines/github/PaulieScanlon)
 
 # MDX Embed
 
