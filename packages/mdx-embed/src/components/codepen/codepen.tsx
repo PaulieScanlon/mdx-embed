@@ -25,7 +25,8 @@ export const CodePen: FunctionComponent<ICodePenProps> = ({
 }: ICodePenProps) => (
   <GeneralObserver height={height}>
     <iframe
-      title={`codePen-${codePenId}`}
+      data-testid="codepen"
+      title={`codepen-${codePenId}`}
       className="codepen-mdx-embed"
       height={height}
       style={{
