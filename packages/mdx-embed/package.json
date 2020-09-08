@@ -13,7 +13,7 @@
     "develop": "babel -d dist src --extensions=\".ts,.tsx\" -w",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --runInBand --coverage"
   },
   "husky": {
     "hooks": {
