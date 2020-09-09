@@ -1,3 +1,3 @@
 [build]
-  command = "yarn storybook:build"
-  publish = "docs/storybook-static"
+  command = "gatsby-demo:build"
+  publish = "examples/gatsby-demo/public/"
