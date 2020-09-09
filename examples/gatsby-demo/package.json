@@ -1,5 +1,5 @@
 {
-  "name": "mdx-embed-gatsby-demo",
+  "name": "gatsby-demo",
   "version": "1.0.0",
   "description": "An example Gatsby app for MDX Embed",
   "main": "index.js",
