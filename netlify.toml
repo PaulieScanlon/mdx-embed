@@ -1,3 +1,0 @@
-[build]
-  command = "yarn gatsby-demo:build"
-  publish = "examples/gatsby-demo/public/"
