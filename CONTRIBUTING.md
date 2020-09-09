@@ -50,7 +50,7 @@ Twitter
 
 Each component will at some point require at least one test to check it renders correctly. Each component in
 `mdx-embed/src/components/` is wrapped in what we call the **GeneralObserver** This component is responsible for
-ensuring the 3rd part embed script isn't invoked until the component has entered the viewport. This is particularly
+ensuring the 3rd party embed script isn't invoked until the component has entered the viewport. This is particularly
 important for Lighthouse scores and page load speeds. If a blog post page for example has 10 or 15 embed codes, Twitter,
 CodePend, YouTube etc on the page we don't want to load all that 3rd party JavaScript until the reader has scrolled down
 to where the component is used. When it scrolls in to view **GeneralObserver** which is an
@@ -61,9 +61,9 @@ This presents an issue when we come to test the components because we need to fa
 which allows the children of **GeneralObserver** to render.
 
 To _mock_ this is a test we've globally exposed a method called `triggerGeneralObserver()` and since we're using Testing
-Library this state change must be wrapped in an `act`.
+Library this state change must be wrapped in an [act](https://testing-library.com/docs/react-testing-library/api#act).
 
-With that said we require each `test(() => {})` to contain an `act()` and a call to `triggerGeneralObserver()`
+With that said we require each `test(() => {})` to contain an `act(() => {})` and a call to `triggerGeneralObserver()`
 
 That looks like something like this: the `(window as any)` is a TypeScript thing... Paul is working on it.
 
