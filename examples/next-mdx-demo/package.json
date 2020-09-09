@@ -10,7 +10,7 @@
   "dependencies": {
     "@mdx-js/loader": "^1.6.16",
     "@next/mdx": "^9.5.3",
-    "mdx-embed": "^0.0.12",
+    "mdx-embed": "*",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
