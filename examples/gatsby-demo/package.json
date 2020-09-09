@@ -4,6 +4,7 @@
   "description": "An example Gatsby app for MDX Embed",
   "main": "index.js",
   "scripts": {
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "clean": "gatsby clean",
     "test": "echo \"Error: no test specified\" && exit 1"
