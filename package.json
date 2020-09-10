@@ -5,7 +5,7 @@
     "lint": "yarn workspace mdx-embed lint",
     "lint:fix": "yarn workspace mdx-embed lint:fix",
     "cypress:open": "yarn workspace mdx-embed cypress:open",
-    "cypress:start": "yarn workspace mdx-embed cypress:start",
+    "cypress": "yarn workspace mdx-embed cypress",
     "test": "yarn workspace mdx-embed jest",
     "test:watch": "yarn workspace mdx-embed jest --watch",
     "test:coverage": "yarn workspace mdx-embed jest --coverage",
