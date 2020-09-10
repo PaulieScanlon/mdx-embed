@@ -11,7 +11,7 @@
     // Set declartion to true
     "declaration": true,
     // Determine where the d.ts files are put
-    "declarationDir": "./dist/types",
+    "declarationDir": "./dist/",
     // Redirect to declarationDir
     "outDir": "./dist/",
     // Enable strictest settings like strictNullChecks & noImplicitAny.
