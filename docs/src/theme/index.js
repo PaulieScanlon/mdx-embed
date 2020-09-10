@@ -53,13 +53,8 @@ export default {
         backgroundColor: '#F8F8F8',
       },
     },
-    heading: {
-      a: {
-        padding: 2,
-      },
-    },
+    heading: {},
   },
-
   buttons: {
     default: {
       cursor: 'pointer',
