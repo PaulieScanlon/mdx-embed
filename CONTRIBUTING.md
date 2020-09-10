@@ -48,6 +48,8 @@ Twitter
 
 ## Testing WIP
 
+### Unit Testing
+
 Each component will at some point require at least one test to check it renders correctly. Each component in
 `mdx-embed/src/components/` is wrapped in what we call the **GeneralObserver**.
 
@@ -103,3 +105,18 @@ In the `CodePen` example that looks a bit like this:
   </GeneralObserver>
   ...
 ```
+
+### Integration tests
+
+We're using Cypress to test that 3rd party scripts are executed by our components and we assert them as if there were
+loaded by a browser.
+
+Cypress can run in "browser" mode or "headless" mode. For the CI pipeline we'll run in headless mode and for development
+testing you can run in "browser" mode.
+
+To run integration tests do the following:
+
+- Spin up Storybook: `yarn storybook`
+- Run the Cypress integration tests in headless mode: `yarn cypress:start`
+
+... Paul to add more stuff about how the integration tests need to be written
