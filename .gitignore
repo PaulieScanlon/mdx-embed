@@ -106,8 +106,11 @@ dist
 # Storybook
 storybook-static
 
-
 # Local Netlify folder
 .netlify
 
+# Mac stuff ?
 .DS_Store
+
+# Cypress
+cypress

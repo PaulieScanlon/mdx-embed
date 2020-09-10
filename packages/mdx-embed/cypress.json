@@ -2,5 +2,8 @@
   "baseUrl": "http://localhost:6006",
   "defaultCommandTimeout": 6000,
   "viewportWidth": 1000,
-  "viewportHeight": 568
+  "viewportHeight": 568,
+  "integrationFolder": "src/components",
+  "testFiles": "**/*.spec.js",
+  "video": false
 }
