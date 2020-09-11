@@ -23,8 +23,6 @@ jobs:
 workflows:
   all-the-things:
     jobs:
-      - run-build
-      - run-unit-tests
       - cypress/install:
           yarn: true
       - cypress/run:
