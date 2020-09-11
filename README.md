@@ -4,17 +4,22 @@
   </a>
 </p>
 
-[![github-stars](https://img.shields.io/github/stars/pauliescanlon/mdx-embed?style=social)](https://img.shields.io/github/stars/pauliescanlon/mdx-embed?style=social) [![npm](https://img.shields.io/npm/v/mdx-embed)](https://img.shields.io/npm/v/mdx-embed) [![circle-ci](https://circleci.com/gh/PaulieScanlon/mdx-embed.svg?style=shield)](https://app.circleci.com/pipelines/github/PaulieScanlon)
+[![github-stars](https://img.shields.io/github/stars/pauliescanlon/mdx-embed?style=social)](https://img.shields.io/github/stars/pauliescanlon/mdx-embed?style=social)
+[![npm](https://img.shields.io/npm/v/mdx-embed)](https://img.shields.io/npm/v/mdx-embed)
+[![circle-ci](https://circleci.com/gh/PaulieScanlon/mdx-embed.svg?style=shield)](https://app.circleci.com/pipelines/github/PaulieScanlon)
+![build](https://img.shields.io/circleci/build/github/PaulieScanlon/mdx-embed/main)
 
 # MDX Embed
 
-MDX Embed allows you to easily _embed_ popular 3rd party media content such as YouTube videos, Tweets, Instagram posts and many more straight into your `.mdx` - **no import required!**
+MDX Embed allows you to easily _embed_ popular 3rd party media content such as YouTube videos, Tweets, Instagram posts
+and many more straight into your `.mdx` - **no import required!**
 
 [https://mdx-embed.com/](https://www.mdx-embed.com/)
 
 ## Getting started
 
-There are a number of way to use `mdx-embed`. Head over to the [docs site](https://www.mdx-embed.com/) for more information on the current packages:
+There are a number of way to use `mdx-embed`. Head over to the [docs site](https://www.mdx-embed.com/) for more
+information on the current packages:
 
 ## npm packages
 
