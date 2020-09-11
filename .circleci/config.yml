@@ -30,4 +30,5 @@ workflows:
           build: yarn build
           requires:
             - cypress/install
+          yarn: true
           start: yarn cy:pipeline
