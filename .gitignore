@@ -111,6 +111,3 @@ storybook-static
 
 # Mac stuff ?
 .DS_Store
-
-# Cypress
-cypress
