@@ -114,9 +114,13 @@ loaded by a browser.
 Cypress can run in "browser" mode or "headless" mode. For the CI pipeline we'll run in headless mode and for development
 testing you can run in "browser" mode.
 
-To run integration tests do the following:
+To run integration tests run the following:
 
-- Spin up Storybook: `yarn storybook`
-- Run the Cypress integration tests in headless mode: `yarn cypress:start`
+- `yarn cy:test`
 
-... Paul to add more stuff about how the integration tests need to be written
+... Paul to add more stuff about how the integration tests need to be written, also add some stuff about what the
+`cy:pipeline` and `cy:run` scripts do. They're both used by Circle CI
+
+TODO
+
+Should the `.spec.js` tests be co-located or should they live in an integrations folder?
