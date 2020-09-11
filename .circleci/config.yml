@@ -1,8 +1,18 @@
 version: 2.1
 orbs:
   node: circleci/node@3.0.1
+  cypress: cypress-io/cypress@1.16.1
+
 jobs:
-  build-and-test:
+  run-build:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - run: yarn install
+      - run: yarn build
+
+  run-unit-tests:
     executor:
       name: node/default
     steps:
@@ -11,6 +21,15 @@ jobs:
       - run: yarn test -u
 
 workflows:
-  build-and-test:
+  all-the-things:
     jobs:
-      - build-and-test
+      - run-build
+      - run-unit-tests
+      - cypress/install:
+          yarn: true
+      - cypress/run:
+          yarn: true
+          build: yarn build
+          requires:
+            - cypress/install
+          start: yarn cy:pipeline

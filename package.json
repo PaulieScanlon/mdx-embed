@@ -4,8 +4,6 @@
     "prettier": "yarn workspace mdx-embed prettier && yarn workspace gatsby-plugin-mdx-embed prettier && yarn workspace docs prettier",
     "lint": "yarn workspace mdx-embed lint",
     "lint:fix": "yarn workspace mdx-embed lint:fix",
-    "cypress:open": "yarn workspace mdx-embed cypress:open",
-    "cypress": "yarn workspace mdx-embed cypress",
     "test": "yarn workspace mdx-embed jest",
     "test:watch": "yarn workspace mdx-embed jest --watch",
     "test:coverage": "yarn workspace mdx-embed jest --coverage",
@@ -19,7 +17,9 @@
     "mdx-deck-demo:start": "yarn workspace mdx-deck-demo start",
     "next-mdx-deck-demo:start": "yarn workspace next-mdx-deck-demo start",
     "next-mdx-demo:develop": "yarn workspace next-mdx-demo dev",
-    "deploy": "yarn workspace docs deploy"
+    "deploy": "yarn workspace docs deploy",
+    "cy:run": "cypress run --headless",
+    "cy:pipeline": "start-server-and-test storybook http-get://localhost:6006 cy:run"
   },
   "workspaces": {
     "packages": [
@@ -33,6 +33,8 @@
   },
   "name": "mdx-embed",
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "cypress": "^5.1.0",
+    "lerna": "^3.22.1",
+    "start-server-and-test": "^1.11.3"
   }
 }
