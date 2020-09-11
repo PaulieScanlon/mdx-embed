@@ -1,5 +1,5 @@
 {
-  "baseUrl": "http://localhost:6006",
+  "baseUrl": "http://mdx-embed.com",
   "defaultCommandTimeout": 6000,
   "viewportWidth": 1000,
   "viewportHeight": 568,
