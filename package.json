@@ -21,7 +21,7 @@
     "cy:open": "cypress open",
     "cy:test": "start-server-and-test 'yarn storybook' http-get://localhost:6006 'yarn cy:open'",
     "cy:run": "cypress run",
-    "cy:pipeline": "start-server-and-test 'yarn storybook' http-get://localhost:6006 'yarn cy:run'"
+    "cy:pipeline": "START_SERVER_AND_TEST_INSECURE=1 start-server-and-test 'yarn storybook' http-get://localhost:6006 'yarn cy:run'"
   },
   "workspaces": {
     "packages": [
