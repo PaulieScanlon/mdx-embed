@@ -28,8 +28,12 @@ workflows:
       - cypress/install:
           yarn: true
       - cypress/run:
-          yarn: true
-          build: yarn build
           requires:
             - cypress/install
+          yarn: true
+          build: yarn build
+      - cypress/run:
+          requires:
+            - cypress/install
+          yarn: true
           start: yarn cy:pipeline
