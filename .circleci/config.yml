@@ -27,9 +27,11 @@ workflows:
       - run-unit-tests
       - cypress/install:
           yarn: true
+          build: yarn build
       - cypress/run:
           yarn: true
-          build: yarn build
-          requires:
-            - cypress/install
-            run: yarn cy:pipeline
+          start: yarn storybook
+          wait-on: 'http://localhost:6006'
+      - cypress/run:
+          yarn: true
+          start: yarn cy:run
