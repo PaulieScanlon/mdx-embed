@@ -6,7 +6,7 @@
   "scripts": {
     "prettier": "prettier --config ../.prettierrc.js --ignore-path ../.prettierignore --write \"**/*.{json,js,ts,tsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "NODE_ENV=production start-storybook --docs -p 6006 -s ./public --ci",
+    "storybook": "start-storybook -p 6006 -s ./public --ci",
     "storybook:build": "build-storybook --docs -s ./public",
     "deploy": "npm run storybook:build && netlify deploy --prod"
   },

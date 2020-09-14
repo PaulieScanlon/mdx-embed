@@ -118,9 +118,6 @@ To run integration tests run the following:
 
 - `yarn cy:test`
 
-... Paul to add more stuff about how the integration tests need to be written, also add some stuff about what the
-`cy:pipeline` and `cy:run` scripts do. They're both used by Circle CI
-
-TODO
-
-Should the `.spec.js` tests be co-located or should they live in an integrations folder?
+... Paul to add more stuff about how the integration tests need to be written, its mainly the bit about using the url
+from Storybook from the canvas / full screen tab. This is to avoid the double iframe issue of running storybook in docs
+mode
