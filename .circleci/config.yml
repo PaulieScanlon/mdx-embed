@@ -23,17 +23,18 @@ jobs:
 workflows:
   all-the-things:
     jobs:
-      - run-build
-      - run-unit-tests
       - cypress/install:
+          name: cypress-install
           yarn: true
       - cypress/run:
+          name: cypress-run-build
           requires:
-            - cypress/install
+            - cypress-install
           yarn: true
           build: yarn build
       - cypress/run:
+          name: cypress-run-pipeline
           requires:
-            - cypress/install
+            - cypress-install
           yarn: true
           start: yarn cy:pipeline
