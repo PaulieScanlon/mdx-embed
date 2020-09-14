@@ -32,4 +32,4 @@ workflows:
           build: yarn build
           requires:
             - cypress/install
-          start: yarn cy:pipeline
+            run: yarn cy:pipeline
