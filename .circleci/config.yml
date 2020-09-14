@@ -26,15 +26,10 @@ workflows:
       - run-build
       - run-unit-tests
       - cypress/install:
-          name: run-cypress-build
+          yarn: true
+      - cypress/run:
           yarn: true
           build: yarn build
-      - cypress/run:
-          name: start-storybook
-          yarn: true
-          start: yarn storybook
-          wait-on: 'http://localhost:6006'
-      - cypress/run:
-          name: run-integration-tests
-          yarn: true
-          start: yarn cy:run
+          requires:
+            - cypress/install
+          start: yarn cy:pipeline
