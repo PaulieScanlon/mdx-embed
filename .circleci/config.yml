@@ -27,14 +27,9 @@ workflows:
           name: cypress-install
           yarn: true
       - cypress/run:
-          name: cypress-run-build
-          requires:
-            - cypress-install
+          name: start-storybook-and-test
           yarn: true
           build: yarn build
-      - cypress/run:
-          name: cypress-run-pipeline
           requires:
             - cypress-install
-          yarn: true
           start: yarn cy:pipeline
