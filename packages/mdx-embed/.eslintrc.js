@@ -17,12 +17,23 @@ module.exports = {
     },
   },
   rules: {
-    'react/prop-types': 0,
-    '@typescript-eslint/no-explicit-any': 0,
-    '@typescript-eslint/ban-ts-comment': 0,
-    '@typescript-eslint/ban-types': 0,
-    '@typescript-eslint/explicit-module-boundary-types': 0,
-    '@typescript-eslint/no-empty-interface': 0,
-    '@typescript-eslint/no-non-null-assertion': 0,
+    'react/prop-types': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/ban-types': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-empty-interface': 'warn',
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: 'interface',
+        format: ['PascalCase'],
+        custom: {
+          regex: 'I(([A-Z][a-z]+)+|)(Props|State)',
+          match: true,
+        },
+      },
+    ],
   },
 };
