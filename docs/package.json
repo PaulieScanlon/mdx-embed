@@ -35,6 +35,7 @@
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
     "@storybook/addon-docs": "^6.0.17",
+    "@storybook/addon-links": "^6.0.21",
     "@storybook/react": "^6.0.16",
     "babel-loader": "^8.1.0",
     "husky": "^4.2.5",
