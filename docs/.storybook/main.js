@@ -1,6 +1,6 @@
 module.exports = {
   stories: ['../src/**/*.stories.mdx'],
-  addons: ['@storybook/addon-docs'],
+  addons: ['@storybook/addon-docs', '@storybook/addon-links'],
   typescript: {
     check: false,
     reactDocgen: 'react-docgen-typescript',
