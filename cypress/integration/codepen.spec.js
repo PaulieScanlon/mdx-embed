@@ -1,12 +1,6 @@
 /// <reference types="cypress" />
 
-const getIframeDocument = () => {
-  return cy.get('iframe').its('0.contentDocument').should('exist');
-};
-
-const getIframeBody = () => {
-  return getIframeDocument().its('body').should('not.be.undefined').then(cy.wrap);
-};
+import { getIframeBody } from '../support/commands';
 
 context('<CodePen />', () => {
   it('it loads codeopen nav, output and footer', () => {
