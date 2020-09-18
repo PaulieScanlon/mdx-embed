@@ -18,3 +18,41 @@ import { MDXEmbedProvider } from 'mdx-embed';
 
 export default (props) => <MDXEmbedProvider>{props.children}</MDXEmbedProvider>;
 ```
+
+### Alternatively
+
+If you're only interested in using one or two of the components in MDX Embed you can import and use them by passing them on to your own `MDXProvider`
+
+```javascript
+import React from 'react';
+import { MDXProvider } from '@mdx-js/react';
+import { CodePen, Gist } from 'mdx-embed';
+
+const components = {
+  CodePen,
+  Gist,
+};
+
+export default (props) => <MDXProvider components={components}>{props.children}</MDXProvider>;
+```
+
+### Jsx
+
+MDX Embed components will also work outside of MDX. If you're interested in using them in Jsx you can also import and use as you normally would.
+
+```javascript
+import React from 'react';
+import { CodePen, Gist } from 'mdx-embed';
+
+export default () => (
+  <>
+    <h1>Hello world</h1>
+    <br />
+    <h2>My Codepen</h2>
+    <CodePen codePenId="PNaGbb" />
+    <br />
+    <h2>My Gist</h2>
+    <Gist gistLink="PaulieScanlon/ca0cc9239176066492cb2aba435edbf7" />
+  </>
+);
+```
