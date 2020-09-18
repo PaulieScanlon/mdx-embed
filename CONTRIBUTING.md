@@ -108,7 +108,7 @@ In the `CodePen` example that looks a bit like this:
 
 ### Integration tests
 
-We're using Cypress to test that 3rd party scripts are executed by our components and we assert them as if there were
+We're using Cypress to test that 3rd party scripts are executed by our components and we assert them as if they had been
 loaded by a browser.
 
 Cypress can run in "browser" mode or "headless" mode. For the CI pipeline we'll run in headless mode and for development
@@ -118,6 +118,30 @@ To run integration tests run the following:
 
 - `yarn cy:test`
 
-... Paul to add more stuff about how the integration tests need to be written, its mainly the bit about using the url
-from Storybook from the canvas / full screen tab. This is to avoid the double iframe issue of running storybook in docs
-mode
+The integration browser tests differ slightly to what you might expect in that we're not testing if the providers embeds
+look or work in various browsers as this is the responsibility of providers themselves. We just need to know that our
+components that wrap the embed codes do in fact load the correct embed widget. Assertions can be made by attempting to
+"find" parts of the providers UI.
+
+The `CodePen` integration tests looks a bit like this:
+
+```javascript
+import { getIframeBody } from '../support/commands';
+
+context('<CodePen />', () => {
+  it('it loads codepen nav, output and footer', () => {
+    cy.visit('/iframe.html?id=components-codepen--usage&viewMode=story');
+    getIframeBody().find('#embed-nav').should('not.be.undefined');
+    getIframeBody().find('#output').should('not.be.undefined');
+    getIframeBody().find('#embed-footer').should('not.be.undefined');
+  });
+});
+```
+
+To find the Storybook `cy.visit(/iframe.html?id=components=)` URL for each components integration test do the following:
+
+- Spin up storybook `yarn storybook`
+- Find the Usage story and ensure you're on the "Canvas" tab.
+- In the toolbar at the top to the far right of the screen is the "Open canvas in new tab" icon.
+- Click it, this will open the Story in a new tab free from other Storybook UI elements.
+- Use this URL for `cy.visit(...)`
