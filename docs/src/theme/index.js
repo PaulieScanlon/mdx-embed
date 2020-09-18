@@ -12,12 +12,15 @@ export default {
     heading: 'system-ui, sans-serif',
     monospace: '"Roboto Mono", Menlo, monospace',
   },
+  fontSizes: {
+    body: '1.1em',
+  },
   fontWeight: {
     body: 400,
     heading: 800,
   },
   lineHeight: {
-    body: '1.4em',
+    body: '1.6em',
     heading: 'normal',
   },
   space: [0, 4, 8, 16, 24],
@@ -33,11 +36,18 @@ export default {
       my: 2,
       borderColor: 'transparent',
     },
+    ul: {
+      variant: 'text.default',
+    },
+
+    li: {
+      fontSize: 'body',
+    },
   },
   text: {
     default: {
       color: 'grey',
-      fontSize: '14px',
+      fontSize: 'body',
       fontFamily: 'body',
       lineHeight: 'body',
       my: 3,
@@ -47,7 +57,7 @@ export default {
         padding: '3px 5px',
         whiteSpace: 'nowrap',
         borderRadius: '3px',
-        fontSize: '13px',
+        fontSize: '15px',
         border: '1px solid #EEEEEE',
         color: 'rgba(51,51,51,0.9)',
         backgroundColor: '#F8F8F8',

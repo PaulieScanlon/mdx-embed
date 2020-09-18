@@ -4,7 +4,7 @@ import { DocsContainer } from '@storybook/addon-docs/blocks';
 import { MDXProvider } from '@mdx-js/react';
 import { ThemeProvider } from 'emotion-theming';
 import * as ThemeUIComponents from 'theme-ui';
-import { Heading, Text } from 'theme-ui';
+import { Heading, Text, Box } from 'theme-ui';
 
 import theme from '../src/theme';
 import { Quote } from './components/quote';
@@ -43,6 +43,16 @@ export const parameters = {
         <Text as="p" sx={{ ...theme.text.default }}>
           {children}
         </Text>
+      ),
+      ul: ({ children }) => (
+        <Box as="ul" sx={{ ...theme.styles.ul }}>
+          {children}
+        </Box>
+      ),
+      li: ({ children }) => (
+        <Box as="li" sx={{ ...theme.styles.li }}>
+          {children}
+        </Box>
       ),
     },
   },
