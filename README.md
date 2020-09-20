@@ -11,7 +11,6 @@
 [![circle-ci](https://circleci.com/gh/PaulieScanlon/mdx-embed.svg?style=shield)](https://app.circleci.com/pipelines/github/PaulieScanlon)
 ![build](https://img.shields.io/circleci/build/github/PaulieScanlon/mdx-embed/main)
 [![codecov](https://codecov.io/gh/PaulieScanlon/mdx-embed/branch/main/graph/badge.svg)](https://codecov.io/gh/PaulieScanlon/mdx-embed)
-[![Known Vulnerabilities](https://snyk.io/test/npm/mdx-embed/badge.svg)](https://snyk.io/test/npm/mdx-embed)
 
 # MDX Embed
 
@@ -27,8 +26,10 @@ information on the current packages:
 
 ## npm packages
 
-- [mdx-embed](https://www.npmjs.com/package/mdx-embed)
-- [gatsby-plugin-mdx-embed](https://www.npmjs.com/package/gatsby-plugin-mdx-embed)
+| Package        | Security Status           |
+| ------------- |:-------------:|
+| [mdx-embed](https://www.npmjs.com/package/mdx-embed)      | [![Known Vulnerabilities](https://snyk.io/test/npm/mdx-embed/badge.svg)](https://snyk.io/test/npm/mdx-embed) |
+| [gatsby-plugin-mdx-embed](https://www.npmjs.com/package/gatsby-plugin-mdx-embed)      | [![Known Vulnerabilities](https://snyk.io/test/npm/gatsby-plugin-mdx-embed/badge.svg)](https://snyk.io/test/npm/gatsby-plugin-mdx-embed) | 
 
 <br />
 
