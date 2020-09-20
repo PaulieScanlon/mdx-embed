@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1600597443773" clover="3.2.0">
-  <project timestamp="1600597443773" name="All files">
+<coverage generated="1600597737226" clover="3.2.0">
+  <project timestamp="1600597737226" name="All files">
     <metrics statements="270" coveredstatements="16" conditionals="131" coveredconditionals="16" methods="59" coveredmethods="4" elements="460" coveredelements="36" complexity="0" loc="270" ncloc="270" packages="23" files="37" classes="37"/>
     <package name="airtable">
       <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
