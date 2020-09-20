@@ -26,8 +26,10 @@ information on the current packages:
 
 ## npm packages
 
-- [mdx-embed](https://www.npmjs.com/package/mdx-embed)
-- [gatsby-plugin-mdx-embed](https://www.npmjs.com/package/gatsby-plugin-mdx-embed)
+| Package        | Security Status           |
+| ------------- |:-------------:|
+| [mdx-embed](https://www.npmjs.com/package/mdx-embed)      | [![Known Vulnerabilities](https://snyk.io/test/npm/mdx-embed/badge.svg)](https://snyk.io/test/npm/mdx-embed) |
+| [gatsby-plugin-mdx-embed](https://www.npmjs.com/package/gatsby-plugin-mdx-embed)      | [![Known Vulnerabilities](https://snyk.io/test/npm/gatsby-plugin-mdx-embed/badge.svg)](https://snyk.io/test/npm/gatsby-plugin-mdx-embed) | 
 
 <br />
 
