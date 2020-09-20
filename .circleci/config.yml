@@ -30,7 +30,7 @@ jobs:
       - run: yarn test:codecov
       - codecov/upload:
           file: './packages/mdx-embed/coverage/clover.xml'
-          token: 8bb8c5f2-114f-4cea-b659-61af247109fd
+          token: 85dbf1e3-748b-4f9a-928d-b5eb42d26a03
 
 workflows:
   all-the-things:
