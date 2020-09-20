@@ -2,13 +2,12 @@ version: 2.1
 orbs:
   coveralls: coveralls/coveralls@1.0.6
 jobs:
-  build:
-    docker:
-      - image: 'circleci/node:10.0.0'
-    steps:
-      - checkout
-      - run:
-          name: collect-coverage
-          yarn: true
-          command: yarn install && make test-coverage
-      - coveralls/upload
+  executor:
+    name: node/default
+  steps:
+    - checkout
+    - run:
+        name: collect-coverage
+        yarn: true
+        command: yarn install && make test-coverage
+    - coveralls/upload
