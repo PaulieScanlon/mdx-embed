@@ -9,6 +9,7 @@
 [![circle-ci](https://circleci.com/gh/PaulieScanlon/mdx-embed.svg?style=shield)](https://app.circleci.com/pipelines/github/PaulieScanlon)
 ![build](https://img.shields.io/circleci/build/github/PaulieScanlon/mdx-embed/main)
 ![coverage](https://img.shields.io/codecov/c/github/pauliescanlon/mdx-embed)
+[![codecov](https://codecov.io/gh/PaulieScanlon/mdx-embed/branch/main/graph/badge.svg)](https://codecov.io/gh/PaulieScanlon/mdx-embed)
 
 # MDX Embed
 
