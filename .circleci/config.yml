@@ -1,41 +1,9 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.0.0
-  cypress: cypress-io/cypress@1.16.1
-  codecov: codecov/codecov@1.0.2
+  codecov: codecov/codecov@1.1.1
 
 jobs:
-  run-build:
-    executor:
-      name: node/default
+  build:
     steps:
-      - checkout
-      - run: yarn install
-      - run: yarn build
-
-  run-unit-tests:
-    executor:
-      name: node/default
-    steps:
-      - checkout
-      - run: yarn install
-      - run: yarn test -u
-
-workflows:
-  all-the-things:
-    jobs:
       - codecov/upload:
         file: { { ./packages/mdx-embed/coverage } }
-      - run-build
-      - run-unit-tests
-      - cypress/install:
-          name: cypress-install
-          yarn: true
-      - cypress/run:
-          name: start-storybook-and-test
-          yarn: true
-          build: yarn build
-          requires:
-            - cypress-install
-          start: yarn storybook
-          wait-on: 'http://localhost:6006'
