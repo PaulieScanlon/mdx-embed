@@ -25,7 +25,6 @@ workflows:
   all-the-things:
     jobs:
       - codecov/upload:
-        name: collect-coverage
         file: { { ./packages/mdx-embed/coverage } }
       - run-build
       - run-unit-tests
