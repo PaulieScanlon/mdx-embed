@@ -8,7 +8,6 @@
 [![npm](https://img.shields.io/npm/v/mdx-embed)](https://img.shields.io/npm/v/mdx-embed)
 [![circle-ci](https://circleci.com/gh/PaulieScanlon/mdx-embed.svg?style=shield)](https://app.circleci.com/pipelines/github/PaulieScanlon)
 ![build](https://img.shields.io/circleci/build/github/PaulieScanlon/mdx-embed/main)
-[![Coverage Status](https://coveralls.io/repos/github/PaulieScanlon/mdx-embed/badge.svg?branch=main)](https://coveralls.io/github/PaulieScanlon/mdx-embed?branch=main)
 
 # MDX Embed
 
