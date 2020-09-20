@@ -1,0 +1,1616 @@
+{
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/airtable/airtable-base.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/airtable/airtable-base.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 13, "column": 13 }, "end": { "line": 34, "column": 2 } },
+      "3": { "start": { "line": 18, "column": 2 }, "end": { "line": 33, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 13, "column": 67 }, "end": { "line": 13, "column": 68 } },
+        "loc": { "start": { "line": 17, "column": 25 }, "end": { "line": 34, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 15, "column": 11 }, "end": { "line": 15, "column": 13 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 15, "column": 11 }, "end": { "line": 15, "column": 13 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 16, "column": 17 }, "end": { "line": 16, "column": 21 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 16, "column": 17 }, "end": { "line": 16, "column": 21 } }]
+      },
+      "2": {
+        "loc": { "start": { "line": 24, "column": 22 }, "end": { "line": 24, "column": 24 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 24, "column": 22 }, "end": { "line": 24, "column": 24 } },
+          { "start": { "line": 24, "column": 27 }, "end": { "line": 24, "column": null } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0], "1": [0], "2": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/airtable/airtable-form.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/airtable/airtable-form.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 9, "column": 13 }, "end": { "line": 24, "column": 2 } },
+      "3": { "start": { "line": 10, "column": 2 }, "end": { "line": 23, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 9, "column": 67 }, "end": { "line": 9, "column": 68 } },
+        "loc": { "start": { "line": 9, "column": 110 }, "end": { "line": 24, "column": 1 } }
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0 },
+    "f": { "0": 0 },
+    "b": {}
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/buzzprout/buzzprout.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/buzzprout/buzzprout.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 9, "column": 13 }, "end": { "line": 24, "column": 2 } },
+      "3": { "start": { "line": 10, "column": 2 }, "end": { "line": 23, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 9, "column": 61 }, "end": { "line": 9, "column": 62 } },
+        "loc": { "start": { "line": 9, "column": 98 }, "end": { "line": 24, "column": 1 } }
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0 },
+    "f": { "0": 0 },
+    "b": {}
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/cinnamon/cinnamon.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/cinnamon/cinnamon.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 41 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 54 } },
+      "3": { "start": { "line": 10, "column": 13 }, "end": { "line": 37, "column": 2 } },
+      "4": { "start": { "line": 11, "column": 2 }, "end": { "line": 36, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 10, "column": 59 }, "end": { "line": 10, "column": 60 } },
+        "loc": { "start": { "line": 10, "column": 94 }, "end": { "line": 37, "column": 1 } }
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+    "f": { "0": 0 },
+    "b": {}
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/codepen/codepen.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/codepen/codepen.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 18, "column": 13 }, "end": { "line": 43, "column": 2 } },
+      "3": { "start": { "line": 26, "column": 2 }, "end": { "line": 41, "column": null } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 18, "column": 57 }, "end": { "line": 18, "column": 58 } },
+        "loc": { "start": { "line": 26, "column": 2 }, "end": { "line": 41, "column": null } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 20, "column": 11 }, "end": { "line": 20, "column": 14 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 20, "column": 11 }, "end": { "line": 20, "column": 14 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 21, "column": 9 }, "end": { "line": 21, "column": 17 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 21, "column": 9 }, "end": { "line": 21, "column": 17 } }]
+      },
+      "2": {
+        "loc": { "start": { "line": 22, "column": 16 }, "end": { "line": 22, "column": 21 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 22, "column": 16 }, "end": { "line": 22, "column": 21 } }]
+      },
+      "3": {
+        "loc": { "start": { "line": 23, "column": 13 }, "end": { "line": 23, "column": 18 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 23, "column": 13 }, "end": { "line": 23, "column": 18 } }]
+      },
+      "4": {
+        "loc": { "start": { "line": 24, "column": 10 }, "end": { "line": 24, "column": 19 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 24, "column": 10 }, "end": { "line": 24, "column": 19 } }]
+      },
+      "5": {
+        "loc": { "start": { "line": 37, "column": 22 }, "end": { "line": 37, "column": 32 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 37, "column": 22 }, "end": { "line": 37, "column": 32 } },
+          { "start": { "line": 37, "column": 35 }, "end": { "line": 37, "column": null } }
+        ]
+      },
+      "6": {
+        "loc": { "start": { "line": 38, "column": 82 }, "end": { "line": 38, "column": 98 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 38, "column": 82 }, "end": { "line": 38, "column": 98 } },
+          { "start": { "line": 38, "column": 101 }, "end": { "line": 38, "column": 103 } }
+        ]
+      }
+    },
+    "s": { "0": 1, "1": 1, "2": 1, "3": 1 },
+    "f": { "0": 1 },
+    "b": { "0": [1], "1": [1], "2": [1], "3": [1], "4": [1], "5": [0, 1], "6": [0, 1] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/codesandbox/codesandbox.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/codesandbox/codesandbox.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 8, "column": 13 }, "end": { "line": 25, "column": 2 } },
+      "3": { "start": { "line": 9, "column": 2 }, "end": { "line": 23, "column": null } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 8, "column": 65 }, "end": { "line": 8, "column": 66 } },
+        "loc": { "start": { "line": 9, "column": 2 }, "end": { "line": 23, "column": null } }
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0 },
+    "f": { "0": 0 },
+    "b": {}
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/egghead/egghead-lesson.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/egghead/egghead-lesson.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 41 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 54 } },
+      "3": { "start": { "line": 10, "column": 13 }, "end": { "line": 38, "column": 2 } },
+      "4": { "start": { "line": 11, "column": 2 }, "end": { "line": 37, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 10, "column": 69 }, "end": { "line": 10, "column": 70 } },
+        "loc": { "start": { "line": 10, "column": 107 }, "end": { "line": 38, "column": 1 } }
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0 },
+    "f": { "0": 0 },
+    "b": {}
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/flickr/flickr.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/flickr/flickr.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 43 } },
+      "3": { "start": { "line": 9, "column": 13 }, "end": { "line": 15, "column": 2 } },
+      "4": { "start": { "line": 10, "column": 2 }, "end": { "line": 13, "column": null } },
+      "5": { "start": { "line": 10, "column": 34 }, "end": { "line": 10, "column": 52 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 9, "column": 55 }, "end": { "line": 9, "column": 56 } },
+        "loc": { "start": { "line": 10, "column": 2 }, "end": { "line": 13, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 10, "column": 28 }, "end": { "line": 10, "column": 31 } },
+        "loc": { "start": { "line": 10, "column": 34 }, "end": { "line": 10, "column": 52 } }
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": {}
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/flickr/utils.ts": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/flickr/utils.ts",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 46 } },
+      "1": { "start": { "line": 3, "column": 26 }, "end": { "line": 3, "column": 31 } },
+      "2": { "start": { "line": 4, "column": 30 }, "end": { "line": 4, "column": 57 } },
+      "3": { "start": { "line": 5, "column": 23 }, "end": { "line": 5, "column": 72 } },
+      "4": { "start": { "line": 7, "column": 13 }, "end": { "line": 14, "column": 2 } },
+      "5": { "start": { "line": 8, "column": 2 }, "end": { "line": 13, "column": null } },
+      "6": { "start": { "line": 9, "column": 4 }, "end": { "line": 12, "column": null } },
+      "7": { "start": { "line": 10, "column": 6 }, "end": { "line": 10, "column": 44 } },
+      "8": { "start": { "line": 11, "column": 6 }, "end": { "line": 11, "column": 33 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 7, "column": 32 }, "end": { "line": 7, "column": 35 } },
+        "loc": { "start": { "line": 7, "column": 37 }, "end": { "line": 14, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 8, "column": 2 }, "end": { "line": 13, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 8, "column": 2 }, "end": { "line": 13, "column": null } },
+          { "start": { "line": 8, "column": 2 }, "end": { "line": 13, "column": null } }
+        ]
+      },
+      "1": {
+        "loc": { "start": { "line": 9, "column": 4 }, "end": { "line": 12, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 9, "column": 4 }, "end": { "line": 12, "column": null } },
+          { "start": { "line": 9, "column": 4 }, "end": { "line": 12, "column": null } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0, 0], "1": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/general-observer/general-observer.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/general-observer/general-observer.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 89 } },
+      "1": { "start": { "line": 10, "column": 13 }, "end": { "line": 37, "column": 2 } },
+      "2": { "start": { "line": 11, "column": 14 }, "end": { "line": 11, "column": 39 } },
+      "3": { "start": { "line": 12, "column": 46 }, "end": { "line": 12, "column": 61 } },
+      "4": { "start": { "line": 13, "column": 2 }, "end": { "line": 30, "column": 12 } },
+      "5": { "start": { "line": 14, "column": 21 }, "end": { "line": 25, "column": null } },
+      "6": { "start": { "line": 16, "column": 8 }, "end": { "line": 19, "column": null } },
+      "7": { "start": { "line": 17, "column": 10 }, "end": { "line": 17, "column": 34 } },
+      "8": { "start": { "line": 18, "column": 10 }, "end": { "line": 18, "column": 31 } },
+      "9": { "start": { "line": 27, "column": 4 }, "end": { "line": 29, "column": null } },
+      "10": { "start": { "line": 28, "column": 6 }, "end": { "line": 28, "column": 36 } },
+      "11": { "start": { "line": 32, "column": 2 }, "end": { "line": 36, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_6)",
+        "decl": { "start": { "line": 10, "column": 73 }, "end": { "line": 10, "column": 74 } },
+        "loc": { "start": { "line": 10, "column": 111 }, "end": { "line": 37, "column": 1 } }
+      },
+      "1": {
+        "name": "(anonymous_7)",
+        "decl": { "start": { "line": 13, "column": 12 }, "end": { "line": 13, "column": 15 } },
+        "loc": { "start": { "line": 13, "column": 17 }, "end": { "line": 30, "column": 3 } }
+      },
+      "2": {
+        "name": "(anonymous_8)",
+        "decl": { "start": { "line": 15, "column": 6 }, "end": { "line": 15, "column": 7 } },
+        "loc": { "start": { "line": 15, "column": 18 }, "end": { "line": 20, "column": 7 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 10, "column": 104 }, "end": { "line": 10, "column": 105 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 10, "column": 104 }, "end": { "line": 10, "column": 105 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 16, "column": 8 }, "end": { "line": 19, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 16, "column": 8 }, "end": { "line": 19, "column": null } },
+          { "start": { "line": 16, "column": 8 }, "end": { "line": 19, "column": null } }
+        ]
+      },
+      "2": {
+        "loc": { "start": { "line": 18, "column": 10 }, "end": { "line": 18, "column": 17 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 18, "column": 10 }, "end": { "line": 18, "column": 17 } },
+          { "start": { "line": 18, "column": 21 }, "end": { "line": 18, "column": 30 } }
+        ]
+      },
+      "3": {
+        "loc": { "start": { "line": 27, "column": 4 }, "end": { "line": 29, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 27, "column": 4 }, "end": { "line": 29, "column": null } },
+          { "start": { "line": 27, "column": 4 }, "end": { "line": 29, "column": null } }
+        ]
+      },
+      "4": {
+        "loc": { "start": { "line": 27, "column": 8 }, "end": { "line": 27, "column": 11 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 27, "column": 8 }, "end": { "line": 27, "column": 11 } },
+          { "start": { "line": 27, "column": 15 }, "end": { "line": 27, "column": 26 } }
+        ]
+      },
+      "5": {
+        "loc": { "start": { "line": 34, "column": 24 }, "end": { "line": 34, "column": 32 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 34, "column": 24 }, "end": { "line": 34, "column": 32 } },
+          { "start": { "line": 34, "column": 35 }, "end": { "line": 34, "column": 76 } }
+        ]
+      }
+    },
+    "s": { "0": 2, "1": 2, "2": 6, "3": 6, "4": 6, "5": 4, "6": 2, "7": 2, "8": 2, "9": 4, "10": 4, "11": 6 },
+    "f": { "0": 6, "1": 4, "2": 2 },
+    "b": { "0": [4], "1": [2, 0], "2": [2, 1], "3": [4, 0], "4": [4, 4], "5": [2, 4] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/gist/gist.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/gist/gist.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 70 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 64 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 54 } },
+      "3": { "start": { "line": 19, "column": 13 }, "end": { "line": 49, "column": 2 } },
+      "4": { "start": { "line": 20, "column": 42 }, "end": { "line": 24, "column": 4 } },
+      "5": { "start": { "line": 26, "column": 15 }, "end": { "line": 26, "column": 41 } },
+      "6": { "start": { "line": 27, "column": 17 }, "end": { "line": 27, "column": 39 } },
+      "7": { "start": { "line": 28, "column": 26 }, "end": { "line": 28, "column": 84 } },
+      "8": { "start": { "line": 30, "column": 2 }, "end": { "line": 40, "column": 32 } },
+      "9": { "start": { "line": 31, "column": 5 }, "end": { "line": 38, "column": 6 } },
+      "10": { "start": { "line": 32, "column": 6 }, "end": { "line": 32, "column": 40 } },
+      "11": { "start": { "line": 33, "column": 6 }, "end": { "line": 37, "column": 9 } },
+      "12": { "start": { "line": 39, "column": 4 }, "end": { "line": 39, "column": 43 } },
+      "13": { "start": { "line": 42, "column": 2 }, "end": { "line": 48, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_6)",
+        "decl": { "start": { "line": 19, "column": 51 }, "end": { "line": 19, "column": 52 } },
+        "loc": { "start": { "line": 19, "column": 80 }, "end": { "line": 49, "column": 1 } }
+      },
+      "1": {
+        "name": "(anonymous_7)",
+        "decl": { "start": { "line": 30, "column": 12 }, "end": { "line": 30, "column": 15 } },
+        "loc": { "start": { "line": 30, "column": 17 }, "end": { "line": 40, "column": 3 } }
+      },
+      "2": {
+        "name": "(anonymous_8)",
+        "decl": { "start": { "line": 31, "column": 49 }, "end": { "line": 31, "column": 50 } },
+        "loc": { "start": { "line": 31, "column": 63 }, "end": { "line": 38, "column": 5 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 44, "column": 7 }, "end": { "line": 44, "column": 30 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 44, "column": 7 }, "end": { "line": 44, "column": 30 } },
+          { "start": { "line": 45, "column": 8 }, "end": { "line": 45, "column": 98 } }
+        ]
+      }
+    },
+    "s": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0
+    },
+    "f": { "0": 0, "1": 0, "2": 0 },
+    "b": { "0": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/instagram/instagram.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/instagram/instagram.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 45 } },
+      "3": { "start": { "line": 9, "column": 13 }, "end": { "line": 17, "column": 2 } },
+      "4": { "start": { "line": 10, "column": 2 }, "end": { "line": 15, "column": null } },
+      "5": { "start": { "line": 10, "column": 34 }, "end": { "line": 10, "column": 54 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 9, "column": 61 }, "end": { "line": 9, "column": 62 } },
+        "loc": { "start": { "line": 10, "column": 2 }, "end": { "line": 15, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 10, "column": 28 }, "end": { "line": 10, "column": 31 } },
+        "loc": { "start": { "line": 10, "column": 34 }, "end": { "line": 10, "column": 54 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 13, "column": 69 }, "end": { "line": 13, "column": 78 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 13, "column": 69 }, "end": { "line": 13, "column": 78 } },
+          { "start": { "line": 13, "column": 81 }, "end": { "line": 13, "column": 83 } }
+        ]
+      },
+      "1": {
+        "loc": { "start": { "line": 13, "column": 9 }, "end": { "line": 13, "column": 38 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 13, "column": 9 }, "end": { "line": 13, "column": 38 } },
+          { "start": { "line": 13, "column": 42 }, "end": { "line": 13, "column": 66 } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0, 0], "1": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/instagram/utils.ts": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/instagram/utils.ts",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 46 } },
+      "1": { "start": { "line": 3, "column": 27 }, "end": { "line": 3, "column": 32 } },
+      "2": { "start": { "line": 4, "column": 26 }, "end": { "line": 4, "column": 85 } },
+      "3": { "start": { "line": 5, "column": 24 }, "end": { "line": 5, "column": 60 } },
+      "4": { "start": { "line": 7, "column": 23 }, "end": { "line": 15, "column": 1 } },
+      "5": { "start": { "line": 8, "column": 2 }, "end": { "line": 14, "column": null } },
+      "6": { "start": { "line": 13, "column": 5 }, "end": { "line": 13, "column": 45 } },
+      "7": { "start": { "line": 17, "column": 13 }, "end": { "line": 25, "column": 2 } },
+      "8": { "start": { "line": 18, "column": 2 }, "end": { "line": 23, "column": null } },
+      "9": { "start": { "line": 19, "column": 4 }, "end": { "line": 22, "column": null } },
+      "10": { "start": { "line": 20, "column": 6 }, "end": { "line": 20, "column": 45 } },
+      "11": { "start": { "line": 21, "column": 6 }, "end": { "line": 21, "column": 34 } },
+      "12": { "start": { "line": 24, "column": 2 }, "end": { "line": 24, "column": 19 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 7, "column": 23 }, "end": { "line": 7, "column": 26 } },
+        "loc": { "start": { "line": 7, "column": 28 }, "end": { "line": 15, "column": 1 } }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 17, "column": 34 }, "end": { "line": 17, "column": 37 } },
+        "loc": { "start": { "line": 17, "column": 39 }, "end": { "line": 25, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 8, "column": 2 }, "end": { "line": 14, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 8, "column": 2 }, "end": { "line": 14, "column": null } },
+          { "start": { "line": 8, "column": 2 }, "end": { "line": 14, "column": null } }
+        ]
+      },
+      "1": {
+        "loc": { "start": { "line": 9, "column": 4 }, "end": { "line": 9, "column": 50 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 9, "column": 4 }, "end": { "line": 9, "column": 50 } },
+          { "start": { "line": 10, "column": 5 }, "end": { "line": 10, "column": 34 } },
+          { "start": { "line": 11, "column": 4 }, "end": { "line": 11, "column": 64 } }
+        ]
+      },
+      "2": {
+        "loc": { "start": { "line": 18, "column": 2 }, "end": { "line": 23, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 18, "column": 2 }, "end": { "line": 23, "column": null } },
+          { "start": { "line": 18, "column": 2 }, "end": { "line": 23, "column": null } }
+        ]
+      },
+      "3": {
+        "loc": { "start": { "line": 19, "column": 4 }, "end": { "line": 22, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 19, "column": 4 }, "end": { "line": 22, "column": null } },
+          { "start": { "line": 19, "column": 4 }, "end": { "line": 22, "column": null } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "10": 0, "11": 0, "12": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0, 0], "1": [0, 0, 0], "2": [0, 0], "3": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/lbry/lbry.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/lbry/lbry.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 41 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 54 } },
+      "3": { "start": { "line": 14, "column": 13 }, "end": { "line": 44, "column": 2 } },
+      "4": { "start": { "line": 15, "column": 16 }, "end": { "line": 15, "column": 22 } },
+      "5": { "start": { "line": 17, "column": 2 }, "end": { "line": 43, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 14, "column": 51 }, "end": { "line": 14, "column": 52 } },
+        "loc": { "start": { "line": 14, "column": 97 }, "end": { "line": 44, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 14, "column": 71 }, "end": { "line": 14, "column": 79 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 14, "column": 71 }, "end": { "line": 14, "column": 79 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/mdx-embed-provider/mdx-embed-provider.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/mdx-embed-provider/mdx-embed-provider.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 44 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 49 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 57 } },
+      "3": { "start": { "line": 4, "column": 0 }, "end": { "line": 4, "column": 41 } },
+      "4": { "start": { "line": 5, "column": 0 }, "end": { "line": 5, "column": 39 } },
+      "5": { "start": { "line": 6, "column": 0 }, "end": { "line": 6, "column": 37 } },
+      "6": { "start": { "line": 7, "column": 0 }, "end": { "line": 7, "column": 45 } },
+      "7": { "start": { "line": 8, "column": 0 }, "end": { "line": 8, "column": 43 } },
+      "8": { "start": { "line": 9, "column": 0 }, "end": { "line": 9, "column": 35 } },
+      "9": { "start": { "line": 10, "column": 0 }, "end": { "line": 10, "column": 31 } },
+      "10": { "start": { "line": 11, "column": 0 }, "end": { "line": 11, "column": 41 } },
+      "11": { "start": { "line": 12, "column": 0 }, "end": { "line": 12, "column": 31 } },
+      "12": { "start": { "line": 13, "column": 0 }, "end": { "line": 13, "column": 74 } },
+      "13": { "start": { "line": 14, "column": 0 }, "end": { "line": 14, "column": 50 } },
+      "14": { "start": { "line": 15, "column": 0 }, "end": { "line": 15, "column": 43 } },
+      "15": { "start": { "line": 16, "column": 0 }, "end": { "line": 16, "column": 37 } },
+      "16": { "start": { "line": 17, "column": 0 }, "end": { "line": 17, "column": 35 } },
+      "17": { "start": { "line": 18, "column": 0 }, "end": { "line": 18, "column": 35 } },
+      "18": { "start": { "line": 19, "column": 0 }, "end": { "line": 19, "column": 35 } },
+      "19": { "start": { "line": 20, "column": 0 }, "end": { "line": 20, "column": null } },
+      "20": { "start": { "line": 28, "column": 0 }, "end": { "line": 28, "column": 33 } },
+      "21": { "start": { "line": 29, "column": 0 }, "end": { "line": 29, "column": 41 } },
+      "22": { "start": { "line": 30, "column": 0 }, "end": { "line": 30, "column": 37 } },
+      "23": { "start": { "line": 32, "column": 19 }, "end": { "line": 62, "column": 9 } },
+      "24": { "start": { "line": 64, "column": 13 }, "end": { "line": 66, "column": 2 } },
+      "25": { "start": { "line": 65, "column": 2 }, "end": { "line": 65, "column": 63 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 64, "column": 51 }, "end": { "line": 64, "column": 52 } },
+        "loc": { "start": { "line": 65, "column": 2 }, "end": { "line": 65, "column": 63 } }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0
+    },
+    "f": { "0": 0 },
+    "b": {}
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/pinterest/pin.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/pinterest/pin.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 47 } },
+      "3": { "start": { "line": 11, "column": 13 }, "end": { "line": 20, "column": 2 } },
+      "4": { "start": { "line": 12, "column": 2 }, "end": { "line": 18, "column": null } },
+      "5": { "start": { "line": 12, "column": 34 }, "end": { "line": 12, "column": 56 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 11, "column": 49 }, "end": { "line": 11, "column": 50 } },
+        "loc": { "start": { "line": 12, "column": 2 }, "end": { "line": 18, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 12, "column": 28 }, "end": { "line": 12, "column": 31 } },
+        "loc": { "start": { "line": 12, "column": 34 }, "end": { "line": 12, "column": 56 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 11, "column": 66 }, "end": { "line": 11, "column": 73 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 11, "column": 66 }, "end": { "line": 11, "column": 73 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/pinterest/pinterest-board.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/pinterest/pinterest-board.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 47 } },
+      "3": { "start": { "line": 17, "column": 13 }, "end": { "line": 34, "column": 2 } },
+      "4": { "start": { "line": 24, "column": 2 }, "end": { "line": 32, "column": null } },
+      "5": { "start": { "line": 24, "column": 34 }, "end": { "line": 24, "column": 56 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 17, "column": 71 }, "end": { "line": 17, "column": 72 } },
+        "loc": { "start": { "line": 24, "column": 2 }, "end": { "line": 32, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 24, "column": 28 }, "end": { "line": 24, "column": 31 } },
+        "loc": { "start": { "line": 24, "column": 34 }, "end": { "line": 24, "column": 56 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 19, "column": 10 }, "end": { "line": 19, "column": 13 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 19, "column": 10 }, "end": { "line": 19, "column": 13 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 20, "column": 11 }, "end": { "line": 20, "column": 14 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 20, "column": 11 }, "end": { "line": 20, "column": 14 } }]
+      },
+      "2": {
+        "loc": { "start": { "line": 21, "column": 15 }, "end": { "line": 21, "column": 17 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 21, "column": 15 }, "end": { "line": 21, "column": 17 } }]
+      },
+      "3": {
+        "loc": { "start": { "line": 22, "column": 12 }, "end": { "line": 22, "column": 19 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 22, "column": 12 }, "end": { "line": 22, "column": 19 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0], "1": [0], "2": [0], "3": [0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/pinterest/pinterest-follow-button.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/pinterest/pinterest-follow-button.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 47 } },
+      "3": { "start": { "line": 9, "column": 13 }, "end": { "line": 21, "column": 2 } },
+      "4": { "start": { "line": 12, "column": 2 }, "end": { "line": 19, "column": null } },
+      "5": { "start": { "line": 12, "column": 34 }, "end": { "line": 12, "column": 56 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 9, "column": 85 }, "end": { "line": 9, "column": 86 } },
+        "loc": { "start": { "line": 12, "column": 2 }, "end": { "line": 19, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 12, "column": 28 }, "end": { "line": 12, "column": 31 } },
+        "loc": { "start": { "line": 12, "column": 34 }, "end": { "line": 12, "column": 56 } }
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": {}
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/pinterest/utils.ts": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/pinterest/utils.ts",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 46 } },
+      "1": { "start": { "line": 3, "column": 29 }, "end": { "line": 3, "column": 34 } },
+      "2": { "start": { "line": 4, "column": 33 }, "end": { "line": 4, "column": 109 } },
+      "3": { "start": { "line": 5, "column": 29 }, "end": { "line": 5, "column": 386 } },
+      "4": { "start": { "line": 7, "column": 23 }, "end": { "line": 15, "column": 1 } },
+      "5": { "start": { "line": 8, "column": 2 }, "end": { "line": 14, "column": null } },
+      "6": { "start": { "line": 13, "column": 5 }, "end": { "line": 13, "column": 37 } },
+      "7": { "start": { "line": 17, "column": 13 }, "end": { "line": 25, "column": 2 } },
+      "8": { "start": { "line": 18, "column": 2 }, "end": { "line": 23, "column": null } },
+      "9": { "start": { "line": 19, "column": 4 }, "end": { "line": 22, "column": null } },
+      "10": { "start": { "line": 20, "column": 6 }, "end": { "line": 20, "column": 50 } },
+      "11": { "start": { "line": 21, "column": 6 }, "end": { "line": 21, "column": 36 } },
+      "12": { "start": { "line": 24, "column": 2 }, "end": { "line": 24, "column": 19 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 7, "column": 23 }, "end": { "line": 7, "column": 26 } },
+        "loc": { "start": { "line": 7, "column": 28 }, "end": { "line": 15, "column": 1 } }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 17, "column": 36 }, "end": { "line": 17, "column": 39 } },
+        "loc": { "start": { "line": 17, "column": 41 }, "end": { "line": 25, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 8, "column": 2 }, "end": { "line": 14, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 8, "column": 2 }, "end": { "line": 14, "column": null } },
+          { "start": { "line": 8, "column": 2 }, "end": { "line": 14, "column": null } }
+        ]
+      },
+      "1": {
+        "loc": { "start": { "line": 9, "column": 4 }, "end": { "line": 9, "column": 51 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 9, "column": 4 }, "end": { "line": 9, "column": 51 } },
+          { "start": { "line": 10, "column": 5 }, "end": { "line": 10, "column": 28 } },
+          { "start": { "line": 11, "column": 4 }, "end": { "line": 11, "column": 56 } }
+        ]
+      },
+      "2": {
+        "loc": { "start": { "line": 18, "column": 2 }, "end": { "line": 23, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 18, "column": 2 }, "end": { "line": 23, "column": null } },
+          { "start": { "line": 18, "column": 2 }, "end": { "line": 23, "column": null } }
+        ]
+      },
+      "3": {
+        "loc": { "start": { "line": 19, "column": 4 }, "end": { "line": 22, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 19, "column": 4 }, "end": { "line": 22, "column": null } },
+          { "start": { "line": 19, "column": 4 }, "end": { "line": 22, "column": null } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "10": 0, "11": 0, "12": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0, 0], "1": [0, 0, 0], "2": [0, 0], "3": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/simplecast/simplecast-episode.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/simplecast/simplecast-episode.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 11, "column": 13 }, "end": { "line": 42, "column": 2 } },
+      "3": { "start": { "line": 15, "column": 2 }, "end": { "line": 41, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 11, "column": 77 }, "end": { "line": 11, "column": 78 } },
+        "loc": { "start": { "line": 14, "column": 30 }, "end": { "line": 42, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 13, "column": 10 }, "end": { "line": 13, "column": 17 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 13, "column": 10 }, "end": { "line": 13, "column": 17 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 27, "column": 79 }, "end": { "line": 27, "column": 91 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 27, "column": 79 }, "end": { "line": 27, "column": 91 } },
+          { "start": { "line": 27, "column": 94 }, "end": { "line": 27, "column": 96 } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0], "1": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/soundcloud/soundcloud.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/soundcloud/soundcloud.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 19, "column": 13 }, "end": { "line": 39, "column": 2 } },
+      "3": { "start": { "line": 27, "column": 2 }, "end": { "line": 37, "column": null } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 19, "column": 63 }, "end": { "line": 19, "column": 64 } },
+        "loc": { "start": { "line": 27, "column": 2 }, "end": { "line": 37, "column": null } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 21, "column": 10 }, "end": { "line": 21, "column": 16 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 21, "column": 10 }, "end": { "line": 21, "column": 16 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 22, "column": 11 }, "end": { "line": 22, "column": 17 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 22, "column": 11 }, "end": { "line": 22, "column": 17 } }]
+      },
+      "2": {
+        "loc": { "start": { "line": 23, "column": 13 }, "end": { "line": 23, "column": 18 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 23, "column": 13 }, "end": { "line": 23, "column": 18 } }]
+      },
+      "3": {
+        "loc": { "start": { "line": 24, "column": 11 }, "end": { "line": 24, "column": 16 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 24, "column": 11 }, "end": { "line": 24, "column": 16 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0], "1": [0], "2": [0], "3": [0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/spotify/spotify.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/spotify/spotify.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 12, "column": 13 }, "end": { "line": 28, "column": 2 } },
+      "3": { "start": { "line": 17, "column": 2 }, "end": { "line": 26, "column": null } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 12, "column": 57 }, "end": { "line": 12, "column": 58 } },
+        "loc": { "start": { "line": 17, "column": 2 }, "end": { "line": 26, "column": null } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 14, "column": 10 }, "end": { "line": 14, "column": 13 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 14, "column": 10 }, "end": { "line": 14, "column": 13 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 15, "column": 11 }, "end": { "line": 15, "column": 14 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 15, "column": 11 }, "end": { "line": 15, "column": 14 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0], "1": [0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/strava/strava.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/strava/strava.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 8, "column": 13 }, "end": { "line": 36, "column": 2 } },
+      "3": { "start": { "line": 9, "column": 2 }, "end": { "line": 35, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 8, "column": 55 }, "end": { "line": 8, "column": 56 } },
+        "loc": { "start": { "line": 8, "column": 88 }, "end": { "line": 36, "column": 1 } }
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0 },
+    "f": { "0": 0 },
+    "b": {}
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/tiktok/tiktok.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/tiktok/tiktok.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 43 } },
+      "3": { "start": { "line": 9, "column": 13 }, "end": { "line": 25, "column": 2 } },
+      "4": { "start": { "line": 10, "column": 2 }, "end": { "line": 24, "column": 4 } },
+      "5": { "start": { "line": 11, "column": 36 }, "end": { "line": 11, "column": 54 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 9, "column": 55 }, "end": { "line": 9, "column": 56 } },
+        "loc": { "start": { "line": 9, "column": 86 }, "end": { "line": 25, "column": 1 } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 11, "column": 30 }, "end": { "line": 11, "column": 33 } },
+        "loc": { "start": { "line": 11, "column": 36 }, "end": { "line": 11, "column": 54 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 19, "column": 72 }, "end": { "line": 19, "column": 81 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 19, "column": 72 }, "end": { "line": 19, "column": 81 } },
+          { "start": { "line": 19, "column": 84 }, "end": { "line": 19, "column": 86 } }
+        ]
+      },
+      "1": {
+        "loc": { "start": { "line": 19, "column": 13 }, "end": { "line": 19, "column": 42 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 19, "column": 13 }, "end": { "line": 19, "column": 42 } },
+          { "start": { "line": 19, "column": 46 }, "end": { "line": 19, "column": 69 } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0, 0], "1": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/tiktok/utils.ts": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/tiktok/utils.ts",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 46 } },
+      "1": { "start": { "line": 3, "column": 26 }, "end": { "line": 3, "column": 31 } },
+      "2": { "start": { "line": 4, "column": 25 }, "end": { "line": 4, "column": 40 } },
+      "3": { "start": { "line": 5, "column": 23 }, "end": { "line": 5, "column": 56 } },
+      "4": { "start": { "line": 7, "column": 13 }, "end": { "line": 14, "column": 2 } },
+      "5": { "start": { "line": 8, "column": 2 }, "end": { "line": 13, "column": null } },
+      "6": { "start": { "line": 9, "column": 4 }, "end": { "line": 12, "column": null } },
+      "7": { "start": { "line": 10, "column": 6 }, "end": { "line": 10, "column": 44 } },
+      "8": { "start": { "line": 11, "column": 6 }, "end": { "line": 11, "column": 33 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 7, "column": 32 }, "end": { "line": 7, "column": 35 } },
+        "loc": { "start": { "line": 7, "column": 37 }, "end": { "line": 14, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 8, "column": 2 }, "end": { "line": 13, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 8, "column": 2 }, "end": { "line": 13, "column": null } },
+          { "start": { "line": 8, "column": 2 }, "end": { "line": 13, "column": null } }
+        ]
+      },
+      "1": {
+        "loc": { "start": { "line": 9, "column": 4 }, "end": { "line": 12, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 9, "column": 4 }, "end": { "line": 12, "column": null } },
+          { "start": { "line": 9, "column": 4 }, "end": { "line": 12, "column": null } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0, 0], "1": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitch/twitch.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitch/twitch.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 41 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 54 } },
+      "3": { "start": { "line": 4, "column": 0 }, "end": { "line": 4, "column": 45 } },
+      "4": { "start": { "line": 25, "column": 13 }, "end": { "line": 65, "column": 2 } },
+      "5": { "start": { "line": 33, "column": 22 }, "end": { "line": 33, "column": 28 } },
+      "6": { "start": { "line": 34, "column": 16 }, "end": { "line": 34, "column": 58 } },
+      "7": { "start": { "line": 35, "column": 18 }, "end": { "line": 35, "column": 101 } },
+      "8": { "start": { "line": 36, "column": 28 }, "end": { "line": 36, "column": 86 } },
+      "9": { "start": { "line": 38, "column": 2 }, "end": { "line": 64, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 25, "column": 55 }, "end": { "line": 25, "column": 56 } },
+        "loc": { "start": { "line": 32, "column": 19 }, "end": { "line": 65, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 28, "column": 13 }, "end": { "line": 28, "column": 18 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 28, "column": 13 }, "end": { "line": 28, "column": 18 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 29, "column": 11 }, "end": { "line": 29, "column": 31 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 29, "column": 11 }, "end": { "line": 29, "column": 31 } }]
+      },
+      "2": {
+        "loc": { "start": { "line": 30, "column": 12 }, "end": { "line": 30, "column": 14 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 30, "column": 12 }, "end": { "line": 30, "column": 14 } }]
+      },
+      "3": {
+        "loc": { "start": { "line": 31, "column": 15 }, "end": { "line": 31, "column": 17 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 31, "column": 15 }, "end": { "line": 31, "column": 17 } }]
+      },
+      "4": {
+        "loc": { "start": { "line": 34, "column": 27 }, "end": { "line": 34, "column": 47 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 34, "column": 27 }, "end": { "line": 34, "column": 47 } },
+          { "start": { "line": 34, "column": 50 }, "end": { "line": 34, "column": 58 } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0], "1": [0], "2": [0], "3": [0], "4": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitch/utils.ts": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitch/utils.ts",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 44 } },
+      "1": { "start": { "line": 4, "column": 20 }, "end": { "line": 4, "column": 29 } },
+      "2": { "start": { "line": 6, "column": 2 }, "end": { "line": 12, "column": null } },
+      "3": { "start": { "line": 7, "column": 4 }, "end": { "line": 7, "column": 42 } },
+      "4": { "start": { "line": 8, "column": 9 }, "end": { "line": 12, "column": null } },
+      "5": { "start": { "line": 9, "column": 4 }, "end": { "line": 9, "column": 42 } },
+      "6": { "start": { "line": 10, "column": 9 }, "end": { "line": 12, "column": null } },
+      "7": { "start": { "line": 11, "column": 4 }, "end": { "line": 11, "column": 48 } },
+      "8": { "start": { "line": 14, "column": 2 }, "end": { "line": 14, "column": 28 } },
+      "9": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 16 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "constructTwitchURL",
+        "decl": { "start": { "line": 3, "column": 16 }, "end": { "line": 3, "column": 34 } },
+        "loc": { "start": { "line": 3, "column": 109 }, "end": { "line": 15, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 6, "column": 2 }, "end": { "line": 12, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 6, "column": 2 }, "end": { "line": 12, "column": null } },
+          { "start": { "line": 6, "column": 2 }, "end": { "line": 12, "column": null } }
+        ]
+      },
+      "1": {
+        "loc": { "start": { "line": 8, "column": 9 }, "end": { "line": 12, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 8, "column": 9 }, "end": { "line": 12, "column": null } },
+          { "start": { "line": 8, "column": 9 }, "end": { "line": 12, "column": null } }
+        ]
+      },
+      "2": {
+        "loc": { "start": { "line": 10, "column": 9 }, "end": { "line": 12, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 10, "column": 9 }, "end": { "line": 12, "column": null } },
+          { "start": { "line": 10, "column": 9 }, "end": { "line": 12, "column": null } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/tweet.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/tweet.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 42 } },
+      "3": { "start": { "line": 16, "column": 13 }, "end": { "line": 36, "column": 2 } },
+      "4": { "start": { "line": 22, "column": 2 }, "end": { "line": 34, "column": null } },
+      "5": { "start": { "line": 22, "column": 34 }, "end": { "line": 22, "column": 51 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 16, "column": 53 }, "end": { "line": 16, "column": 54 } },
+        "loc": { "start": { "line": 22, "column": 2 }, "end": { "line": 34, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 22, "column": 28 }, "end": { "line": 22, "column": 31 } },
+        "loc": { "start": { "line": 22, "column": 34 }, "end": { "line": 22, "column": 51 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 18, "column": 10 }, "end": { "line": 18, "column": 17 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 18, "column": 10 }, "end": { "line": 18, "column": 17 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 19, "column": 10 }, "end": { "line": 19, "column": 16 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 19, "column": 10 }, "end": { "line": 19, "column": 16 } }]
+      },
+      "2": {
+        "loc": { "start": { "line": 20, "column": 21 }, "end": { "line": 20, "column": 26 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 20, "column": 21 }, "end": { "line": 20, "column": 26 } }]
+      },
+      "3": {
+        "loc": { "start": { "line": 28, "column": 46 }, "end": { "line": 28, "column": 52 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 28, "column": 46 }, "end": { "line": 28, "column": 52 } },
+          { "start": { "line": 28, "column": 55 }, "end": { "line": 28, "column": 57 } }
+        ]
+      },
+      "4": {
+        "loc": { "start": { "line": 31, "column": 69 }, "end": { "line": 31, "column": 78 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 31, "column": 69 }, "end": { "line": 31, "column": 78 } },
+          { "start": { "line": 31, "column": 81 }, "end": { "line": 31, "column": 83 } }
+        ]
+      },
+      "5": {
+        "loc": { "start": { "line": 31, "column": 11 }, "end": { "line": 31, "column": 40 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 31, "column": 11 }, "end": { "line": 31, "column": 40 } },
+          { "start": { "line": 31, "column": 44 }, "end": { "line": 31, "column": 66 } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0], "1": [0], "2": [0], "3": [0, 0], "4": [0, 0], "5": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/twitter-follow-button.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/twitter-follow-button.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 42 } },
+      "3": { "start": { "line": 15, "column": 13 }, "end": { "line": 30, "column": 2 } },
+      "4": { "start": { "line": 21, "column": 2 }, "end": { "line": 28, "column": null } },
+      "5": { "start": { "line": 21, "column": 34 }, "end": { "line": 21, "column": 51 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 15, "column": 81 }, "end": { "line": 15, "column": 82 } },
+        "loc": { "start": { "line": 21, "column": 2 }, "end": { "line": 28, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 21, "column": 28 }, "end": { "line": 21, "column": 31 } },
+        "loc": { "start": { "line": 21, "column": 34 }, "end": { "line": 21, "column": 51 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 17, "column": 18 }, "end": { "line": 17, "column": 23 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 17, "column": 18 }, "end": { "line": 17, "column": 23 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 18, "column": 17 }, "end": { "line": 18, "column": 21 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 18, "column": 17 }, "end": { "line": 18, "column": 21 } }]
+      },
+      "2": {
+        "loc": { "start": { "line": 19, "column": 9 }, "end": { "line": 19, "column": 16 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 19, "column": 9 }, "end": { "line": 19, "column": 16 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0], "1": [0], "2": [0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/twitter-hashtag-button.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/twitter-hashtag-button.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 42 } },
+      "3": { "start": { "line": 11, "column": 13 }, "end": { "line": 22, "column": 2 } },
+      "4": { "start": { "line": 15, "column": 2 }, "end": { "line": 20, "column": null } },
+      "5": { "start": { "line": 15, "column": 34 }, "end": { "line": 15, "column": 51 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 11, "column": 83 }, "end": { "line": 11, "column": 84 } },
+        "loc": { "start": { "line": 15, "column": 2 }, "end": { "line": 20, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 15, "column": 28 }, "end": { "line": 15, "column": 31 } },
+        "loc": { "start": { "line": 15, "column": 34 }, "end": { "line": 15, "column": 51 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 13, "column": 9 }, "end": { "line": 13, "column": 16 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 13, "column": 9 }, "end": { "line": 13, "column": 16 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/twitter-list.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/twitter-list.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 42 } },
+      "3": { "start": { "line": 17, "column": 13 }, "end": { "line": 37, "column": 2 } },
+      "4": { "start": { "line": 24, "column": 2 }, "end": { "line": 35, "column": null } },
+      "5": { "start": { "line": 24, "column": 34 }, "end": { "line": 24, "column": 51 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 17, "column": 65 }, "end": { "line": 17, "column": 66 } },
+        "loc": { "start": { "line": 24, "column": 2 }, "end": { "line": 35, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 24, "column": 28 }, "end": { "line": 24, "column": 31 } },
+        "loc": { "start": { "line": 24, "column": 34 }, "end": { "line": 24, "column": 51 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 19, "column": 10 }, "end": { "line": 19, "column": 17 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 19, "column": 10 }, "end": { "line": 19, "column": 17 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 21, "column": 10 }, "end": { "line": 21, "column": 17 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 21, "column": 10 }, "end": { "line": 21, "column": 17 } }]
+      },
+      "2": {
+        "loc": { "start": { "line": 22, "column": 11 }, "end": { "line": 22, "column": 15 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 22, "column": 11 }, "end": { "line": 22, "column": 15 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0], "1": [0], "2": [0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/twitter-mention-button.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/twitter-mention-button.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 42 } },
+      "3": { "start": { "line": 11, "column": 13 }, "end": { "line": 22, "column": 2 } },
+      "4": { "start": { "line": 15, "column": 2 }, "end": { "line": 20, "column": null } },
+      "5": { "start": { "line": 15, "column": 34 }, "end": { "line": 15, "column": 51 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 11, "column": 83 }, "end": { "line": 11, "column": 84 } },
+        "loc": { "start": { "line": 15, "column": 2 }, "end": { "line": 20, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 15, "column": 28 }, "end": { "line": 15, "column": 31 } },
+        "loc": { "start": { "line": 15, "column": 34 }, "end": { "line": 15, "column": 51 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 13, "column": 9 }, "end": { "line": 13, "column": 16 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 13, "column": 9 }, "end": { "line": 13, "column": 16 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/twitter-timeline.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/twitter-timeline.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 42 } },
+      "3": { "start": { "line": 17, "column": 13 }, "end": { "line": 37, "column": 2 } },
+      "4": { "start": { "line": 24, "column": 2 }, "end": { "line": 35, "column": null } },
+      "5": { "start": { "line": 24, "column": 34 }, "end": { "line": 24, "column": 51 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 17, "column": 73 }, "end": { "line": 17, "column": 74 } },
+        "loc": { "start": { "line": 24, "column": 2 }, "end": { "line": 35, "column": null } }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 24, "column": 28 }, "end": { "line": 24, "column": 31 } },
+        "loc": { "start": { "line": 24, "column": 34 }, "end": { "line": 24, "column": 51 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 19, "column": 10 }, "end": { "line": 19, "column": 17 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 19, "column": 10 }, "end": { "line": 19, "column": 17 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 20, "column": 14 }, "end": { "line": 20, "column": 18 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 20, "column": 14 }, "end": { "line": 20, "column": 18 } }]
+      },
+      "2": {
+        "loc": { "start": { "line": 21, "column": 10 }, "end": { "line": 21, "column": 17 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 21, "column": 10 }, "end": { "line": 21, "column": 17 } }]
+      },
+      "3": {
+        "loc": { "start": { "line": 22, "column": 11 }, "end": { "line": 22, "column": 15 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 22, "column": 11 }, "end": { "line": 22, "column": 15 } }]
+      },
+      "4": {
+        "loc": { "start": { "line": 31, "column": 60 }, "end": { "line": 31, "column": 68 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 31, "column": 60 }, "end": { "line": 31, "column": 68 } },
+          { "start": { "line": 31, "column": 71 }, "end": { "line": 31, "column": 73 } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0], "1": [0], "2": [0], "3": [0], "4": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/utils.ts": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/twitter/utils.ts",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 46 } },
+      "1": { "start": { "line": 3, "column": 25 }, "end": { "line": 3, "column": 30 } },
+      "2": { "start": { "line": 5, "column": 13 }, "end": { "line": 11, "column": 12 } },
+      "3": { "start": { "line": 13, "column": 25 }, "end": { "line": 15, "column": 2 } },
+      "4": { "start": { "line": 17, "column": 18 }, "end": { "line": 25, "column": 1 } },
+      "5": { "start": { "line": 18, "column": 2 }, "end": { "line": 24, "column": null } },
+      "6": { "start": { "line": 23, "column": 5 }, "end": { "line": 23, "column": 77 } },
+      "7": { "start": { "line": 27, "column": 13 }, "end": { "line": 35, "column": 2 } },
+      "8": { "start": { "line": 28, "column": 2 }, "end": { "line": 33, "column": null } },
+      "9": { "start": { "line": 29, "column": 4 }, "end": { "line": 32, "column": null } },
+      "10": { "start": { "line": 30, "column": 6 }, "end": { "line": 30, "column": 46 } },
+      "11": { "start": { "line": 31, "column": 6 }, "end": { "line": 31, "column": 32 } },
+      "12": { "start": { "line": 34, "column": 2 }, "end": { "line": 34, "column": 14 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 17, "column": 18 }, "end": { "line": 17, "column": 21 } },
+        "loc": { "start": { "line": 17, "column": 23 }, "end": { "line": 25, "column": 1 } }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 27, "column": 31 }, "end": { "line": 27, "column": 34 } },
+        "loc": { "start": { "line": 27, "column": 36 }, "end": { "line": 35, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 18, "column": 2 }, "end": { "line": 24, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 18, "column": 2 }, "end": { "line": 24, "column": null } },
+          { "start": { "line": 18, "column": 2 }, "end": { "line": 24, "column": null } }
+        ]
+      },
+      "1": {
+        "loc": { "start": { "line": 19, "column": 4 }, "end": { "line": 19, "column": 48 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 19, "column": 4 }, "end": { "line": 19, "column": 48 } },
+          { "start": { "line": 20, "column": 5 }, "end": { "line": 20, "column": 33 } },
+          { "start": { "line": 21, "column": 4 }, "end": { "line": 21, "column": 60 } }
+        ]
+      },
+      "2": {
+        "loc": { "start": { "line": 28, "column": 2 }, "end": { "line": 33, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 28, "column": 2 }, "end": { "line": 33, "column": null } },
+          { "start": { "line": 28, "column": 2 }, "end": { "line": 33, "column": null } }
+        ]
+      },
+      "3": {
+        "loc": { "start": { "line": 29, "column": 4 }, "end": { "line": 32, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 29, "column": 4 }, "end": { "line": 32, "column": null } },
+          { "start": { "line": 29, "column": 4 }, "end": { "line": 32, "column": null } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "10": 0, "11": 0, "12": 0 },
+    "f": { "0": 0, "1": 0 },
+    "b": { "0": [0, 0], "1": [0, 0, 0], "2": [0, 0], "3": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/vimeo/vimeo.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/vimeo/vimeo.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 41 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 54 } },
+      "3": { "start": { "line": 18, "column": 13 }, "end": { "line": 52, "column": 2 } },
+      "4": { "start": { "line": 23, "column": 22 }, "end": { "line": 23, "column": 28 } },
+      "5": { "start": { "line": 25, "column": 2 }, "end": { "line": 51, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 18, "column": 53 }, "end": { "line": 18, "column": 54 } },
+        "loc": { "start": { "line": 22, "column": 18 }, "end": { "line": 52, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 20, "column": 13 }, "end": { "line": 20, "column": 18 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 20, "column": 13 }, "end": { "line": 20, "column": 18 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 21, "column": 11 }, "end": { "line": 21, "column": 31 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 21, "column": 11 }, "end": { "line": 21, "column": 31 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0], "1": [0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/wikipedia/wikipedia.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/wikipedia/wikipedia.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 70 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 54 } },
+      "2": { "start": { "line": 19, "column": 13 }, "end": { "line": 65, "column": 2 } },
+      "3": { "start": { "line": 20, "column": 42 }, "end": { "line": 24, "column": 4 } },
+      "4": { "start": { "line": 26, "column": 28 }, "end": { "line": 26, "column": 93 } },
+      "5": { "start": { "line": 28, "column": 2 }, "end": { "line": 47, "column": 26 } },
+      "6": { "start": { "line": 29, "column": 4 }, "end": { "line": 46, "column": 9 } },
+      "7": { "start": { "line": 30, "column": 26 }, "end": { "line": 30, "column": 41 } },
+      "8": { "start": { "line": 32, "column": 8 }, "end": { "line": 38, "column": null } },
+      "9": { "start": { "line": 33, "column": 10 }, "end": { "line": 37, "column": 13 } },
+      "10": { "start": { "line": 40, "column": 8 }, "end": { "line": 45, "column": null } },
+      "11": { "start": { "line": 41, "column": 10 }, "end": { "line": 44, "column": 13 } },
+      "12": { "start": { "line": 49, "column": 2 }, "end": { "line": 64, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_6)",
+        "decl": { "start": { "line": 19, "column": 61 }, "end": { "line": 19, "column": 62 } },
+        "loc": { "start": { "line": 19, "column": 114 }, "end": { "line": 65, "column": 1 } }
+      },
+      "1": {
+        "name": "(anonymous_7)",
+        "decl": { "start": { "line": 28, "column": 12 }, "end": { "line": 28, "column": 15 } },
+        "loc": { "start": { "line": 28, "column": 17 }, "end": { "line": 47, "column": 3 } }
+      },
+      "2": {
+        "name": "(anonymous_8)",
+        "decl": { "start": { "line": 30, "column": 12 }, "end": { "line": 30, "column": 13 } },
+        "loc": { "start": { "line": 30, "column": 26 }, "end": { "line": 30, "column": 41 } }
+      },
+      "3": {
+        "name": "(anonymous_9)",
+        "decl": { "start": { "line": 31, "column": 12 }, "end": { "line": 31, "column": 13 } },
+        "loc": { "start": { "line": 31, "column": 25 }, "end": { "line": 46, "column": 7 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 19, "column": 88 }, "end": { "line": 19, "column": 91 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 19, "column": 88 }, "end": { "line": 19, "column": 91 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 32, "column": 8 }, "end": { "line": 38, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 32, "column": 8 }, "end": { "line": 38, "column": null } },
+          { "start": { "line": 32, "column": 8 }, "end": { "line": 38, "column": null } }
+        ]
+      },
+      "2": {
+        "loc": { "start": { "line": 40, "column": 8 }, "end": { "line": 45, "column": null } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 40, "column": 8 }, "end": { "line": 45, "column": null } },
+          { "start": { "line": 40, "column": 8 }, "end": { "line": 45, "column": null } }
+        ]
+      },
+      "3": {
+        "loc": { "start": { "line": 51, "column": 7 }, "end": { "line": 51, "column": 30 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 51, "column": 7 }, "end": { "line": 51, "column": 30 } },
+          { "start": { "line": 52, "column": 8 }, "end": { "line": 60, "column": null } }
+        ]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "10": 0, "11": 0, "12": 0 },
+    "f": { "0": 0, "1": 0, "2": 0, "3": 0 },
+    "b": { "0": [0], "1": [0, 0], "2": [0, 0], "3": [0, 0] }
+  },
+  "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/youtube/youtube.tsx": {
+    "path": "/Users/paulscanlon/Desktop/_development/mdx-embed/packages/mdx-embed/src/components/youtube/youtube.tsx",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 0 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 0 }, "end": { "line": 2, "column": 41 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 54 } },
+      "3": { "start": { "line": 20, "column": 13 }, "end": { "line": 60, "column": 2 } },
+      "4": { "start": { "line": 26, "column": 22 }, "end": { "line": 26, "column": 28 } },
+      "5": { "start": { "line": 28, "column": 13 }, "end": { "line": 28, "column": 20 } },
+      "6": { "start": { "line": 29, "column": 13 }, "end": { "line": 29, "column": 19 } },
+      "7": { "start": { "line": 31, "column": 20 }, "end": { "line": 31, "column": 31 } },
+      "8": { "start": { "line": 33, "column": 2 }, "end": { "line": 59, "column": 4 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 20, "column": 57 }, "end": { "line": 20, "column": 58 } },
+        "loc": { "start": { "line": 25, "column": 20 }, "end": { "line": 60, "column": 1 } }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 22, "column": 16 }, "end": { "line": 22, "column": 22 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 22, "column": 16 }, "end": { "line": 22, "column": 22 } }]
+      },
+      "1": {
+        "loc": { "start": { "line": 23, "column": 13 }, "end": { "line": 23, "column": 18 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 23, "column": 13 }, "end": { "line": 23, "column": 18 } }]
+      },
+      "2": {
+        "loc": { "start": { "line": 24, "column": 11 }, "end": { "line": 24, "column": 31 } },
+        "type": "default-arg",
+        "locations": [{ "start": { "line": 24, "column": 11 }, "end": { "line": 24, "column": 31 } }]
+      }
+    },
+    "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0 },
+    "f": { "0": 0 },
+    "b": { "0": [0], "1": [0], "2": [0] }
+  }
+}
