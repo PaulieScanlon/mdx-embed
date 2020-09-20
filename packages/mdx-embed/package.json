@@ -14,7 +14,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:codecov": "npm run test:coverage && codecov"
+    "test:codecov": "npm run test:coverage && codecov -t 85dbf1e3-748b-4f9a-928d-b5eb42d26a03"
   },
   "husky": {
     "hooks": {
