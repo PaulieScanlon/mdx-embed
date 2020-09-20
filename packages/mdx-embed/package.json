@@ -13,7 +13,8 @@
     "develop": "babel -d dist src --extensions=\".ts,.tsx\" -w",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "test:codecov": "npm run test:coverage && codecov -t 85dbf1e3-748b-4f9a-928d-b5eb42d26a03"
   },
   "husky": {
     "hooks": {
@@ -60,6 +61,7 @@
     "@types/testing-library__react": "^10.2.0",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "@typescript-eslint/parser": "^3.10.1",
+    "codecov": "^3.7.2",
     "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-react": "^7.20.6",

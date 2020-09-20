@@ -2,6 +2,7 @@ version: 2.1
 orbs:
   node: circleci/node@4.0.0
   cypress: cypress-io/cypress@1.16.1
+  codecov: codecov/codecov@1.1.1
 
 jobs:
   run-build:
@@ -20,9 +21,21 @@ jobs:
       - run: yarn install
       - run: yarn test -u
 
+  collect-coverage:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - run: yarn install
+      - run: yarn test:codecov
+      - codecov/upload:
+          file: './packages/mdx-embed/coverage/clover.xml'
+          token: 85dbf1e3-748b-4f9a-928d-b5eb42d26a03
+
 workflows:
   all-the-things:
     jobs:
+      - collect-coverage
       - run-build
       - run-unit-tests
       - cypress/install:
