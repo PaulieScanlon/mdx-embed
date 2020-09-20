@@ -8,6 +8,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install and Make
-          command: npm install && make test-coverage
+          name: collect-coverage
+          yarn: true
+          command: yarn install && make test-coverage
       - coveralls/upload
