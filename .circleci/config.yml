@@ -1,46 +1,13 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.0.0
-  cypress: cypress-io/cypress@1.16.1
-  coveralls: coveralls/coveralls@x.y.z
-
+  coveralls: coveralls/coveralls@1.0.6
 jobs:
-  run-build:
-    executor:
-      name: node/default
+  build:
+    docker:
+      - image: 'circleci/node:10.0.0'
     steps:
       - checkout
-      - run: yarn install
-      - run: yarn build
-
-  run-unit-tests:
-    executor:
-      name: node/default
-    steps:
-      - checkout
-      - run: yarn install
-      - run: yarn test -u
-
-  run-coverage:
-    - checkout
-    - run:
-        command: yarn install && make test:coverage
-    - coveralls/upload
-
-workflows:
-  all-the-things:
-    jobs:
-      - run-build
-      - run-unit-tests
-      - run-coverage
-      - cypress/install:
-          name: cypress-install
-          yarn: true
-      - cypress/run:
-          name: start-storybook-and-test
-          yarn: true
-          build: yarn build
-          requires:
-            - cypress-install
-          start: yarn storybook
-          wait-on: 'http://localhost:6006'
+      - run:
+          name: Install and Make
+          command: npm install && make test-coverage
+      - coveralls/upload
