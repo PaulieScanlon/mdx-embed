@@ -8,22 +8,19 @@ export default {
     grey: '#333333',
   },
   fonts: {
-    body: 'system-ui, sans-serif',
-    heading: 'system-ui, sans-serif',
-    monospace: '"Roboto Mono", Menlo, monospace',
+    body:
+      '"Nunito Sans",-apple-system,".SFNSText-Regular","San Francisco",BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif',
   },
   fontSizes: {
-    body: '1.1em',
+    body: '14px',
   },
   fontWeight: {
     body: 400,
-    heading: 800,
   },
   lineHeight: {
-    body: '1.6em',
-    heading: 'normal',
+    body: '24px',
   },
-  space: [0, 4, 8, 16, 24],
+
   styles: {
     p: {
       variant: 'text.default',
@@ -31,17 +28,6 @@ export default {
     a: {
       color: 'secondary',
       variant: 'text.default',
-    },
-    hr: {
-      my: 2,
-      borderColor: 'transparent',
-    },
-    ul: {
-      variant: 'text.default',
-    },
-
-    li: {
-      fontSize: 'body',
     },
   },
   text: {
@@ -62,17 +48,6 @@ export default {
         color: 'rgba(51,51,51,0.9)',
         backgroundColor: '#F8F8F8',
       },
-    },
-    heading: {},
-  },
-  buttons: {
-    default: {
-      cursor: 'pointer',
-      fontFamily: 'body',
-      borderRadius: 0,
-    },
-    primary: {
-      variant: 'buttons.default',
     },
   },
 };

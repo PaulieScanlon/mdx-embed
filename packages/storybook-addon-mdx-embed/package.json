@@ -1,0 +1,44 @@
+{
+  "name": "storybook-addon-mdx-embed",
+  "version": "0.0.2",
+  "description": "Embed 3rd party media content in MDX - no import required",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/mdx-embed.git"
+  },
+  "author": "Paul Scanlon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/mdx-embed/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
+  "keywords": [
+    "addon",
+    "react",
+    "storybook",
+    "mdx",
+    "mdx-embed"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@storybook/addon-docs": "^6.0.0",
+    "@storybook/addons": "^6.0.0",
+    "@storybook/react": "^6.0.0",
+    "mdx-embed": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4"
+  }
+}

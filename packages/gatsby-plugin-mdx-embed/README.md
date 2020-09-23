@@ -1,6 +1,7 @@
 # Gatsby Plugin MDX Embed
 
-Gatsby Plugin MDX Embed allows you to easily _embed_ popular 3rd party media content such as YouTube videos, Tweets, Instagram posts and many more straight into your `.mdx` - **no import required!**
+Gatsby Plugin MDX Embed allows you to easily _embed_ popular 3rd party media content such as YouTube videos, Tweets,
+Instagram posts and many more straight into your `.mdx` - **no import required!**
 
 [https://mdx-embed.com/](https://www.mdx-embed.com/)
 
@@ -25,7 +26,9 @@ module.exports = {
 
 ### Alternatively
 
-The Gatsby plugin works by wrapping the Gatsby "Root Element" with the `MDXEmbedProvider`. If you encounter any issues with the plugin you could try manually including the `MDXEmbedProvider` in your project by adding the following to `gatsby-browser.js` and/or `gatsby-ssr.js`
+The Gatsby plugin works by wrapping the Gatsby "Root Element" with the `MDXEmbedProvider`. If you encounter any issues
+with the plugin you could try manually including the `MDXEmbedProvider` in your project by adding the following to
+`gatsby-browser.js` and/or `gatsby-ssr.js`
 
 ```javascript
 // gatsby-browser.js || gatsby-ssr.js
@@ -67,4 +70,5 @@ module.exports = {
 }
 ```
 
-For more information about how to install the plugin please see the [docs](https://www.mdx-embed.com/?path=/docs/gatsby-plugin--page)
+For more information about how to install the plugin please see the
+[docs](https://www.mdx-embed.com/?path=/docs/gatsby-plugin--page)
