@@ -50,4 +50,4 @@ export const parameters = {
 ```
 
 For more information about how to install the package please see the
-[docs](https://www.mdx-embed.com/?path=/docs/install--page)
+[docs](https://www.mdx-embed.com/?path=/docs/storybook-addon--page)
