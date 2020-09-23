@@ -1,0 +1,45 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="storybook-addon" />
+
+# Storybook Addon Install
+
+```sh
+npm install mdx-embed storybook-addon-mdx-embed --save
+```
+
+### Setup
+
+Add `storybook-addon-mdx-embed` to your `addons` array in `main.js`
+
+```javascript
+// main.js
+module.exports = {
+ ...
+  addons: ['storybook-addon-mdx-embed']
+};
+
+```
+
+### Alternatively
+
+The plugin works by using Storybooks' parameters export and wrapping the docs children with the `MDXEmbedProvider`.
+
+If you encounter any issues with the addon you could try manually including the `MDXEmbedProvider` in you project. Ensure you have removed the addon from your dependencies and addons array in `main.js` then add the following to `preview.js`
+
+```javascript
+// preview.js
+import React from 'react';
+import { DocsContainer } from '@storybook/addon-docs/blocks';
+import { MDXEmbedProvider } from 'mdx-embed';
+
+export const parameters = {
+  docs: {
+    container: ({ children, context }) => (
+      <DocsContainer context={context}>
+        <MDXEmbedProvider>{children}</MDXEmbedProvider>
+      </DocsContainer>
+    ),
+  },
+};
+```

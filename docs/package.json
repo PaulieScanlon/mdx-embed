@@ -28,6 +28,8 @@
   "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
   "dependencies": {
     "emotion-theming": "^10.0.27",
+    "mdx-embed": "*",
+    "storybook-addon-mdx-embed": "*",
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {

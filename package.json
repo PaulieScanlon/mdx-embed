@@ -9,7 +9,7 @@
     "test:coverage": "yarn workspace mdx-embed test:coverage",
     "test:codecov": "yarn workspace mdx-embed test:codecov",
     "develop": "yarn workspace mdx-embed develop",
-    "build": "yarn workspace mdx-embed build",
+    "build": "yarn workspace mdx-embed build && yarn workspace storybook-addon-mdx-embed build",
     "storybook": "yarn workspace docs storybook",
     "storybook:build": "yarn workspace docs storybook:build",
     "gatsby-demo:develop": "yarn workspace gatsby-demo develop",
