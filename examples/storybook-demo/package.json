@@ -13,8 +13,11 @@
     "url": "git+https://github.com/PaulieScanlon/mdx-embed.git"
   },
   "keywords": [
-    "gatsby",
-    "mdx"
+    "addon",
+    "react",
+    "storybook",
+    "mdx",
+    "mdx-embed"
   ],
   "author": "Paul Scanlon",
   "license": "MIT",
