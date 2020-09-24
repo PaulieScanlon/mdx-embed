@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "develop": "start-storybook -p 6006 --ci",
+    "build": "build-storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

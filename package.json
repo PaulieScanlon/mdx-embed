@@ -19,6 +19,7 @@
     "next-mdx-deck-demo:start": "yarn workspace next-mdx-deck-demo start",
     "next-mdx-demo:develop": "yarn workspace next-mdx-demo dev",
     "storybook-demo:develop": "yarn workspace storybook-demo develop",
+    "storybook-demo:build": "yarn workspace storybook-demo build",
     "deploy": "yarn workspace docs deploy",
     "cy:test": "start-server-and-test 'yarn storybook' http-get://localhost:6006 'yarn cypress open'"
   },
