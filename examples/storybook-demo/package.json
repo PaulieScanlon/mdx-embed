@@ -1,0 +1,35 @@
+{
+  "name": "storybook-demo",
+  "version": "1.0.0",
+  "description": "An example Storybook for MDX Embed",
+  "main": "index.js",
+  "scripts": {
+    "develop": "start-storybook -p 6006 --ci",
+    "build": "build-storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/mdx-embed.git"
+  },
+  "keywords": [
+    "addon",
+    "react",
+    "storybook",
+    "mdx",
+    "mdx-embed"
+  ],
+  "author": "Paul Scanlon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/mdx-embed/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
+  "dependencies": {
+    "@storybook/addon-docs": "^6.0.0",
+    "@storybook/addons": "^6.0.0",
+    "@storybook/react": "^6.0.0",
+    "mdx-embed": "*",
+    "storybook-addon-mdx-embed": "*"
+  }
+}
