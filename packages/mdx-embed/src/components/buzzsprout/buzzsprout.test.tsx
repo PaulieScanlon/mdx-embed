@@ -15,4 +15,9 @@ describe('<Buzzsprout />', () => {
 
     expect(screen.getByTestId('buzzsprout')).toBeDefined();
   });
+  test('it not render the component with wrong id', () => {
+    const buzzsproutId = '1172/5581075-some-text';
+    render(<Buzzsprout buzzsproutId={buzzsproutId} />);
+    expect(screen.queryByTestId('buzzsprout')).toBeNull();
+  });
 });
