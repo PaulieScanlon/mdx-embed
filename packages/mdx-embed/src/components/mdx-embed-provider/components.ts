@@ -1,5 +1,5 @@
 import { AirtableBase, AirtableForm } from '../airtable';
-import { Buzzprout } from '../buzzprout';
+import { Buzzsprout } from '../buzzsprout';
 import { Cinnamon } from '../cinnamon';
 import { CodePen } from '../codepen';
 import { CodeSandbox } from '../codesandbox';
@@ -30,7 +30,7 @@ import { YouTube } from '../youtube';
 export const components = {
   AirtableBase,
   AirtableForm,
-  Buzzprout,
+  Buzzsprout,
   Cinnamon,
   CodePen,
   CodeSandbox,

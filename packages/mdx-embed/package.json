@@ -78,5 +78,9 @@
     "@mdx-js/react": "^1.6.16",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   }
 }
