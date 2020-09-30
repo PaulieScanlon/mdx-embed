@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "prettier": "yarn workspace mdx-embed prettier && yarn workspace gatsby-plugin-mdx-embed prettier && yarn workspace docs prettier",
     "lint": "yarn workspace mdx-embed lint",
     "lint:fix": "yarn workspace mdx-embed lint:fix",
