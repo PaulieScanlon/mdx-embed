@@ -50,6 +50,7 @@ export const Wikipedia: FunctionComponent<IWikipediaProps> = ({ wikipediaLink, h
     <GeneralObserver>
       {!wikiResponse.isLoading && (
         <iframe
+          data-testid="wikipedia"
           className="wikipedia-mdx-embed"
           title={wikipediaLink}
           frameBorder="0"
