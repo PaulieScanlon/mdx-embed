@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { GeneralObserver } from '../general-observer';
 
 export interface IBuzzsproutProps {
-  /* Buzzprout id: podcastId/episodeId`*/
+  /* Buzzsprout id: podcastId/episodeId`*/
   buzzsproutId: string;
   /* width of the iframe: default to 100% */
   width?: string;
