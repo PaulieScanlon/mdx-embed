@@ -1,20 +1,28 @@
 import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
 
-import { Buzzprout } from '../../../packages/mdx-embed/src/components/buzzprout';
+import { Buzzsprout } from '../../../packages/mdx-embed/src/components/buzzsprout';
 
-<Meta title="Components/Buzzprout" component={Buzzprout} />
+<Meta title="Components/Buzzsprout" component={Buzzsprout} />
 
-# Buzzprout
+# Buzzsprout
 
-Display a Buzzprout podcast by including the component in your `.mdx`. The `buzzproutId` prop is required.
+Display a Buzzsprout podcast by including the component in your `.mdx`. The `buzzsproutId` prop is required.
 
-<ArgsTable of={Buzzprout} />
+<ArgsTable of={Buzzsprout} />
 
 ## Usage
 
 <Canvas>
   <Story name="usage">
-    <Buzzprout buzzproutId="1081172/4728410-react-hooks" />
+    <Buzzsprout buzzsproutId="1081172/4728410-react-hooks" />
+  </Story>
+</Canvas>
+
+## Wrong Usage
+
+<Canvas>
+  <Story name="wrongUsage">
+    <Buzzsprout buzzsproutId="81172/478410-react-hooks" />
   </Story>
 </Canvas>
 
@@ -22,7 +30,7 @@ Display a Buzzprout podcast by including the component in your `.mdx`. The `buzz
 
 <Story name="help" />
 
-To embed a Buzzprout podcast episode player using the `<Buzzprout />` component grab the `buzzproutId` and episodeId from the URL.
+To embed a Buzzsprout podcast episode player using the `<Buzzsprout />` component grab the `buzzsproutId` and episodeId from the URL.
 
 It should be everything after https://www.buzzsprout.com
 
@@ -30,7 +38,7 @@ It should be everything after https://www.buzzsprout.com
 https://www.buzzsprout.com/1081172/4728410-react-hooks
 ```
 
-The `buzzproutId` is this bit.
+The `buzzsproutId` is this bit.
 
 ```
 1081172/4728410-react-hooks
@@ -39,5 +47,5 @@ The `buzzproutId` is this bit.
 Then use it in the component like this.
 
 ```jsx
-<Buzzprout buzzproutId="1081172/4728410-react-hooks" />
+<Buzzsprout buzzsproutId="1081172/4728410-react-hooks" />
 ```

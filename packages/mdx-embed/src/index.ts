@@ -1,6 +1,6 @@
 // Components
 export { AirtableBase, AirtableForm } from './components/airtable';
-export { Buzzprout } from './components/buzzprout';
+export { Buzzsprout } from './components/buzzsprout';
 export { CodePen } from './components/codepen';
 export { CodeSandbox } from './components/codesandbox';
 export { EggheadLesson } from './components/egghead';

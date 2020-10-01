@@ -4,7 +4,7 @@ describe('components', () => {
   test('the components object contains all the current components', () => {
     expect(components.AirtableBase).toBeDefined();
     expect(components.AirtableForm).toBeDefined();
-    expect(components.Buzzprout).toBeDefined();
+    expect(components.Buzzsprout).toBeDefined();
     expect(components.Cinnamon).toBeDefined();
     expect(components.CodePen).toBeDefined();
     expect(components.CodeSandbox).toBeDefined();
