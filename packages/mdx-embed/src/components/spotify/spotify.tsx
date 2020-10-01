@@ -16,6 +16,7 @@ export const Spotify: FunctionComponent<ISpotifyProps> = ({
 }: ISpotifyProps) => (
   <GeneralObserver>
     <iframe
+      data-testid="spotify"
       title={`spotify-${spotifyLink}`}
       className="spotify-mdx-embed"
       src={`https://open.spotify.com/embed/${spotifyLink}`}
