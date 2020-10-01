@@ -10,10 +10,4 @@ context('<Buzzsprout />', () => {
     getIframeBody().find('.artwork-container').should('not.be.undefined');
     getIframeBody().find('.episode-container').should('not.be.undefined');
   });
-
-  it('it not loads the buzzsprout player', () => {
-    cy.visit('/iframe.html?id=components-buzzsprout--wrong-usage&viewMode=story');
-    cy.get('[data-testId="buzzsprout"]').should('not.exist');
-    cy.get('iframe').should('not.exist');
-  });
 });
