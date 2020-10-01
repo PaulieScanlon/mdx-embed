@@ -41,6 +41,7 @@ export const YouTube: FunctionComponent<IYouTubeProps> = ({
         }}
       >
         <iframe
+          data-testid={`youTube-${youTubeId}`}
           title={`youTube-${youTubeId}`}
           src={`https://www.youtube.com/embed/${youTubeId}?&autoplay=${autoPlay}&start=${startTime}`}
           frameBorder="0"
