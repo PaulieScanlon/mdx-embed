@@ -8,7 +8,7 @@ export interface IInstagramProps {
 
 export const Instagram: FunctionComponent<IInstagramProps> = ({ instagramId }: IInstagramProps) => (
   <GeneralObserver onEnter={() => handleInstagrmLoad()}>
-    <blockquote className="instagram-media instagram-mdx-embed" data-instgrm-version="12">
+    <blockquote data-testid="instagram" className="instagram-media instagram-mdx-embed" data-instgrm-version="12">
       <a href={`https://instagram.com/p/${instagramId}`}>
         {typeof window !== 'undefined' && !(window as any).instgrm ? 'Loading' : ''}
       </a>
