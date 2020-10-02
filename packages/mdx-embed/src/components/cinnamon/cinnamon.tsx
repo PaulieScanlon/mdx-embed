@@ -19,6 +19,7 @@ export const Cinnamon: FunctionComponent<ICinnamonProps> = ({ cinnamonId }: ICin
         }}
       >
         <iframe
+          data-testid="cinnamon"
           src={`https://cinnamon.video/embed?v=${cinnamonId}`}
           frameBorder="0"
           allow="monetization; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
