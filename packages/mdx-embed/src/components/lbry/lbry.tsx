@@ -6,7 +6,7 @@ export interface ILbryProps {
   /** Lbry id */
   lbryId: string;
   /** Skip to a time in the video */
-  skipTo: {
+  skipTo?: {
     s: number;
   };
 }
@@ -25,6 +25,7 @@ export const Lbry: FunctionComponent<ILbryProps> = ({ lbryId, skipTo = { s: 0 } 
         }}
       >
         <iframe
+          data-testid="lbry"
           title={`lbry-${lbryId}`}
           src={`https://lbry.tv/$/embed/${lbryId}?t=${s}`}
           frameBorder="0"
