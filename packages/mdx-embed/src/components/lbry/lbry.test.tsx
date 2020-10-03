@@ -1,6 +1,6 @@
 import { act, render, screen } from '@testing-library/react';
 import React from 'react';
-import { Lbry } from './';
+import { Lbry } from '.';
 
 describe('<Lbry />', () => {
   test('it renders the component', () => {
