@@ -114,6 +114,10 @@ loaded by a browser.
 Cypress can run in "browser" mode or "headless" mode. For the CI pipeline we'll run in headless mode and for development
 testing you can run in "browser" mode.
 
+> Note for Windows Subsystem for Linux users: some extra setup is required.
+> [A blogpost guide for WSL2](https://nickymeuleman.netlify.app/blog/gui-on-wsl2-cypress).  
+> For WSL1, the only difference with those WSL2 instructions is to set the DISPLAY variable as `DISPLAY=0:0`.
+
 To run integration tests run the following:
 
 - `yarn cy:test`
