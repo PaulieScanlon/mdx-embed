@@ -17,14 +17,14 @@
 MDX Embed allows you to easily _embed_ popular 3rd party media content such as YouTube videos, Tweets, Instagram posts
 and many more straight into your `.mdx` - **no import required!**
 
-[https://mdx-embed.com/](https://www.mdx-embed.com/)
+## 🚀 Getting started
 
-## Getting started
+[https://mdx-embed.com/](https://www.mdx-embed.com/)
 
 There are a number of way to use `mdx-embed`. Head over to the [docs site](https://www.mdx-embed.com/) for more
 information on the current packages:
 
-## npm packages
+## 📦 npm packages
 
 | Package                                                                              |                                                               Security Status                                                                |
 | ------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -34,12 +34,49 @@ information on the current packages:
 
 <br />
 
-If you're using **mdx-embed** or **gatsby-plugin-mdx-embed** in your project we'd love to hear from you!
+## 🕺 Core Team
 
-- Paul Scanlon | [@pauliescanlon](https://twitter.com/PaulieScanlon)
-- Scott Spence | [@spences10](https://twitter.com/spences10)
-- Rich Haines | [@studio_hungry](https://twitter.com/studio_hungry)
+If you're using **mdx-embed** in your project we'd love to hear from you!
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://paulie.dev/"><img src="https://avatars2.githubusercontent.com/u/1465706?s=460&u=a3c1ce80b0ce24b68a66bfa59ca546d83f95877f&v=4" width="100px;" alt=""/><br/><sub><b>Paul Scanlon</b></sub></a><br/>
+      <a href="https://twitter.com/PaulieScanlon"><sub><b>@pauliescanlon</b></sub></a>
+    </td>
+
+   <td align="center">
+     <a href="https://scottspence.com/"><img src="https://avatars3.githubusercontent.com/u/234708?s=460&u=0ee3aad6e455f4faf97807030948d9cba515ed6a&v=4" width="100px;" alt=""/><br/><sub><b>Scott Spence</b></sub></a><br/>
+     <a href="https://twitter.com/spences10"><sub><b>@spences10</b></sub></a>
+   </td>
+
+   <td align="center">
+     <a href="https://garden.richardhaines.dev/"><img src="https://avatars1.githubusercontent.com/u/22930449?s=460&u=fe9bfbd906a41223b0292b37d0ace01f9034b136&v=4" width="100px;" alt=""/><br/><sub><b>Rich Haines</b></sub></a><br/>
+     <a href="https://twitter.com/studio_hungry"><sub><b>@studio_hungry</b></sub></a>
+   </td>
+  </tr>
+</table>
 
 <br />
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P31B7G8)
+## ❤️ Contributors
+
+Thanks to everyone who has contributed so far!
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/remiroyc"><img src="https://avatars1.githubusercontent.com/u/11146088?s=460&u=4f72fecc2a1f567e053066bd694c779416f461db&v=4" width="80px;" alt=""/><br /><sub><b>Rémi Roycourt</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/matiasfha"><img src="https://avatars3.githubusercontent.com/u/282006?s=460&u=a9d3c26dc6c2cfc5cbe04192b1fd6c2bb29c9be5&v=4" width="80px;" alt=""/><br /><sub><b>Matías Hernández</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/JeffersonBledsoe"><img src="https://avatars0.githubusercontent.com/u/30210785?s=460&u=9b4e1e10f480b3abfbd02ec10b6965c301d52f9d&v=4" width="80px;" alt=""/><br /><sub><b>Jefferson Bledsoe</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/xmalinov"><img src="https://avatars2.githubusercontent.com/u/3215218?s=460&u=2c4cd154f5b5af3f4f40ac8646ecf4f995ae71ea&v=4" width="80px;" alt=""/><br /><sub><b>Alexander Malinov</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/NickyMeuleman"><img src="https://avatars0.githubusercontent.com/u/30179461?s=460&u=1baeff1126d4c07ea4f1f63d71a0b86761f97965&v=4" width="80px;" alt=""/><br /><sub><b>Nicky Meuleman</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/yenly"><img src="https://avatars0.githubusercontent.com/u/6759658?s=460&u=f2a9f2e478e2dd817b2a8e78d7341787b221b071&v=4" width="80px;" alt=""/><br /><sub><b>
+Yenly</b></sub></a>
+    </td>
+  </tr>
+</table>
