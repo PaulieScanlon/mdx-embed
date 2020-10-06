@@ -38,6 +38,7 @@ export const Twitch: FunctionComponent<ITwitchProps> = ({
   return (
     <GeneralObserver>
       <div
+        data-testid="twitch"
         className="twitch-mdx-embed"
         style={{
           position: 'relative',
