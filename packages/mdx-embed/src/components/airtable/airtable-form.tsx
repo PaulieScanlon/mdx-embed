@@ -11,6 +11,7 @@ export const AirtableForm: FunctionComponent<IAirtableFormProps> = ({ airtableFo
     <GeneralObserver>
       <div style={{ position: 'relative' }}>
         <iframe
+          data-testid="airtable-form"
           title={`airtable-${airtableFormId}`}
           src={`https://airtable.com/embed/${airtableFormId}?backgroundColor=green`}
           width="100%"

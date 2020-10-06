@@ -19,6 +19,7 @@ export const AirtableBase: FunctionComponent<IAirtableBaseProps> = ({
     <GeneralObserver>
       <div style={{ position: 'relative' }}>
         <iframe
+          data-testid="airtable-base"
           title={`airtable-${airtableBaseId}`}
           src={`https://airtable.com/embed/${airtableBaseId}?backgroundColor=green&${
             !layout ? `` : `layout=${layout}&`
