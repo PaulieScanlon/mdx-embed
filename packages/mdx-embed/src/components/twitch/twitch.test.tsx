@@ -6,13 +6,8 @@ import { Twitch } from './';
 const PARENT_PROP = 'http://localhost:6006/';
 
 describe('<Twitch />', () => {
-  const intersectionObserverMock = () => ({
-    observe: () => null,
-    unobserve: () => null,
-  });
-
   beforeEach(() => {
-    window.IntersectionObserver = jest.fn().mockImplementation(intersectionObserverMock);
+    (window as any).addIntersectionObserver();
   });
 
   test('it renders the component when provided a twitchId', () => {
