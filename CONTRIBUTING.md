@@ -64,11 +64,18 @@ state change which causes the children to be rendered in the DOM
 This presents an issue when we come to testing the components because we need to fake the "scrolled in to view" action
 which allows the children of **GeneralObserver** to render.
 
-To _mock_ this in a test we've globally exposed a method called `triggerGeneralObserver()` and since we're using Testing
-Library this state change must be wrapped in an [act](https://testing-library.com/docs/react-testing-library/api#act).
+To _mock_ this in a test we've globally exposed two methods:
 
-With that said we require each `test(() => {...})` to contain an `act(() => {...})` and a call to
-`triggerGeneralObserver()`
+- `addIntersectionObserver()`
+- `triggerGeneralObserver()`
+
+...and since we're using Testing Library this state change must be wrapped in an
+[act](https://testing-library.com/docs/react-testing-library/api#act).
+
+With that said we require each `test(() => {...})` to contain:
+
+- `beforeEach(() => {...})` to `addIntersectionObserver()`
+- `act(() => {...})` to `triggerGeneralObserver()`
 
 That looks like something like the below:
 
@@ -77,6 +84,11 @@ That looks like something like the below:
 
 ```javascript
 describe('<CodePen />', () => {
+
+  beforeEach(() => {
+    (window as any).addIntersectionObserver();
+  });
+
   test('it renders the component', () => {
     render(<CodePen codePenId="PNaGbb" />);
 

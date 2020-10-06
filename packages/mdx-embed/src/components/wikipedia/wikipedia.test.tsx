@@ -5,7 +5,8 @@ import fetchMock from 'jest-fetch-mock';
 import { Wikipedia } from './';
 
 describe('<Wikipedia />', () => {
-  beforeAll(() => {
+  beforeEach(() => {
+    (window as any).addIntersectionObserver();
     fetchMock.enableMocks();
   });
 
