@@ -4,6 +4,10 @@ import { render, screen, act } from '@testing-library/react';
 import { Cinnamon } from './';
 
 describe('<Cinnamon />', () => {
+  beforeEach(() => {
+    (window as any).addIntersectionObserver();
+  });
+
   test('it renders the component', () => {
     const cinnamonId = '420855615405950583';
     render(<Cinnamon cinnamonId={cinnamonId} />);

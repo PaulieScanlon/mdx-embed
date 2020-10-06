@@ -4,6 +4,10 @@ import { render, screen, act } from '@testing-library/react';
 import { Spotify } from './';
 
 describe('<Spotify />', () => {
+  beforeEach(() => {
+    (window as any).addIntersectionObserver();
+  });
+
   test('it renders the component', () => {
     render(<Spotify spotifyLink="album/65KwtzkJXw7oT819NFWmEP" />);
 
