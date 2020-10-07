@@ -78,5 +78,8 @@ Thanks to everyone who has contributed so far!
     <td align="center"><a href="https://github.com/yenly"><img src="https://avatars0.githubusercontent.com/u/6759658?s=460&u=f2a9f2e478e2dd817b2a8e78d7341787b221b071&v=4" width="80px;" alt=""/><br /><sub><b>
 Yenly</b></sub></a>
     </td>
+      <td align="center"><a href="https://github.com/ekafyi"><img src="https://avatars1.githubusercontent.com/u/6597211?s=460&u=d05715db32b39ba7e0554776c1b3accd8fc7aef5&v=4" width="80px;" alt=""/><br /><sub><b>
+Eka</b></sub></a>
+    </td>
   </tr>
 </table>
