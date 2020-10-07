@@ -65,6 +65,10 @@ Thanks to everyone who has contributed so far!
 
 <table>
   <tr>
+    <td align="center"><a href="https://github.com/daisygabi"><img src="https://avatars2.githubusercontent.com/u/527144?s=460&v=4" width="80px;" alt=""/><br /><sub><b>Gabi</b></sub></a>
+    </td>
+    <td align="center"><a href="https://github.com/lirantal"><img src="https://avatars0.githubusercontent.com/u/316371?s=460&v=4" width="80px;" alt=""/><br /><sub><b>Liran Tal</b></sub></a>
+    </td>
     <td align="center"><a href="https://github.com/remiroyc"><img src="https://avatars1.githubusercontent.com/u/11146088?s=460&u=4f72fecc2a1f567e053066bd694c779416f461db&v=4" width="80px;" alt=""/><br /><sub><b>Rémi Roycourt</b></sub></a>
     </td>
     <td align="center"><a href="https://github.com/matiasfha"><img src="https://avatars3.githubusercontent.com/u/282006?s=460&u=a9d3c26dc6c2cfc5cbe04192b1fd6c2bb29c9be5&v=4" width="80px;" alt=""/><br /><sub><b>Matías Hernández</b></sub></a>
