@@ -28,8 +28,10 @@ describe('<SoundCloud />', () => {
       return undefined;
     })
 
-    expect(screen.getByTestId('soundcloud')).toBeDefined();
-    expect(screen.getByTestId('soundcloud')).toHaveAttribute('src', expect.stringContaining('e23f88'))
+    const soundCloud = screen.getByTestId('soundcloud')
+
+    expect(soundCloud).toBeDefined();
+    expect(soundCloud).toHaveAttribute('src', expect.stringContaining('e23f88'))
   })
 
   test('it renders the component with visual artwork', () => {
@@ -40,9 +42,11 @@ describe('<SoundCloud />', () => {
       return undefined;
     })
 
-    expect(screen.getByTestId('soundcloud')).toBeDefined();
-    expect(screen.getByTestId('soundcloud')).toHaveAttribute('src', expect.stringContaining('visual=true'))
-    expect(screen.getByTestId('soundcloud')).toHaveAttribute('height', expect.stringContaining('300px'))
-    expect(screen.getByTestId('soundcloud')).toHaveAttribute('width', expect.stringContaining('300px'))
+    const soundCloud = screen.getByTestId('soundcloud')
+
+    expect(soundCloud).toBeDefined();
+    expect(soundCloud).toHaveAttribute('src', expect.stringContaining('visual=true'))
+    expect(soundCloud).toHaveAttribute('height', expect.stringContaining('300px'))
+    expect(soundCloud).toHaveAttribute('width', expect.stringContaining('300px'))
   })
 });
