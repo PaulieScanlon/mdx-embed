@@ -23,6 +23,7 @@ export const SimplecastEpisode: FunctionComponent<ISimplecastEpisodeProps> = ({
         }}
       >
         <iframe
+          data-testid="simplecast-episode"
           title={`simplecast-${episodeId}`}
           src={`https://player.simplecast.com/${episodeId}${theme === `dark` ? `?dark=true` : ``}`}
           frameBorder="no"
