@@ -26,6 +26,7 @@ export const SoundCloud: FunctionComponent<ISoundCloudProps> = ({
 }: ISoundCloudProps) => (
   <GeneralObserver>
     <iframe
+      data-testid="soundcloud"
       title={`sound-cloud-${soundCloudLink}`}
       className="soundcloud-mdx-embed"
       width={width}
