@@ -20,7 +20,7 @@ export const Tweet: FunctionComponent<ITweetProps> = ({
   hideConversation = false,
 }: ITweetProps) => (
   <GeneralObserver onEnter={() => handleTwttrLoad()}>
-    <div className="twitter-tweet-mdx-embed" style={{ overflow: 'auto' }}>
+    <div data-testid="twitter-tweet" className="twitter-tweet-mdx-embed" style={{ overflow: 'auto' }}>
       <blockquote
         className="twitter-tweet"
         data-theme={theme}

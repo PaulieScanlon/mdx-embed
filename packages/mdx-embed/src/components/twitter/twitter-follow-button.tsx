@@ -20,6 +20,7 @@ export const TwitterFollowButton: FunctionComponent<ITwitterFollowButtonProps> =
 }: ITwitterFollowButtonProps) => (
   <GeneralObserver onEnter={() => handleTwttrLoad()}>
     <a
+      data-testid="twitter-follow-button"
       href={`https://twitter.com/${username}?ref_src=twsrc%5Etfw`}
       className="twitter-follow-button twitter-follow-button-mdx-embed"
       data-show-count={showFollowers}
