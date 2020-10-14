@@ -4,7 +4,7 @@
     "prettier": "yarn workspace mdx-embed prettier && yarn workspace gatsby-plugin-mdx-embed prettier && yarn workspace docs prettier",
     "lint": "yarn workspace mdx-embed lint",
     "lint:fix": "yarn workspace mdx-embed lint:fix",
-    "test": "yarn workspace mdx-embed jest",
+    "test": "yarn workspace mdx-embed jest --maxWorkers=2",
     "test:watch": "yarn workspace mdx-embed test:watch",
     "test:coverage": "yarn workspace mdx-embed test:coverage",
     "test:codecov": "yarn workspace mdx-embed test:codecov",
