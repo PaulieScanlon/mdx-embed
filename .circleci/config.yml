@@ -16,6 +16,7 @@ jobs:
   run-unit-tests:
     executor:
       name: node/default
+    resource_class: xlarge
     steps:
       - checkout
       - run: yarn install
