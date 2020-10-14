@@ -8,7 +8,7 @@ describe('<TwitterHashtagButton />', () => {
     (window as any).addIntersectionObserver();
   });
 
-  test('it renders the component', () => {
+  test.skip('it renders the component', () => {
     render(<TwitterHashtagButton hashtag="mdx-embed" />);
 
     act(() => {
