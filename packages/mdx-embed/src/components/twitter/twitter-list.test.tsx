@@ -8,7 +8,7 @@ describe('<TwitterList />', () => {
     (window as any).addIntersectionObserver();
   });
 
-  test.skip('it renders the component', () => {
+  test('it renders the component', () => {
     render(<TwitterList username="PaulieScanlon" listName="ask-gatsby" />);
 
     act(() => {
