@@ -8,7 +8,7 @@ describe('<Tweet />', () => {
     (window as any).addIntersectionObserver();
   });
 
-  test.skip('it renders the component', () => {
+  test('it renders the component', () => {
     render(<Tweet tweetLink="PaulieScanlon/status/1232982448310497286" />);
 
     act(() => {

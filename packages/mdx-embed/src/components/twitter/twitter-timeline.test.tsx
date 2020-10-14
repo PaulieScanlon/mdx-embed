@@ -8,7 +8,7 @@ describe('<TwitterTimeline />', () => {
     (window as any).addIntersectionObserver();
   });
 
-  test.skip('it renders the component', () => {
+  test('it renders the component', () => {
     render(<TwitterTimeline username="PaulieScanlon" />);
 
     act(() => {
