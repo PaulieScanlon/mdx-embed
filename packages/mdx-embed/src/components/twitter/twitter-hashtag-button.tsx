@@ -14,6 +14,7 @@ export const TwitterHashtagButton: FunctionComponent<ITwitterHashtagButtonProps>
 }: ITwitterHashtagButtonProps) => (
   <GeneralObserver onEnter={() => handleTwttrLoad()}>
     <a
+      data-testid="twitter-hashtag-button"
       href={`https://twitter.com/intent/tweet?button_hashtag=${hashtag}&ref_src=twsrc%5Etfw`}
       className="twitter-hashtag-button twitter-hashtag-button-mdx-embed"
       data-size={size}

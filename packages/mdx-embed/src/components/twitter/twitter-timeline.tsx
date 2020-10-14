@@ -24,6 +24,7 @@ export const TwitterTimeline: FunctionComponent<ITwitterTimelineProps> = ({
   <GeneralObserver onEnter={() => handleTwttrLoad()}>
     <div style={{ overflow: 'auto' }}>
       <a
+        data-testid="twitter-timeline"
         className="twitter-timeline twitter-timeline-mdx-embed"
         data-theme={theme}
         data-width={width}
