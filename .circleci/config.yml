@@ -19,7 +19,7 @@ jobs:
     steps:
       - checkout
       - run: yarn install
-      - run: yarn test -u
+      - run: yarn test -u --maxWorkers=1 --maxConcurrency=1
 
   collect-coverage:
     executor:
