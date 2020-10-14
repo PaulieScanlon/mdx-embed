@@ -24,6 +24,7 @@ import {
   TwitterTimeline,
 } from '../twitter';
 import { Vimeo } from '../vimeo';
+import { Whimsical } from '../whimsical';
 import { Wikipedia } from '../wikipedia';
 import { YouTube } from '../youtube';
 
@@ -55,6 +56,7 @@ export const components = {
   TwitterMentionButton,
   TwitterTimeline,
   Vimeo,
+  Whimsical,
   Wikipedia,
   YouTube,
 } as any;

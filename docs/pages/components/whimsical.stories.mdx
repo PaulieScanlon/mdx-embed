@@ -1,0 +1,35 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Whimsical } from '../../../packages/mdx-embed/src/components/whimsical';
+
+<Meta title="Components/Whimsical" component={Whimsical} />
+
+# Whimsical
+
+Display a Whimsical diagram by including the component in your `.mdx`. The
+`diagramId` prop is required.
+
+<ArgsTable of={Whimsical} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Whimsical diagramId="Py4kdjbPzFpRoAPMbUxmaN" aspectRatio="4:3" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Whismical diagram, navigate to the diagram page on whimsical.com.
+From there, click on the "arrow icon" (top right corner), then "Get shearable
+Link". Then, make sure "Enable Public Link Access" is enabled. Finally, grab the
+`diagramId`: it should be everything after `https://whimsical.com/`.
+
+Then use it in the component like this.
+
+```jsx
+<Whimsical diagramId="Py4kdjbPzFpRoAPMbUxmaN" />
+```
