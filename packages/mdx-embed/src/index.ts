@@ -24,6 +24,7 @@ export {
   TwitterTimeline,
 } from './components/twitter';
 export { Vimeo } from './components/vimeo';
+export { Whimsical } from './components/whimsical';
 export { Wikipedia } from './components/wikipedia';
 export { YouTube } from './components/youtube';
 
