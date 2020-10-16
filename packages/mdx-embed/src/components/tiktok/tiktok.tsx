@@ -10,6 +10,7 @@ export const TikTok: FunctionComponent<ITikTokProps> = ({ tikTokId }: ITikTokPro
   return (
     <GeneralObserver onEnter={() => handleTikTokLoad()}>
       <blockquote
+        data-testid="tiktok"
         className="tiktok-embed"
         cite={`https://www.tiktok.com/${tikTokId}`}
         data-video-id={tikTokId.split('/').pop()}
