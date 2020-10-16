@@ -42,7 +42,7 @@ export const Gist: FunctionComponent<IGistProps> = ({ gistLink }: IGistProps) =>
   return (
     <GeneralObserver>
       {!gistResponse.isLoading && (
-        <div className="gist-mdx-embed" dangerouslySetInnerHTML={{ __html: gistResponse.div! }} />
+        <div data-testid="gist" className="gist-mdx-embed" dangerouslySetInnerHTML={{ __html: gistResponse.div! }} />
       )}
     </GeneralObserver>
   );
