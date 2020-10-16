@@ -24,6 +24,7 @@ export const PinterestBoard: FunctionComponent<IPinterestBoardProps> = ({
   <GeneralObserver onEnter={() => handlePinterestBuild()}>
     <a
       className="pinterest-board pinterest-board-mdx-embed"
+      data-testid="pinterest-board"
       data-pin-do={`embed${variant.charAt(0).toUpperCase()}${variant.slice(1)}`}
       data-pin-board-width={width}
       data-pin-scale-height={height}
