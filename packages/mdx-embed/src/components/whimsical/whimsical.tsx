@@ -27,6 +27,7 @@ export interface IWhimsicalProps {
 export const Whimsical: FunctionComponent<IWhimsicalProps> = ({ diagramId, aspectRatio = '1:1' }: IWhimsicalProps) => (
   <GeneralObserver>
     <div
+      data-testid="whimsical"
       className="whimsical-mdx-embed"
       style={{
         position: 'relative',
