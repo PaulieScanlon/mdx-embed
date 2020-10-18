@@ -12,6 +12,7 @@ export const Pin: FunctionComponent<IPinProps> = ({ pinId, size = 'small' }: IPi
   <GeneralObserver onEnter={() => handlePinterestBuild()}>
     <a
       className="pinterest-pin pinterest-pin-mdx-embed"
+      data-testid="pin"
       data-pin-do="embedPin"
       data-pin-width={size}
       href={`https://www.pinterest.com/pin/${pinId}`}

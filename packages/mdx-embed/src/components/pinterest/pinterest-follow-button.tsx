@@ -12,6 +12,7 @@ export const PinterestFollowButton: FunctionComponent<IPinterestFollowButtonProp
   <GeneralObserver onEnter={() => handlePinterestBuild()}>
     <a
       className="pinterest-follow-button pinterest-follow-button-mdx-embed"
+      data-testid="pinterest-follow-button"
       data-pin-do="buttonFollow"
       href={`https://www.pinterest.com/${username}/`}
     >
