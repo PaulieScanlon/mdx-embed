@@ -6,13 +6,13 @@ export interface IVimeoProps {
   /** Vimeo id */
   vimeoId: string;
   /** Skip to a time in the video */
-  skipTo: {
+  skipTo?: {
     h?: number;
     m: number;
     s: number;
   };
   /** Auto play the video */
-  autoPlay: boolean;
+  autoPlay?: boolean;
 }
 
 export const Vimeo: FunctionComponent<IVimeoProps> = ({
@@ -25,6 +25,7 @@ export const Vimeo: FunctionComponent<IVimeoProps> = ({
   return (
     <GeneralObserver>
       <div
+        data-testid="vimeo"
         className="vimeo-mdx-embed"
         style={{
           position: 'relative',
