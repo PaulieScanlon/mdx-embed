@@ -3,5 +3,6 @@
   "defaultCommandTimeout": 6000,
   "viewportWidth": 1000,
   "viewportHeight": 568,
-  "video": false
+  "video": false,
+  "chromeWebSecurity": false
 }
