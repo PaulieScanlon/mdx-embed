@@ -142,14 +142,12 @@ components that wrap the embed codes do in fact load the correct embed widget. A
 The `CodePen` integration tests looks a bit like this:
 
 ```javascript
-import { getIframeBody } from '../support/commands';
-
 context('<CodePen />', () => {
   it('it loads codepen nav, output and footer', () => {
     cy.visit('/iframe.html?id=components-codepen--usage&viewMode=story');
-    getIframeBody().find('#embed-nav').should('not.be.undefined');
-    getIframeBody().find('#output').should('not.be.undefined');
-    getIframeBody().find('#embed-footer').should('not.be.undefined');
+    cy.getIframeBody().find('#embed-nav').should('not.be.undefined');
+    cy.getIframeBody().find('#output').should('not.be.undefined');
+    cy.getIframeBody().find('#embed-footer').should('not.be.undefined');
   });
 });
 ```
