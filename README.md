@@ -77,7 +77,9 @@ Thanks to everyone who has contributed so far!
     </td>
     <td align="center"><a href="https://github.com/xmalinov"><img src="https://avatars2.githubusercontent.com/u/3215218?s=460&u=2c4cd154f5b5af3f4f40ac8646ecf4f995ae71ea&v=4" width="80px;" alt=""/><br /><sub><b>Alexander Malinov</b></sub></a>
     </td>
-    <td align="center"><a href="https://github.com/NickyMeuleman"><img src="https://avatars0.githubusercontent.com/u/30179461?s=460&u=1baeff1126d4c07ea4f1f63d71a0b86761f97965&v=4" width="80px;" alt=""/><br /><sub><b>Nicky Meuleman</b></sub></a>
+  </tr>
+  <tr>
+  <td align="center"><a href="https://github.com/NickyMeuleman"><img src="https://avatars0.githubusercontent.com/u/30179461?s=460&u=1baeff1126d4c07ea4f1f63d71a0b86761f97965&v=4" width="80px;" alt=""/><br /><sub><b>Nicky Meuleman</b></sub></a>
     </td>
     <td align="center"><a href="https://github.com/yenly"><img src="https://avatars0.githubusercontent.com/u/6759658?s=460&u=f2a9f2e478e2dd817b2a8e78d7341787b221b071&v=4" width="80px;" alt=""/><br /><sub><b>
 Yenly</b></sub></a>
@@ -85,5 +87,21 @@ Yenly</b></sub></a>
       <td align="center"><a href="https://github.com/ekafyi"><img src="https://avatars1.githubusercontent.com/u/6597211?s=460&u=d05715db32b39ba7e0554776c1b3accd8fc7aef5&v=4" width="80px;" alt=""/><br /><sub><b>
 Eka</b></sub></a>
     </td>
-  </tr>
+    <td align="center"><a href="https://github.com/amercier"><img src="https://avatars3.githubusercontent.com/u/1246795?s=460&u=ff6d9df714b1def4849a40649e785da670db276b&v=4" width="80px;" alt=""/><br /><sub><b>
+Alex Mercier</b></sub></a>
+    </td>
+
+  <td align="center"><a href="https://github.com/kriswep"><img src="https://avatars1.githubusercontent.com/u/8836059?s=460&u=143a7ea6e5b1345804ab1bee9d87ee725b7c77b8&v=4" width="80px;" alt=""/><br /><sub><b>
+Christoph Benjamin Weberr</b></sub></a>
+    </td>
+
+  <td align="center"><a href="https://github.com/NerdCowboy"><img src="https://avatars0.githubusercontent.com/u/757960?s=460&u=1908194ae704bfe363e12979dbf91f57326e55ba&v=4" width="80px;" alt=""/><br /><sub><b>
+Brent Larson</b></sub></a>
+    </td>
+</tr>
+<tr>
+  <td align="center"><a href="https://github.com/tricinel"><img src="https://avatars2.githubusercontent.com/u/216008?s=460&u=9f78f2962a4c7668eb3c99c3c3ccb09d18be44a6&v=4" width="80px;" alt=""/><br /><sub><b>
+Bogdan Lazar</b></sub></a>
+    </td>
+</tr>
 </table>
