@@ -1,7 +1,8 @@
-const getIframeDocument = () => {
-  return cy.get('iframe').its('0.contentDocument').should('exist');
-};
+Cypress.Commands.add('getIframeBody', () => {
+  cy.log('getIframeBody')
 
-export const getIframeBody = () => {
-  return getIframeDocument().its('body').should('not.be.undefined').then(cy.wrap);
-};
+  return cy
+  .get('iframe', { log: false })
+  .its('0.contentDocument.body', { log: false }).should('not.be.empty')
+  .then((body) => cy.wrap(body, { log: false }))
+});

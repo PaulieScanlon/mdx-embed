@@ -1,7 +1,5 @@
 /// <reference types="cypress" />
 
-import { getIframeBody } from '../support/commands';
-
 context('<Gist />', () => {
   it('it loads gist embed', () => {
     cy.visit('/iframe.html?id=components-gist--usage&viewMode=story');
