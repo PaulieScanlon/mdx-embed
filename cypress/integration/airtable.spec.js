@@ -9,6 +9,13 @@ context('<AirtableBase />', () => {
     cy.getIframeBody().find('#searchButton').should('not.be.undefined');
   });
 
+  it('it loads airtable base without controls', () => {
+    cy.visit('/iframe.html?id=components-airtable-airtablebase--controls&viewMode=story');
+    cy.getIframeBody().find('#applicationContainer').should('not.be.undefined');
+    cy.getIframeBody().find('#table').should('not.be.undefined');
+    cy.getIframeBody().find('#table .viewBarContainer').should('have.css', 'display', 'none');
+  })
+
   it('it loads airtable base with card layout', () => {
     cy.visit('/iframe.html?id=components-airtable-airtablebase--layout&viewMode=story');
     cy.getIframeBody().find('#applicationContainer').should('not.be.undefined');
