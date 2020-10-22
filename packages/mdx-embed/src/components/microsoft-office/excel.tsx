@@ -7,35 +7,61 @@ export interface IExcelProps {
   /** Auth Key */
   authkey: string;
   /** Allow Typing */
-  allowTyping?: boolean;
+  allowTyping?: 'True' | 'False';
+  /** Allow Interactivity */
+  allowInteractivity?: 'True' | 'False';
   /** Set Active Cell */
   activeCell?: string;
   /** Set Active Cell */
   item: string;
-  wdHideGridlines?: boolean;
-  wdDownloadButton?: boolean;
-  wdInConfigurator?: boolean;
+  /** Show Grid Lines */
+  hideGridlines?: 'True' | 'False';
+  /** Add Doenload Button */
+  downloadButton?: 'True' | 'False';
+  /** Set Active Cell */
+  inConfigurator?: 'True' | 'False';
+  /** Set Width */
+  width?: number;
+  /** Set Height */
+  height?: number;
 }
 
 export const Excel: FunctionComponent<IExcelProps> = ({
   resid,
   authkey,
-  allowTyping,
+  allowTyping = 'False',
+  allowInteractivity = 'False',
   activeCell,
   item,
-  wdHideGridlines,
-  wdDownloadButton,
-  wdInConfigurator,
+  hideGridlines = 'False',
+  downloadButton = 'False',
+  inConfigurator = 'False',
+  width = 400,
+  height = 300,
 }: IExcelProps) => {
+  // bundle src params for ease of use
+  const params = [
+    `resid=${resid}`,
+    `authkey=${authkey}`,
+    `em=2`,
+    allowTyping ? `AllowTyping=${allowTyping}` : null,
+    allowInteractivity ? `wdAllowInteractivity=${allowInteractivity}` : null,
+    activeCell ? `ActiveCell=${activeCell}` : null,
+    item ? `Item=${item}` : null,
+    hideGridlines ? `wdHideGridlines=${hideGridlines}` : null,
+    downloadButton ? `wdDownloadButton=${downloadButton}` : null,
+    inConfigurator ? `wdInConfigurator=${inConfigurator}` : null,
+  ];
+
   return (
     <GeneralObserver>
       <div style={{ position: 'relative' }}>
         <iframe
-          width="200"
-          height="100"
+          width={width}
+          height={height}
           frameBorder="0"
           scrolling="no"
-          src={`https://onedrive.live.com/embed?resid=${resid}&authkey=${authkey}&em=2&AllowTyping=${allowTyping}&ActiveCell=${activeCell}&Item=${item}&wdHideGridlines=${wdHideGridlines}&wdDownloadButton=${wdDownloadButton}&wdInConfigurator=${wdInConfigurator}`}
+          src={`https://onedrive.live.com/embed?${params.join(`&`).replace(/\&+/g, '&')}`}
         />
       </div>
     </GeneralObserver>
