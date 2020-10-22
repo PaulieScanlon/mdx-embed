@@ -1,0 +1,32 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Excel } from '../../../../packages/mdx-embed/src/components/microsoft-office';
+
+<Meta title="Components/Microsoft Office/Excel" component={Excel} />
+
+# Excel
+
+Display an AirtableBase by including the component in your `.mdx`. The `airtableBaseId` prop is required.
+
+<ArgsTable of={Excel} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Excel
+      resid="C57B460310539EEB!151087"
+      authkey="%21AHm__TryXRxtSZc"
+      item="'Sheet1'!A3%3AB5"
+      wdInConfigurator="true"
+    />
+  </Story>
+</Canvas>
+
+<iframe
+  width="402"
+  height="346"
+  frameborder="0"
+  scrolling="no"
+  src="https://onedrive.live.com/embed?resid=C57B460310539EEB%21151087&authkey=%21AHm__TryXRxtSZc&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"
+></iframe>

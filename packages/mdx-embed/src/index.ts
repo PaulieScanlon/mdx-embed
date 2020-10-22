@@ -8,6 +8,7 @@ export { Flickr } from './components/flickr';
 export { Gist } from './components/gist';
 export { Instagram } from './components/instagram';
 export { Lbry } from './components/lbry';
+export { Excel } from './components/microsoft-office';
 export { Pin, PinterestBoard, PinterestFollowButton } from './components/pinterest';
 export { SimplecastEpisode } from './components/simplecast';
 export { SoundCloud } from './components/soundcloud';

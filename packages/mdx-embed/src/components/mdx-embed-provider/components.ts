@@ -8,6 +8,7 @@ import { Flickr } from '../flickr';
 import { Gist } from '../gist';
 import { Instagram } from '../instagram';
 import { Lbry } from '../lbry';
+import { Excel } from '../microsoft-office';
 import { Pin, PinterestBoard, PinterestFollowButton } from '../pinterest';
 import { SimplecastEpisode } from '../simplecast';
 import { SoundCloud } from '../soundcloud';
@@ -40,6 +41,7 @@ export const components = {
   Gist,
   Instagram,
   Lbry,
+  Excel,
   Pin,
   PinterestBoard,
   PinterestFollowButton,
