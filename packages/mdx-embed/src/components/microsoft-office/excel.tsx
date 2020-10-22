@@ -6,9 +6,9 @@ export interface IExcelProps {
   resid: string;
   /** Auth Key */
   authkey: string;
-  /** Allow Typing */
+  /** Let people type into cells (their changes will not be saved) */
   allowTyping?: 'True' | 'False';
-  /** Allow Interactivity */
+  /** Let people sort and filter */
   allowInteractivity?: 'True' | 'False';
   /** Set Active Cell */
   activeCell?: string;
@@ -16,10 +16,10 @@ export interface IExcelProps {
   item: string;
   /** Show Grid Lines */
   hideGridlines?: 'True' | 'False';
-  /** Add Doenload Button */
+  /** Hide row and column headers */
+  hideHeaders?: 'True' | 'False';
+  /** Add Download Button */
   downloadButton?: 'True' | 'False';
-  /** Set Active Cell */
-  inConfigurator?: 'True' | 'False';
   /** Set Width */
   width?: number;
   /** Set Height */
@@ -29,13 +29,13 @@ export interface IExcelProps {
 export const Excel: FunctionComponent<IExcelProps> = ({
   resid,
   authkey,
-  allowTyping = 'False',
+  allowTyping = 'True',
   allowInteractivity = 'False',
-  activeCell,
+  activeCell = 'A1',
   item,
   hideGridlines = 'False',
-  downloadButton = 'False',
-  inConfigurator = 'False',
+  hideHeaders = 'False',
+  downloadButton = 'True',
   width = 400,
   height = 300,
 }: IExcelProps) => {
@@ -44,13 +44,14 @@ export const Excel: FunctionComponent<IExcelProps> = ({
     `resid=${resid}`,
     `authkey=${authkey}`,
     `em=2`,
+    `wdInConfigurator=True`,
     allowTyping ? `AllowTyping=${allowTyping}` : null,
     allowInteractivity ? `wdAllowInteractivity=${allowInteractivity}` : null,
     activeCell ? `ActiveCell=${activeCell}` : null,
     item ? `Item=${item}` : null,
     hideGridlines ? `wdHideGridlines=${hideGridlines}` : null,
+    hideHeaders ? `wdHideHeaders=${hideHeaders}` : null,
     downloadButton ? `wdDownloadButton=${downloadButton}` : null,
-    inConfigurator ? `wdInConfigurator=${inConfigurator}` : null,
   ];
 
   return (

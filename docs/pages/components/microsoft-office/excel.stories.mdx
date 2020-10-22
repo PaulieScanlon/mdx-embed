@@ -6,7 +6,7 @@ import { Excel } from '../../../../packages/mdx-embed/src/components/microsoft-o
 
 # Excel
 
-Display an AirtableBase by including the component in your `.mdx`. The `airtableBaseId` prop is required.
+Display an Excel workbook by including the component in your `.mdx`. The `resid` and `authkey` props are required.
 
 <ArgsTable of={Excel} />
 
@@ -14,19 +14,49 @@ Display an AirtableBase by including the component in your `.mdx`. The `airtable
 
 <Canvas>
   <Story name="usage">
+    <Excel resid="C57B460310539EEB%21123277" authkey="%21ACtnBt2b-x7rrW0" />
+  </Story>
+</Canvas>
+
+## What to show
+
+Show entire workbook or a selected range from a sheet.
+
+<Canvas>
+  <Story name="what-to-show">
+    <Excel resid="C57B460310539EEB%21123277" authkey="%21ACtnBt2b-x7rrW0" item="'Sheet1'!A1%3AB149" />
+  </Story>
+</Canvas>
+
+## Appearance
+
+Remove grid lines, headers and download button.
+
+<Canvas>
+  <Story name="appearance">
     <Excel
-      resid="C57B460310539EEB!151087"
-      authkey="%21AHm__TryXRxtSZc"
-      item="'Sheet1'!A3%3AB5"
-      wdInConfigurator="true"
+      resid="C57B460310539EEB%21123277"
+      authkey="%21ACtnBt2b-x7rrW0"
+      item="'Sheet1'!A1%3AB149"
+      hideGridlines="True"
+      hideHeaders="True"
+      downloadButton="False"
     />
   </Story>
 </Canvas>
 
-<iframe
-  width="402"
-  height="346"
-  frameborder="0"
-  scrolling="no"
-  src="https://onedrive.live.com/embed?resid=C57B460310539EEB%21151087&authkey=%21AHm__TryXRxtSZc&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"
-></iframe>
+## Interaction
+
+Let people sort and filter, Let people type into cells (their changes will not be saved), start with specific cell selected.
+
+<Canvas>
+  <Story name="interaction">
+    <Excel
+      resid="C57B460310539EEB%21123277"
+      authkey="%21ACtnBt2b-x7rrW0"
+      allowInteractivity="False"
+      allowTyping="True"
+      activeCell="B3"
+    />
+  </Story>
+</Canvas>
