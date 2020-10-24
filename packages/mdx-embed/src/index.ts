@@ -26,6 +26,7 @@ export {
 export { Vimeo } from './components/vimeo';
 export { Whimsical } from './components/whimsical';
 export { Wikipedia } from './components/wikipedia';
+export { Wistia } from './components/wistia';
 export { YouTube } from './components/youtube';
 
 // Provider

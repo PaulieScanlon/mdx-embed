@@ -26,6 +26,7 @@ import {
 import { Vimeo } from '../vimeo';
 import { Whimsical } from '../whimsical';
 import { Wikipedia } from '../wikipedia';
+import { Wistia } from '../wistia';
 import { YouTube } from '../youtube';
 
 export const components = {
@@ -58,5 +59,6 @@ export const components = {
   Vimeo,
   Whimsical,
   Wikipedia,
+  Wistia,
   YouTube,
 } as any;

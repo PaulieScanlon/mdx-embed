@@ -30,6 +30,7 @@ describe('components', () => {
     expect(components.TwitterTimeline).toBeDefined();
     expect(components.Vimeo).toBeDefined();
     expect(components.Wikipedia).toBeDefined();
+    expect(components.Wistia).toBeDefined();
     expect(components.YouTube).toBeDefined();
   });
 });
