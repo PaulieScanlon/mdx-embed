@@ -1,6 +1,7 @@
 import React, { FunctionComponent, useEffect } from 'react';
 import { createScriptTag, getPadding } from '../../utils';
 import { GeneralObserver } from '../general-observer';
+import { handleWistiaLoad } from './utils';
 
 export interface IWistiaProps {
   /** Video ID, extracted from Wistia URL. */
@@ -30,7 +31,7 @@ export const Wistia: FunctionComponent<IWistiaProps> = ({
   if (autoPlay) config.push('autoPlay=true');
 
   useEffect(() => {
-    createScriptTag('https://fast.wistia.net/assets/external/E-v1.js', null);
+    handleWistiaLoad();
   }, []);
 
   return (
