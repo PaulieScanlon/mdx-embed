@@ -1,0 +1,66 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Wistia } from '../../../packages/mdx-embed/src/components/wistia';
+
+<Meta title="Components/Wistia" component={Wistia} />
+
+# Wistia
+
+Display Wistia by including the component in your `.mdx`. The `videoId` prop is required.
+
+<ArgsTable of={Wistia} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Wistia videoId="yplqa7pg87" />
+  </Story>
+</Canvas>
+
+## Disallowed Fullscreen
+
+<Canvas>
+  <Story name="disallowedFullscreen">
+    <Wistia videoId="yplqa7pg87" allowFullScreen={false} />
+  </Story>
+</Canvas>
+
+## Fixed size
+
+<Canvas>
+  <Story name="fixedSize">
+    <Wistia videoId="yplqa7pg87" width="640px" height="380px" />
+  </Story>
+</Canvas>
+
+
+## Auto play
+
+<Canvas>
+  <Story name="autoPlay">
+    <Wistia videoId="yplqa7pg87" autoPlay={true} />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed a Wistia video using the `<Wistia />` component, once you've uploaded video in Wistia, grab the `videoId` from the URL.
+
+```
+https://user-name.wistia.com/medias/yplqa7pg87
+```
+
+The `videoId` is this bit.
+
+```
+yplqa7pg87
+```
+
+Then use it in the component like this.
+
+```jsx
+<Wistia videoId="yplqa7pg87" />
+```
