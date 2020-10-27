@@ -9,6 +9,7 @@ export const Strava: FunctionComponent<IStravaProps> = ({ activityId }: IStravaP
   return (
     <GeneralObserver>
       <div
+        data-testid="strava"
         className="strava-mdx-embed"
         style={{
           position: 'relative',
