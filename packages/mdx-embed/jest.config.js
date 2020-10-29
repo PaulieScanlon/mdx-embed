@@ -5,7 +5,7 @@ module.exports = {
   },
   testRegex: '(/__tests__/.*|(\\.|/)(test))\\.tsx?$',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-  setupFiles: ['<rootDir>/test/jest/__mocks__/intersection-observer.js'],
+  setupFiles: ['<rootDir>/test/jest/__mocks__/intersection-observer.js', '<rootDir>/test/jest/__mocks__/twittr.js'],
   collectCoverageFrom: ['src/**/*.{ts,tsx}', '!src/**/index.ts', '!src/**/*.stories.tsx'],
   watchPlugins: ['jest-watch-typeahead/filename', 'jest-watch-typeahead/testname'],
 };
