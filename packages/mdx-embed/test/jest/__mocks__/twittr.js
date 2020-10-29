@@ -1,7 +1,8 @@
 const addTwttr = () => ({
   widgets: {
-    load: () => null,
+    load: jest.fn(),
   },
 });
 
-window.twttr = jest.fn().mockImplementation(addTwttr);
+window.twttr = addTwttr();
+// jest.fn().mockImplementation(addTwttr);
