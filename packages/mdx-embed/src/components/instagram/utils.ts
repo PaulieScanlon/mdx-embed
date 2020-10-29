@@ -1,7 +1,7 @@
 import { createScriptTag } from '../../utils';
 
 let isInstgrmScriptAdded = false;
-const instgrmClassNames = [`.instagram-media`, `.instagram-media-rendered`].join(`,`);
+export const instgrmClassNames = [`.instagram-media`, `.instagram-media-rendered`].join(`,`);
 const instgrmEmbedUrl = `https://www.instagram.com/embed.js`;
 
 const instgrmProcess = () => {
@@ -19,7 +19,13 @@ export const handleInstagrmLoad = () => {
     if (!isInstgrmScriptAdded) {
       createScriptTag(instgrmEmbedUrl, null);
       isInstgrmScriptAdded = true;
+      return {
+        status: 'createScriptTag',
+      };
     }
   }
   instgrmProcess();
+  return {
+    status: 'instgrmProcess',
+  };
 };

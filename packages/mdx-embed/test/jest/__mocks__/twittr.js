@@ -5,4 +5,3 @@ const addTwttr = () => ({
 });
 
 window.twttr = addTwttr();
-// jest.fn().mockImplementation(addTwttr);

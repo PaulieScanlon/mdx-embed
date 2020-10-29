@@ -5,7 +5,7 @@ export interface IPinProps {
   /** Pinterest id */
   pinId: string;
   /** Size */
-  size: 'small' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'large';
 }
 
 export const Pin: FunctionComponent<IPinProps> = ({ pinId, size = 'small' }: IPinProps) => (

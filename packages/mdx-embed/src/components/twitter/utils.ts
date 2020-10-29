@@ -29,7 +29,13 @@ export const handleTwttrLoad = () => {
     if (!isTwttrScriptAdded) {
       createScriptTag(null, twttrEmbedScript);
       isTwttrScriptAdded = true;
+      return {
+        status: 'createScriptTag',
+      };
     }
   }
   twttrLoad();
+  return {
+    status: 'twttrLoad',
+  };
 };

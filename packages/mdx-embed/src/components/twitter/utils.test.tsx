@@ -1,8 +1,8 @@
 import React from 'react';
-import { render, screen, act } from '@testing-library/react';
+import { render, act } from '@testing-library/react';
 
 import { Tweet } from './';
-import { handleTwttrLoad } from './utils';
+import { twttrClassNames, handleTwttrLoad } from './utils';
 
 describe('utils', () => {
   beforeEach(() => {
@@ -19,16 +19,18 @@ describe('utils', () => {
 
     expect((window as any).twttr.widgets.load).toBeCalledTimes(1);
   });
+});
 
-  test.only('it create twttrEmbedScript', () => {
-    render(<Tweet tweetLink="PaulieScanlon/status/1232982448310497286" />);
+describe('handleTwttrLoad', () => {
+  test('it calls createScriptTag when twitter class names are found', () => {
+    let twttrDiv = document.createElement('div');
+    twttrDiv.setAttribute('class', twttrClassNames.split(',').join(' ').replace(/\./g, ' '));
+    document.body.appendChild(twttrDiv);
 
-    act(() => {
-      (window as any).triggerGeneralObserver();
-      return undefined;
-    });
+    expect(handleTwttrLoad().status).toEqual('createScriptTag');
+  });
 
-    console.log((window as any).document);
-    // expect(window)
+  test('it calls twttrLoad when no twitter class names are found', () => {
+    expect(handleTwttrLoad().status).toEqual('twttrLoad');
   });
 });
