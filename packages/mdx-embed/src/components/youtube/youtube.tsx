@@ -8,13 +8,13 @@ export interface IYouTubeProps {
   /** Aspect ratio of YouTube video */
   aspectRatio?: '1:1' | '16:9' | '4:3' | '3:2' | '8:5';
   /** Skip to a time in the video */
-  skipTo: {
+  skipTo?: {
     h?: number;
     m: number;
     s: number;
   };
   /** Auto play the video */
-  autoPlay: boolean;
+  autoPlay?: boolean;
 }
 
 export const YouTube: FunctionComponent<IYouTubeProps> = ({
@@ -41,6 +41,7 @@ export const YouTube: FunctionComponent<IYouTubeProps> = ({
         }}
       >
         <iframe
+          data-testid="youtube"
           title={`youTube-${youTubeId}`}
           src={`https://www.youtube.com/embed/${youTubeId}?&autoplay=${autoPlay}&start=${startTime}`}
           frameBorder="0"
