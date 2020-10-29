@@ -1,14 +1,20 @@
 import { createScriptTag } from '../../utils';
 
 let isFlickrScriptAdded = false;
-const flickrEmbedClassNames = [`.flickr-embed`].join(`,`);
+export const flickrClassNames = [`.flickr-embed`].join(`,`);
 const flickrEmbedUrl = `https://embedr.flickr.com/assets/client-code.js`;
 
 export const handleFlickrLoad = () => {
-  if (document.querySelector(flickrEmbedClassNames) !== null) {
+  if (document.querySelector(flickrClassNames) !== null) {
     if (!isFlickrScriptAdded) {
       createScriptTag(flickrEmbedUrl, null);
       isFlickrScriptAdded = true;
+      return {
+        status: 'createScriptTag',
+      };
     }
   }
+  return {
+    status: 'null',
+  };
 };

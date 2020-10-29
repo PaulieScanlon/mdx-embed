@@ -20,7 +20,7 @@ const twttrLoad = () => {
     (window as any).twttr.widgets &&
     typeof (window as any).twttr.widgets.load === `function`
   ) {
-    (window as any).twttr.widgets.load(document.getElementById(`___gatsby`));
+    (window as any).twttr.widgets.load(document.getElementsByClassName(`mdx-embed`));
   }
 };
 
@@ -29,7 +29,13 @@ export const handleTwttrLoad = () => {
     if (!isTwttrScriptAdded) {
       createScriptTag(null, twttrEmbedScript);
       isTwttrScriptAdded = true;
+      return {
+        status: 'createScriptTag',
+      };
     }
   }
   twttrLoad();
+  return {
+    status: 'twttrLoad',
+  };
 };
