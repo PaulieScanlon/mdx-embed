@@ -19,7 +19,7 @@ export const EggheadLesson: FunctionComponent<IEggheadLessonProps> = ({ lessonId
         }}
       >
         <iframe
-          data-testid={`egghead-${lessonId}`}
+          data-testid="egghead-lesson"
           title={`egghead-${lessonId}`}
           src={`https://egghead.io/lessons/${lessonId}/embed`}
           frameBorder="0"
