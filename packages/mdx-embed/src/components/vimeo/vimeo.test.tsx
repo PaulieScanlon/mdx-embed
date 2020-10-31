@@ -4,7 +4,7 @@ import '@testing-library/jest-dom/extend-expect';
 
 import { Vimeo } from './';
 
-describe('<Twitch />', () => {
+describe('<Vimeo />', () => {
   beforeEach(() => {
     (window as any).addIntersectionObserver();
   });

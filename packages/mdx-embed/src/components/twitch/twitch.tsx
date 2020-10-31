@@ -32,7 +32,9 @@ export const Twitch: FunctionComponent<ITwitchProps> = ({
 }: ITwitchProps) => {
   const { h, m, s } = skipTo;
   const title = twitchId ? `twitch-${twitchId}` : `twitch`;
-  const baseUrl = `https://player.twitch.tv/?autoplay=${autoPlay}&t=${h}h${m}m${s}s&parent=${parent}`;
+  const baseUrl = `https://player.twitch.tv/?autoplay=${autoPlay}&t=${h}h${m}m${s}s&parent=${
+    process.env.NODE_ENV === 'development' ? 'localhost' : parent
+  }`;
   const constructedSrcURL = constructTwitchURL(twitchId, channel, collection, baseUrl);
 
   return (
