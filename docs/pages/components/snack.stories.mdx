@@ -1,0 +1,42 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { Snack } from '../../../packages/mdx-embed/src/components/snack';
+
+<Meta title="Components/Snack" component={Snack} />
+
+# Snack
+
+Display an embed [Snack](https://snack.expo.io) into your mdx file.
+The `snackId` is required.
+
+<ArgsTable of={Snack} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <Snack snackId="@matiasfh/animated-image" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+To embed an Snack using the `<Snack />` component grab last pieces of the query string of the url
+
+```
+https://snack.expo.io/@matiasfh/animated-image
+```
+
+The snackId are the last bits
+
+```
+@matiasfh/animated-image
+```
+
+Then use it in the component like this.
+
+```jsx
+<Snack snackId="@matiasfh/animated-image" />
+```
