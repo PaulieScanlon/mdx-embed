@@ -23,7 +23,7 @@ describe('utils', () => {
 
 describe('handleTwttrLoad', () => {
   test('it calls createScriptTag when twitter class names are found', () => {
-    let twttrDiv = document.createElement('div');
+    const twttrDiv = document.createElement('div');
     twttrDiv.setAttribute('class', twttrClassNames.split(',').join(' ').replace(/\./g, ' '));
     document.body.appendChild(twttrDiv);
 

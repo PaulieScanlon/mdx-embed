@@ -2,7 +2,7 @@ import { flickrClassNames, handleFlickrLoad } from './utils';
 
 describe('handleFlickrLoad', () => {
   test('it calls createScriptTag when flickr class names are found', () => {
-    let flickrDiv = document.createElement('div');
+    const flickrDiv = document.createElement('div');
     flickrDiv.setAttribute('class', flickrClassNames.split(',').join(' ').replace(/\./g, ' '));
     document.body.appendChild(flickrDiv);
 

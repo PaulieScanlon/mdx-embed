@@ -10,7 +10,7 @@ describe('<Pin />', () => {
 
   test('it renders the component', () => {
     const pinId = '637963103444140543';
-    render(<Pin pinId={pinId} size="medium"/>);
+    render(<Pin pinId={pinId} size="medium" />);
 
     act(() => {
       (window as any).triggerGeneralObserver();

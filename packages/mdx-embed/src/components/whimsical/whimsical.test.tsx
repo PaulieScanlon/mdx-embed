@@ -10,7 +10,7 @@ describe('<Whimsical />', () => {
 
   test('it renders the component', () => {
     const diagramId = 'Py4kdjbPzFpRoAPMbUxmaN';
-    render(<Whimsical diagramId={diagramId}/>);
+    render(<Whimsical diagramId={diagramId} />);
 
     act(() => {
       (window as any).triggerGeneralObserver();

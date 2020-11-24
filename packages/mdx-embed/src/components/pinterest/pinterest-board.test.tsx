@@ -42,5 +42,4 @@ describe('<PinterestBoard />', () => {
 
     expect(screen.getByTestId('pinterest-board')).toBeDefined();
   });
-
 });

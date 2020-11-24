@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, waitFor, screen, act } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'
+import '@testing-library/jest-dom/extend-expect';
 
 import { Wistia } from './';
 
@@ -45,7 +45,10 @@ describe('<Wistia />', () => {
 
     await waitFor(() => {
       expect(screen.getByTestId('wistia')).toBeDefined();
-      expect(screen.getByTestId('wistia')).toHaveAttribute('style', 'position: absolute; top: 0px; left: 0px; width: 640px; height: 380px;');
+      expect(screen.getByTestId('wistia')).toHaveAttribute(
+        'style',
+        'position: absolute; top: 0px; left: 0px; width: 640px; height: 380px;',
+      );
     });
   });
 
@@ -59,7 +62,10 @@ describe('<Wistia />', () => {
 
     await waitFor(() => {
       expect(screen.getByTestId('wistia')).toBeDefined();
-      expect(screen.getByTestId('wistia')).toHaveAttribute('src', 'https://fast.wistia.net/embed/iframe/yplqa7pg87?autoPlay=true');
+      expect(screen.getByTestId('wistia')).toHaveAttribute(
+        'src',
+        'https://fast.wistia.net/embed/iframe/yplqa7pg87?autoPlay=true',
+      );
     });
   });
 });
