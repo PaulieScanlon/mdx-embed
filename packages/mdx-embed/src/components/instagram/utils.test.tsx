@@ -23,7 +23,7 @@ describe('utils', () => {
 
 describe('handleInstagrmLoad', () => {
   test('it calls createScriptTag when instagram class names are found', () => {
-    let instgrmDiv = document.createElement('div');
+    const instgrmDiv = document.createElement('div');
     instgrmDiv.setAttribute('class', instgrmClassNames.split(',').join(' ').replace(/\./g, ' '));
     document.body.appendChild(instgrmDiv);
 
