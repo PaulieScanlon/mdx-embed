@@ -1,6 +1,6 @@
 {
   "name": "mdx-embed",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Embed 3rd party media content in MDX - no import required",
   "main": "dist/index.js",
   "scripts": {
@@ -55,8 +55,8 @@
     "@types/jest": "^26.0.13",
     "@types/mdx-js__react": "^1.5.2",
     "@types/node": "^14.6.0",
-    "@types/react": "^16.9.47",
-    "@types/react-dom": "^16.9.8",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "@types/testing-library__dom": "^7.5.0",
     "@types/testing-library__react": "^10.2.0",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
@@ -72,7 +72,7 @@
     "prettier": "^2.1.1",
     "ts-jest": "^26.3.0",
     "ts-loader": "^8.0.3",
-    "typescript": "^4.0.2"
+    "typescript": "^3.9.7"
   },
   "peerDependencies": {
     "@mdx-js/mdx": "^1.6.16",

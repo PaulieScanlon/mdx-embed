@@ -23,7 +23,7 @@ describe('utils', () => {
 
 describe('handlePinterestBuild', () => {
   test('it calls createScriptTag when pinterest class names are found', () => {
-    let pinDiv = document.createElement('div');
+    const pinDiv = document.createElement('div');
     pinDiv.setAttribute('class', pinterestClassNames.split(',').join(' ').replace(/\./g, ' '));
     document.body.appendChild(pinDiv);
 
