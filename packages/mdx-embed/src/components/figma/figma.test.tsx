@@ -20,7 +20,7 @@ describe('<Figma />', () => {
   });
 
   test('it has 100% width', () => {
-    render(<Figma title="Boop" url="file/LKQ4FJ4bTnCSjedbRpk931/Sample-File"  />);
+    render(<Figma title="Boop" url="file/LKQ4FJ4bTnCSjedbRpk931/Sample-File" />);
 
     act(() => {
       (window as any).triggerGeneralObserver();

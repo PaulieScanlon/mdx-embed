@@ -2,7 +2,7 @@ import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
 
 import { Figma } from '../../../packages/mdx-embed/src/components/figma';
 
-<Meta title="Figma" component={Figma} />
+<Meta title="Components/Figma" component={Figma} />
 
 # Figma
 
@@ -24,17 +24,16 @@ Display a Figma file by including the component in your `.mdx`. The `title` and 
 
 To embed a Figma file or frame using the `<Figma />` component choose an appropriate `title` for the embed (which is used as an id on the iframe) and the `url` of the file/frame/prototype.
 
-For example, you will copy the part after `https://www.figma.com/`: 
+For example, you will copy the part after `https://www.figma.com/`:
 
 ```
 https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File
 ```
 
-
 Then use it in the component like this.
 
 ```jsx
-    <Figma title="Boop" url="file/LKQ4FJ4bTnCSjedbRpk931/Sample-File" />
+<Figma title="Boop" url="file/LKQ4FJ4bTnCSjedbRpk931/Sample-File" />
 ```
 
 It's important to include the file or proto prefix as this states what type of file should be embedded and it won't work without the correct prefix.
