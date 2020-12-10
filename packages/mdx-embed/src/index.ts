@@ -5,6 +5,7 @@ export { CodePen } from './components/codepen';
 export { CodeSandbox } from './components/codesandbox';
 export { EggheadLesson } from './components/egghead';
 export { Flickr } from './components/flickr';
+export { Figma } from './components/figma';
 export { Gist } from './components/gist';
 export { Instagram } from './components/instagram';
 export { Lbry } from './components/lbry';
