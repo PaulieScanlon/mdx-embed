@@ -35,5 +35,3 @@ export const Figma: FunctionComponent<IFigmaProps> = ({
     />
   </GeneralObserver>
 );
-
-// https://www.figma.com/file/gywqAn9uh3J2vjwcfIOdVr/Crystallize-Content-Modeling-Kit?node-id=0%3A1
