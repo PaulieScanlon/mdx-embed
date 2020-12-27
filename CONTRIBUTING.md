@@ -27,7 +27,7 @@ To add a new component there are several locations the new component needs to go
 - Add export to `mdx-embed/src/index.ts`: `export { ComponentName } from './components/component-name`
 - Include component in the `components` object that gets passed onto the MDXProvider in
   `src/components/mdx-embed-provider/mdx-embed-provider.tsx`
-- Add component to stories `docs/src/components/component-name.stories.mdx`
+- Add component to stories `docs/pages/components/component-name.stories.mdx`
 
 ## Final checks
 

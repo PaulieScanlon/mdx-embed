@@ -1,0 +1,1 @@
+export { Figma } from './figma';

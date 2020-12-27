@@ -4,6 +4,7 @@ import { Cinnamon } from '../cinnamon';
 import { CodePen } from '../codepen';
 import { CodeSandbox } from '../codesandbox';
 import { EggheadLesson } from '../egghead';
+import { Figma } from '../figma';
 import { Flickr } from '../flickr';
 import { Gist } from '../gist';
 import { Instagram } from '../instagram';
@@ -37,6 +38,7 @@ export const components = {
   CodePen,
   CodeSandbox,
   EggheadLesson,
+  Figma,
   Flickr,
   Gist,
   Instagram,
