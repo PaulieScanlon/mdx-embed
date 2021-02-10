@@ -23,6 +23,7 @@ export const LinkedInBadge: FunctionComponent<ILinkedInProps> = ({
 }: ILinkedInProps) => (
   <GeneralObserver onEnter={() => handleLinkedInLoad()}>
     <div
+      data-testid="linkedin-badge"
       className="LI-profile-badge linkedin-badge-embed-mdx"
       data-version="v1"
       data-size={badgeSize}
@@ -31,11 +32,7 @@ export const LinkedInBadge: FunctionComponent<ILinkedInProps> = ({
       data-theme={theme}
       data-vanity={username}
     >
-      <a
-        data-testid="linkedin-badge"
-        className="LI-simple-link"
-        href={`https://uk.linkedin.com/in/${username}?trk=profile-badge`}
-      >
+      <a className="LI-simple-link" href={`https://uk.linkedin.com/in/${username}?trk=profile-badge`}>
         Loading
       </a>
     </div>
