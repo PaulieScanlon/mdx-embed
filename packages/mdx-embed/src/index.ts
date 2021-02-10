@@ -9,6 +9,7 @@ export { Figma } from './components/figma';
 export { Gist } from './components/gist';
 export { Instagram } from './components/instagram';
 export { Lbry } from './components/lbry';
+export { LinkedInBadge } from './components/linkedin';
 export { Pin, PinterestBoard, PinterestFollowButton } from './components/pinterest';
 export { SimplecastEpisode } from './components/simplecast';
 export { SoundCloud } from './components/soundcloud';

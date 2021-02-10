@@ -1,0 +1,51 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { LinkedInBadge } from '../../../../packages/mdx-embed/src/components/linkedin';
+
+<Meta title="Components/LinkedIn/LinkedInBadge" component={LinkedInBadge} />
+
+# LinkedInBadge
+
+Display a LinkedInBadge Badge by including the component in your `.mdx`. The `username` prop is required.
+
+_⚠️ If you're seeing ERR_ABORTED 999 its because LinkedIn block requests when the rate limit is exceeded_
+
+<ArgsTable of={LinkedInBadge} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <LinkedInBadge username="pauliescanlon" />
+  </Story>
+</Canvas>
+
+## Badge Type
+
+<Canvas>
+  <Story name="badge-type">
+    <LinkedInBadge username="pauliescanlon" badgeType="horizontal" />
+  </Story>
+</Canvas>
+
+## Badge Size
+
+<Canvas>
+  <Story name="badge-size">
+    <LinkedInBadge username="pauliescanlon" badgeSize="large" />
+  </Story>
+</Canvas>
+
+## Theme
+
+<Canvas>
+  <Story name="theme">
+    <LinkedInBadge username="pauliescanlon" theme="dark" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+You can find more information about LinkedInBadge Badges [here](https://www.linkedin.com/badges/profile/create?vanityname=pauliescanlon&preferredlocale=en_US&trk=public_profile-settings_badge)
