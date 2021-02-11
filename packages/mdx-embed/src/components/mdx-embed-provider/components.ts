@@ -9,11 +9,13 @@ import { Flickr } from '../flickr';
 import { Gist } from '../gist';
 import { Instagram } from '../instagram';
 import { Lbry } from '../lbry';
+import { LinkedInBadge } from '../linkedin';
 import { Pin, PinterestBoard, PinterestFollowButton } from '../pinterest';
 import { SimplecastEpisode } from '../simplecast';
 import { SoundCloud } from '../soundcloud';
 import { Spotify } from '../spotify';
 import { Strava } from '../strava';
+import { Snack } from '../snack';
 import { TikTok } from '../tiktok';
 import { Twitch } from '../twitch';
 import {
@@ -43,6 +45,7 @@ export const components = {
   Gist,
   Instagram,
   Lbry,
+  LinkedInBadge,
   Pin,
   PinterestBoard,
   PinterestFollowButton,
@@ -50,6 +53,7 @@ export const components = {
   SoundCloud,
   Spotify,
   Strava,
+  Snack,
   TikTok,
   Twitch,
   Tweet,

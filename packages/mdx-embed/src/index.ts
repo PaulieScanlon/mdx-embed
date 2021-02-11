@@ -15,6 +15,7 @@ export { SimplecastEpisode } from './components/simplecast';
 export { SoundCloud } from './components/soundcloud';
 export { Spotify } from './components/spotify';
 export { Strava } from './components/strava';
+export { Snack } from './components/snack';
 export { TikTok } from './components/tiktok';
 export { Twitch } from './components/twitch';
 export {

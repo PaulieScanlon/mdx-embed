@@ -6,8 +6,7 @@ import { Snack } from '../../../packages/mdx-embed/src/components/snack';
 
 # Snack
 
-Display an embed [Snack](https://snack.expo.io) into your mdx file.
-The `snackId` is required.
+Display a Snack in your mdx file. The `snackId` prop is required.
 
 <ArgsTable of={Snack} />
 
@@ -23,19 +22,19 @@ The `snackId` is required.
 
 <Story name="help" />
 
-To embed an Snack using the `<Snack />` component grab last pieces of the query string of the url
+To embed a Snack using the `<Snack />` component grab the last pieces of the query string from the url
 
 ```
 https://snack.expo.io/@matiasfh/animated-image
 ```
 
-The snackId are the last bits
+The `snackId` is made up of the username and the part of the url
 
 ```
 @matiasfh/animated-image
 ```
 
-Then use it in the component like this.
+Then use it like this.
 
 ```jsx
 <Snack snackId="@matiasfh/animated-image" />
