@@ -7,7 +7,7 @@ context('<Twitch />', () => {
     cy.get('[data-testid="twitch"]').should('not.be.undefined');
     cy.getIframeBody().find('.video-player').should('exist');
     cy.getIframeBody().find('.player-controls').should('exist');
-  })
+  });
 
   it('it loads twitch video skipped to defined time', () => {
     cy.visit('/iframe.html?id=components-twitch--skip-to&viewMode=story');
@@ -17,7 +17,7 @@ context('<Twitch />', () => {
     cy.getIframeBody().find('[aria-label="Play"]').should('exist');
     cy.getIframeBody().find('.player-controls').should('exist');
     cy.getIframeBody().find('.tw-absolute').should('not.have.css', 'left', '0%');
-  })
+  });
 
   it('it loads twitch channel', () => {
     cy.visit('/iframe.html?id=components-twitch--channel&viewMode=story');
@@ -25,7 +25,6 @@ context('<Twitch />', () => {
     cy.get('[data-testid="twitch"]').should('not.be.undefined');
     cy.getIframeBody().find('.video-player').should('exist');
     cy.getIframeBody().find('.player-overlay-background').should('exist');
-    cy.getIframeBody().find('.tw-c-text-overlay').should('exist');
     cy.getIframeBody().find('.offline-recommendations-video-card').should('exist');
-  })
-})
+  });
+});
