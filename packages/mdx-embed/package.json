@@ -41,6 +41,9 @@
     "dist",
     "README.md"
   ],
+  "engines": {
+    "node": "12.x"
+  },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.4",
