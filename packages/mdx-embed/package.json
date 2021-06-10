@@ -42,7 +42,7 @@
     "README.md"
   ],
   "engines": {
-    "node": "12.x"
+    "node": "14.x"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
