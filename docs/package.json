@@ -30,7 +30,7 @@
     "@storybook/addon-docs": "^6.1.5",
     "@storybook/addon-links": "^6.1.5",
     "@storybook/addons": "^6.1.5",
-    "@storybook/react": "^6.1.5",
+    "@storybook/react": "^6.2.9",
     "@storybook/theming": "^6.1.5",
     "mdx-embed": "*",
     "react-docgen-typescript": "^1.20.5",
