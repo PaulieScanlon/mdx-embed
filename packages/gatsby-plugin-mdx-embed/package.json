@@ -37,7 +37,7 @@
   "peerDependencies": {
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
-    "gatsby": "^2.24.4",
+    "gatsby": "^3.2.0",
     "mdx-embed": "*",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
