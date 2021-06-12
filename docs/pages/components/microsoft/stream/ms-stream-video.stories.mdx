@@ -1,0 +1,97 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import { MsStreamVideo } from '../../../../../packages/mdx-embed/src/components/microsoft/stream';
+
+<Meta title="Components/MsStreamVideo" component={MsStreamVideo} />
+
+# Microsoft Stream Video
+
+Display a Microsoft Stream Video by including the component in your `.mdx`. The `videoId` prop is required.
+
+<ArgsTable of={MsStreamVideo} />
+
+## Usage
+
+<Canvas>
+  <Story name="usage">
+    <MsStreamVideo videoId="6ca9498c-c4f6-4bd5-99cc-2a44aabc3098" />
+  </Story>
+</Canvas>
+
+## Aspect Ratio
+
+<Canvas>
+  <Story name="aspectRatio">
+    <MsStreamVideo videoId="6ca9498c-c4f6-4bd5-99cc-2a44aabc3098" aspectRatio="4:3" />
+  </Story>
+</Canvas>
+
+## Skip To
+
+<Canvas>
+  <Story name="skipTo">
+    <MsStreamVideo videoId="6ca9498c-c4f6-4bd5-99cc-2a44aabc3098" skipTo={{ h: 0, m: 1, s: 44 }} />
+  </Story>
+</Canvas>
+
+## Auto Play
+
+There is an autoplay parameter but I haven't been able to make it work so far ...
+
+<Canvas>
+  <Story name="autoPlay">
+    <MsStreamVideo videoId="6ca9498c-c4f6-4bd5-99cc-2a44aabc3098" autoPlay="true" />
+  </Story>
+</Canvas>
+
+## Show Info
+
+<Canvas>
+  <Story name="showInfo">
+    <MsStreamVideo videoId="6ca9498c-c4f6-4bd5-99cc-2a44aabc3098" showInfo="false" />
+  </Story>
+</Canvas>
+
+## Help
+
+<Story name="help" />
+
+### Getting the `videoId`
+
+To embed a Microsoft Stream video using the `<MsStreamVideo />` component, grab the `videoId` from the URL.
+
+```
+https://web.microsoftstream.com/video/6ca9498c-c4f6-4bd5-99cc-2a44aabc3098
+https://web.microsoftstream.com/video/6ca9498c-c4f6-4bd5-99cc-2a44aabc3098?channelId=55e5ec5f-f155-4477-99b1-fb1c61da6bf4
+```
+
+The `videoId` is the part between `video/` and the `?`.
+
+Be careful, depending on how you accessed the video, there might be extra info in the url that looks like the `videoId`, but that is not. In the second URL above, for example, the last part is the channel Id.
+
+Use the `videoId` like this:
+
+```jsx
+<MsStreamVideo videoId="6ca9498c-c4f6-4bd5-99cc-2a44aabc3098" />
+```
+
+### Permissions and public sharing
+
+From the official Microsoft Docs (links at the end of this page):
+
+> Only people authorized to see a video will be able to view it.
+
+> Microsoft Stream doesn't yet support external sharing scenarios for guests or people outside your organization. We know these features are highly needed and we are working on plans for how to build these features.
+
+They have been working on these plans for quite a while now ... maybe something will come out soon!
+
+There is one video at the top of [this page](https://docs.microsoft.com/fr-fr/stream/portal-share-video) that looks like an embedded Stream Video that is publicly available, but upon inspection, it looks like it's only a theme and the video itself is probably not hosted on Stream.
+
+And in other places where Microsoft shares public videos, like in their [Video Hub](https://techcommunity.microsoft.com/t5/video-hub/on-demand-learning-with-video-and-microsoft-stream/m-p/2177356), they use ... YouTube !
+
+In conclusion, use Stream only if you want to share videos within your organization and have constraints that prevent you from using external services.
+
+### Official Microsoft Documentation
+
+  - [Share your videos in Microsoft Stream](https://docs.microsoft.com/fr-fr/stream/portal-share-video)
+  - [Embed Microsoft Stream videos in other apps](https://docs.microsoft.com/fr-fr/stream/portal-embed-video)
