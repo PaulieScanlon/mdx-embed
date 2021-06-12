@@ -22,7 +22,10 @@
     "react",
     "storybook",
     "mdx",
-    "mdx-embed"
+    "mdx-embed",
+    "storybook-addon",
+    "organize",
+    "popular"
   ],
   "files": [
     "dist",
@@ -40,5 +43,9 @@
     "@babel/plugin-transform-modules-commonjs": "^7.10.4",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4"
+  },
+  "storybook": {
+    "icon": "https://www.mdx-embed.com/mdx-embed-logo.svg",
+    "displayName": "MDX Embed"
   }
 }
