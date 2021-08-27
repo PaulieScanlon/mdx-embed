@@ -27,6 +27,7 @@ export default {
       variant: 'text.default',
     },
     a: {
+      fontFamily: 'body',
       color: 'secondary',
       variant: 'text.default',
     },
@@ -52,8 +53,23 @@ export default {
     },
   },
   buttons: {
-    primary: {
+    default: {
+      fontFamily: 'body',
       cursor: 'pointer',
+      ':disabled': {
+        cursor: 'not-allowed',
+        backgroundColor: 'lightGrey',
+      },
     },
+    primary: {
+      variant: 'buttons.default',
+    },
+    secondary: {
+      variant: 'buttons.default',
+      backgroundColor: 'secondary',
+    },
+  },
+  links: {
+    fontFamily: 'body',
   },
 };

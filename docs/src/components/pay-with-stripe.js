@@ -1,6 +1,6 @@
 import React, { Fragment, FunctionComponent, useState, useEffect } from 'react';
 import axios from 'axios';
-import { ThemeProvider, Input, Button, Grid, Flex, Box, Link, Text } from 'theme-ui';
+import { ThemeProvider, Input, Button, Grid, Flex, Box, Link, Text, Spinner } from 'theme-ui';
 
 import theme from '../theme';
 
@@ -27,10 +27,11 @@ export const PayWithStripe: FunctionComponent = () => {
     setIsLoading(true);
     try {
       const response = await axios.post('https://paulieapi.gatsbyjs.io/api/dummy-stripe-payment', {
+        // const response = await axios.post('http://localhost:8000/api/make-stripe-payment', {
         product: 'prod_K6dGWR54oYDK1q',
         amount: inputValue,
-        success_url: 'http://localhost:6006/',
-        cancel_url: 'http://localhost:6006/',
+        success_url: 'https://www.mdx-embed.com/',
+        cancel_url: 'https://www.mdx-embed.com/',
       });
       console.log(response.data);
       setIsLoading(false);
@@ -83,14 +84,14 @@ export const PayWithStripe: FunctionComponent = () => {
                   }}
                 />
               </Flex>
-              <Button disabled={isLoading} onClick={makeStripePayment}>
-                {cta.message}
+              <Button disabled={isLoading} onClick={makeStripePayment} sx={{ py: isLoading ? [1, 0] : 2 }}>
+                {isLoading ? <Spinner sx={{ color: 'background', height: '24px' }} /> : cta.message}
               </Button>
             </Fragment>
           ) : (
-            <Link href={cta.url} target="_blank" rel="noopener">
+            <Button as="a" variant="secondary" href={cta.url} target="_blank" rel="noopener">
               {cta.message}
-            </Link>
+            </Button>
           )}
         </Grid>
       )}
