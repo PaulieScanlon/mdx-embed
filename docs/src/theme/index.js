@@ -6,6 +6,7 @@ export default {
     background: '#ffffff',
     lightGrey: '#999999',
     grey: '#333333',
+    error: '#ff0000',
   },
   fonts: {
     body:
@@ -48,6 +49,11 @@ export default {
         color: 'rgba(51,51,51,0.9)',
         backgroundColor: '#F8F8F8',
       },
+    },
+  },
+  buttons: {
+    primary: {
+      cursor: 'pointer',
     },
   },
 };
