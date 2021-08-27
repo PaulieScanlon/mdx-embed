@@ -6,6 +6,7 @@ export default {
     background: '#ffffff',
     lightGrey: '#999999',
     grey: '#333333',
+    error: '#ff0000',
   },
   fonts: {
     body:
@@ -26,6 +27,7 @@ export default {
       variant: 'text.default',
     },
     a: {
+      fontFamily: 'body',
       color: 'secondary',
       variant: 'text.default',
     },
@@ -49,5 +51,25 @@ export default {
         backgroundColor: '#F8F8F8',
       },
     },
+  },
+  buttons: {
+    default: {
+      fontFamily: 'body',
+      cursor: 'pointer',
+      ':disabled': {
+        cursor: 'not-allowed',
+        backgroundColor: 'lightGrey',
+      },
+    },
+    primary: {
+      variant: 'buttons.default',
+    },
+    secondary: {
+      variant: 'buttons.default',
+      backgroundColor: 'secondary',
+    },
+  },
+  links: {
+    fontFamily: 'body',
   },
 };

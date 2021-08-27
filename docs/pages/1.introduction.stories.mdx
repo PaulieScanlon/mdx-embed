@@ -2,19 +2,17 @@ import { Meta } from '@storybook/addon-docs/blocks';
 import { linkTo } from '@storybook/addon-links';
 
 import { Flex, Box, Grid, Link } from 'theme-ui';
-import { GitHubLink, Quote } from '../src/components';
+import { GitHubLink, Quote, PayWithStripe } from '../src/components';
 
 <Meta title="Introduction" />
 
 <Flex sx={{ alignItems: 'center', justifyContent: 'space-between' }}>
-
 
 # MDX Embed
 
 <GitHubLink />
 
 </Flex>
-
 
 MDX Embed allows you to easily _embed_ popular 3rd party media content such as YouTube videos, Tweets, Instagram posts, Egghead lessons, Spotify, TikTok and many more straight into your `.mdx` - **no import required!**
 
@@ -78,3 +76,11 @@ Thanks to the following who contributed to the old package [@pauliescanlon/gatsb
 - [Mike Bifulco](https://github.com/mbifulco)
 - [Zach Schnackel](https://github.com/zslabs)
 - [Alex Trost](https://github.com/a-trost)
+
+<Box sx={{ height: '24px' }} />
+
+#### Pay What You Want
+
+If you feel like supporting this project feel free to use the Pay With Stripe button below
+
+<PayWithStripe />
