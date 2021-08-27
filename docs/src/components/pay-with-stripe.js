@@ -46,53 +46,54 @@ export const PayWithStripe: FunctionComponent = () => {
     }
   };
 
-  return null;
-  // <ThemeProvider theme={theme}>
-  //   {hasError ? (
-  //     <Text as="small" sx={{ color: 'error' }}>
-  //       Blast! There's been an error
-  //     </Text>
-  //   ) : (
-  //     <Grid
-  //       sx={{
-  //         gridTemplateColumns: ['1fr', 'auto 1fr'],
-  //         gap: 1,
-  //         maxWidth: ['100%', 300],
-  //       }}
-  //     >
-  //       {cta.type === 'button' ? (
-  //         <Fragment>
-  //           <Flex
-  //             style={{
-  //               display: 'inline-block',
-  //               position: 'relative',
-  //             }}
-  //           >
-  //             <Box as="span" sx={{ position: 'absolute', marginTop: 2, marginLeft: 2 }}>
-  //               $
-  //             </Box>
-  //             <Input
-  //               type="number"
-  //               min="1"
-  //               max="100"
-  //               value={inputValue}
-  //               disabled={isLoading}
-  //               onChange={handleChange}
-  //               sx={{
-  //                 paddingLeft: 3,
-  //               }}
-  //             />
-  //           </Flex>
-  //           <Button disabled={isLoading} onClick={makeStripePayment} sx={{ py: isLoading ? [1, 0] : 2 }}>
-  //             {isLoading ? <Spinner sx={{ color: 'background', height: '24px' }} /> : cta.message}
-  //           </Button>
-  //         </Fragment>
-  //       ) : (
-  //         <Button as="a" variant="secondary" href={cta.url} target="_blank" rel="noopener">
-  //           {cta.message}
-  //         </Button>
-  //       )}
-  //     </Grid>
-  //   )}
-  // </ThemeProvider>
+  return (
+    <ThemeProvider theme={theme}>
+      {hasError ? (
+        <Text as="small" sx={{ color: 'error' }}>
+          Blast! There's been an error
+        </Text>
+      ) : (
+        <Grid
+          sx={{
+            gridTemplateColumns: ['1fr', 'auto 1fr'],
+            gap: 1,
+            maxWidth: ['100%', 300],
+          }}
+        >
+          {cta.type === 'button' ? (
+            <Fragment>
+              <Flex
+                style={{
+                  display: 'inline-block',
+                  position: 'relative',
+                }}
+              >
+                <Box as="span" sx={{ position: 'absolute', marginTop: 2, marginLeft: 2 }}>
+                  $
+                </Box>
+                <Input
+                  type="number"
+                  min="1"
+                  max="100"
+                  value={inputValue}
+                  disabled={isLoading}
+                  onChange={handleChange}
+                  sx={{
+                    paddingLeft: 3,
+                  }}
+                />
+              </Flex>
+              <Button disabled={isLoading} onClick={makeStripePayment} sx={{ py: isLoading ? [1, 0] : 2 }}>
+                {isLoading ? <Spinner sx={{ color: 'background', height: '24px' }} /> : cta.message}
+              </Button>
+            </Fragment>
+          ) : (
+            <Button as="a" variant="secondary" href={cta.url} target="_blank" rel="noopener">
+              {cta.message}
+            </Button>
+          )}
+        </Grid>
+      )}
+    </ThemeProvider>
+  );
 };
