@@ -10,7 +10,7 @@ export const PayWithStripe: FunctionComponent = () => {
   const [inputValue, setInputValue] = useState(1);
   const [cta, setCta] = useState({
     type: 'button',
-    message: 'Make Donation with Stripe',
+    message: 'Pay with Stripe',
     url: null,
   });
 
@@ -25,13 +25,24 @@ export const PayWithStripe: FunctionComponent = () => {
 
   const makeStripePayment = async () => {
     setIsLoading(true);
+
     try {
-      const response = await axios.post('https://paulieapi.gatsbyjs.io/api/dummy-stripe-payment', {
-        product: 'prod_K6dGWR54oYDK1q',
-        amount: inputValue,
-        success_url: 'https://www.mdx-embed.com/',
-        cancel_url: 'https://www.mdx-embed.com/',
-      });
+      const response = await axios.post(
+        'https://paulieapi.gatsbyjs.io/api/dummy-stripe-payment',
+        {
+          product: 'prod_K6dGWR54oYDK1q',
+          amount: inputValue,
+          success_url: 'https://www.mdx-embed.com/',
+          cancel_url: 'https://www.mdx-embed.com/',
+        },
+        {
+          headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Content-Type': 'application/json',
+          },
+        },
+      );
+
       console.log(response.data);
       setIsLoading(false);
       setCta({

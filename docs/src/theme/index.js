@@ -14,6 +14,7 @@ export default {
   },
   fontSizes: {
     body: '14px',
+    button: '16px',
   },
   fontWeight: {
     body: 400,
@@ -69,6 +70,7 @@ export default {
       backgroundColor: 'secondary',
     },
   },
+
   links: {
     fontFamily: 'body',
   },
