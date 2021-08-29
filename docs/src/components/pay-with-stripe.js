@@ -37,9 +37,9 @@ export const PayWithStripe: FunctionComponent = () => {
         },
         {
           headers: {
-            'Access-Control-Allow-Origin': 'https://www.mdx-embed.com',
             'Content-Type': 'application/json',
           },
+          withCredentials: true,
         },
       );
 
