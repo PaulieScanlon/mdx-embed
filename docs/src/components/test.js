@@ -27,7 +27,7 @@ export const Test = () => {
         success_url: 'https://www.mdx-embed.com',
         cancel_url: 'https://www.mdx-embed.com',
       },
-      'http://localhost:6006/',
+      'https://www.mdx-embed.com',
     );
   };
 
