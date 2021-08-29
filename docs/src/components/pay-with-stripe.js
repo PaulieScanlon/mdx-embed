@@ -26,12 +26,8 @@ export const PayWithStripe: FunctionComponent = () => {
   const makeStripePayment = async () => {
     setIsLoading(true);
 
-    const ax = axios.create({
-      withCredentials: true,
-    });
-
     try {
-      const response = await ax.post(
+      const response = await axios.post(
         'https://paulieapi.gatsbyjs.io/api/dummy-stripe-payment',
         {
           product: 'prod_K6dGWR54oYDK1q',
@@ -40,6 +36,7 @@ export const PayWithStripe: FunctionComponent = () => {
           cancel_url: 'https://www.mdx-embed.com/',
         },
         {
+          withCredentials: true,
           headers: {
             'Content-Type': 'application/json',
           },
