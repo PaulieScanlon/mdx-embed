@@ -42,8 +42,6 @@ export const PayWithStripe: FunctionComponent = () => {
           },
         },
       );
-
-      console.log(response.data);
       setIsLoading(false);
       setCta({
         type: 'link',
@@ -53,7 +51,6 @@ export const PayWithStripe: FunctionComponent = () => {
     } catch (error) {
       setIsLoading(false);
       setHasError(true);
-      console.warn(JSON.stringify(error, null, 2));
     }
   };
 
