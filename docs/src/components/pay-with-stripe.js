@@ -28,7 +28,7 @@ export const PayWithStripe: FunctionComponent = () => {
 
     try {
       const response = await axios.post(
-        'https://paulieapi.gatsbyjs.io/api/dummy-stripe-payment',
+        'https://paulieapi.gatsbyjs.io/api/make-stripe-payment',
         {
           product: 'prod_K6dGWR54oYDK1q',
           amount: inputValue,
