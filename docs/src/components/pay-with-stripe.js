@@ -27,21 +27,12 @@ export const PayWithStripe: FunctionComponent = () => {
     setIsLoading(true);
 
     try {
-      const response = await axios.post(
-        'https://paulieapi.gatsbyjs.io/api/make-stripe-payment',
-        {
-          product: 'prod_K6dGWR54oYDK1q',
-          amount: inputValue,
-          success_url: 'https://www.mdx-embed.com/',
-          cancel_url: 'https://www.mdx-embed.com/',
-        },
-        {
-          withCredentials: true,
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        },
-      );
+      const response = await axios.post('https://paulieapi.gatsbyjs.io/api/make-stripe-payment', {
+        product: 'prod_K6dGWR54oYDK1q',
+        amount: inputValue,
+        success_url: 'https://www.mdx-embed.com/',
+        cancel_url: 'https://www.mdx-embed.com/',
+      });
       setIsLoading(false);
       setCta({
         type: 'link',
