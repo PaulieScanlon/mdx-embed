@@ -42,8 +42,9 @@ export const PayWithStripe: FunctionComponent = () => {
     } catch (error) {
       if (error.response) {
         setResponse(error.response.data.message);
+      } else {
+        setResponse(error.name);
       }
-      setResponse(error.name);
       setIsPosting(false);
       setHasError(true);
     }
