@@ -40,7 +40,10 @@ export const PayWithStripe: FunctionComponent = () => {
       setResponse(response.data.message);
       setCheckoutUrl(response.data.url);
     } catch (error) {
-      setResponse(error.response.data.message);
+      if (error.response) {
+        setResponse(error.response.data.message);
+      }
+      setResponse(error.name);
       setIsPosting(false);
       setHasError(true);
     }
