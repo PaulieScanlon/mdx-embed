@@ -10,8 +10,7 @@ export default {
     success: '#4caf50',
   },
   fonts: {
-    body:
-      '"Nunito Sans",-apple-system,".SFNSText-Regular","San Francisco",BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif',
+    body: '"Nunito Sans",-apple-system,".SFNSText-Regular","San Francisco",BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif',
   },
   fontSizes: {
     body: '14px',

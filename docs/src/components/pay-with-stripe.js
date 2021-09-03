@@ -40,7 +40,7 @@ export const PayWithStripe: FunctionComponent = () => {
       setResponse(response.data.message);
       setCheckoutUrl(response.data.url);
     } catch (error) {
-      setResponse('🚫 Request blocked by CORS');
+      setResponse(error.response.data.message);
       setIsPosting(false);
       setHasError(true);
     }
