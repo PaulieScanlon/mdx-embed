@@ -5,14 +5,13 @@ import { ThemeProvider, Input, Button, Grid, Flex, Box, Link, Text, Spinner } fr
 import theme from '../theme';
 
 export const PayWithStripe: FunctionComponent = () => {
-  const [isLoading, setIsLoading] = useState(false);
-  const [hasError, setHasError] = useState(false);
   const [inputValue, setInputValue] = useState(1);
-  const [cta, setCta] = useState({
-    type: 'button',
-    message: 'Pay with Stripe',
-    url: null,
-  });
+
+  const [response, setResponse] = useState(null);
+  const [checkoutUrl, setCheckoutUrl] = useState(null);
+
+  const [isPosting, setIsPosting] = useState(false);
+  const [hasError, setHasError] = useState(false);
 
   const handleChange = (event) => {
     const { value } = event.target;
@@ -24,7 +23,10 @@ export const PayWithStripe: FunctionComponent = () => {
   };
 
   const makeStripePayment = async () => {
-    setIsLoading(true);
+    setResponse('');
+    setCheckoutUrl(null);
+    setIsPosting(true);
+    setHasError(false);
 
     try {
       const response = await axios.post('https://paulieapi.gatsbyjs.io/api/make-stripe-payment', {
@@ -33,25 +35,24 @@ export const PayWithStripe: FunctionComponent = () => {
         success_url: 'https://www.mdx-embed.com/',
         cancel_url: 'https://www.mdx-embed.com/',
       });
-      setIsLoading(false);
-      setCta({
-        type: 'link',
-        message: 'Proceed to checkout',
-        url: response.data.url,
-      });
+
+      setIsPosting(false);
+      setResponse(response.data.message);
+      setCheckoutUrl(response.data.url);
     } catch (error) {
-      setIsLoading(false);
+      setResponse('🚫 Request blocked by CORS');
+      setIsPosting(false);
       setHasError(true);
     }
   };
 
   return (
     <ThemeProvider theme={theme}>
-      {hasError ? (
-        <Text as="small" sx={{ color: 'error' }}>
-          Blast! There's been an error
-        </Text>
-      ) : (
+      <Grid
+        sx={{
+          gap: 1,
+        }}
+      >
         <Grid
           sx={{
             gridTemplateColumns: ['1fr', 'auto auto'],
@@ -59,7 +60,7 @@ export const PayWithStripe: FunctionComponent = () => {
             maxWidth: ['100%', 300],
           }}
         >
-          {cta.type === 'button' ? (
+          {!checkoutUrl ? (
             <Fragment>
               <Flex
                 style={{
@@ -76,24 +77,30 @@ export const PayWithStripe: FunctionComponent = () => {
                   min="1"
                   max="100"
                   value={inputValue}
-                  disabled={isLoading}
+                  disabled={isPosting}
                   onChange={handleChange}
                   sx={{
                     paddingLeft: 3,
                   }}
                 />
               </Flex>
-              <Button disabled={isLoading} onClick={makeStripePayment} sx={{ py: isLoading ? [1, 0] : 2 }}>
-                {isLoading ? <Spinner sx={{ color: 'background', height: '24px' }} /> : cta.message}
+              <Button disabled={isPosting} onClick={makeStripePayment} sx={{ py: isPosting ? [1, 0] : 2 }}>
+                {isPosting ? <Spinner sx={{ color: 'background', height: '24px' }} /> : 'Pay with Stripe'}
               </Button>
             </Fragment>
           ) : (
-            <Button as="a" variant="secondary" href={cta.url} target="_blank" rel="noopener">
-              {cta.message}
+            <Button as="a" variant="secondary" href={checkoutUrl} target="_blank" rel="noopener">
+              Checkout
             </Button>
           )}
         </Grid>
-      )}
+
+        {response ? (
+          <Text as="small" variant="text.small" sx={{ color: hasError ? 'error' : 'success' }}>
+            {response}
+          </Text>
+        ) : null}
+      </Grid>
     </ThemeProvider>
   );
 };

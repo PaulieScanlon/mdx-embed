@@ -7,9 +7,11 @@ export default {
     lightGrey: '#999999',
     grey: '#333333',
     error: '#ff0000',
+    success: '#4caf50',
   },
   fonts: {
-    body: '"Nunito Sans",-apple-system,".SFNSText-Regular","San Francisco",BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif',
+    body:
+      '"Nunito Sans",-apple-system,".SFNSText-Regular","San Francisco",BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif',
   },
   fontSizes: {
     body: '14px',
@@ -50,6 +52,11 @@ export default {
         color: 'rgba(51,51,51,0.9)',
         backgroundColor: '#F8F8F8',
       },
+    },
+    small: {
+      variant: 'text.default',
+      my: 0,
+      minHeight: '26px',
     },
   },
   buttons: {
