@@ -42,6 +42,14 @@ Display YouTube by including the component in your `.mdx`. The `youTubeId` prop 
   </Story>
 </Canvas>
 
+## Playlist
+
+<Canvas>
+  <Story name="playlist">
+    <YouTube youTubeListId="PL5SvzogSTpeH1Szqw4tPi9ZfgXDbY8GU-" />
+  </Story>
+</Canvas>
+
 ## Help
 
 <Story name="help" />
@@ -62,4 +70,22 @@ Then use it like this.
 
 ```jsx
 <YouTube youTubeId="WUgvvPRH7Oc" />
+```
+
+To embed a YouTube playlist using the `<YouTube />` component grab the `youTubeListId` from the URL.
+
+```
+https://www.youtube.com/watch?v=C8M-JhhYaBs&list=PL5SvzogSTpeH1Szqw4tPi9ZfgXDbY8GU-
+```
+
+The `youTubeListId` is this bit.
+
+```
+PL5SvzogSTpeH1Szqw4tPi9ZfgXDbY8GU-
+```
+
+Then use it like this.
+
+```jsx
+<YouTube youTubeListId="PL5SvzogSTpeH1Szqw4tPi9ZfgXDbY8GU-" />
 ```
