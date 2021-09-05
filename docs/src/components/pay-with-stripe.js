@@ -1,16 +1,17 @@
 import React, { Fragment, FunctionComponent, useState, useEffect } from 'react';
 import axios from 'axios';
-import { ThemeProvider, Input, Button, Grid, Flex, Box, Link, Text, Spinner } from 'theme-ui';
+import { ThemeProvider, Heading, Input, Button, Grid, Flex, Box, Link, Text, Spinner } from 'theme-ui';
 
 import theme from '../theme';
 
+import { StripeLogo } from './stripe-logo.js';
+
 export const PayWithStripe: FunctionComponent = () => {
-  const [inputValue, setInputValue] = useState(1);
+  const [inputValue, setInputValue] = useState(3);
 
   const [response, setResponse] = useState(null);
-  const [checkoutUrl, setCheckoutUrl] = useState(null);
 
-  const [isPosting, setIsPosting] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [hasError, setHasError] = useState(false);
 
   const handleChange = (event) => {
@@ -24,8 +25,8 @@ export const PayWithStripe: FunctionComponent = () => {
 
   const makeStripePayment = async () => {
     setResponse('');
-    setCheckoutUrl(null);
-    setIsPosting(true);
+
+    setIsSubmitting(true);
     setHasError(false);
 
     try {
@@ -36,16 +37,16 @@ export const PayWithStripe: FunctionComponent = () => {
         cancel_url: 'https://www.mdx-embed.com/',
       });
 
-      setIsPosting(false);
+      setIsSubmitting(false);
       setResponse(response.data.message);
-      setCheckoutUrl(response.data.url);
+      window.open(response.data.url);
     } catch (error) {
       if (error.response) {
         setResponse(error.response.data.message);
       } else {
         setResponse(error.name);
       }
-      setIsPosting(false);
+      setIsSubmitting(false);
       setHasError(true);
     }
   };
@@ -57,54 +58,79 @@ export const PayWithStripe: FunctionComponent = () => {
           gap: 1,
         }}
       >
-        <Grid
+        <Box as="span" role="img" aria-label="Face Savoring Food Emoji" sx={{ fontSize: '64px', mx: 'auto' }}>
+          😋
+        </Box>
+        <Box
           sx={{
-            gridTemplateColumns: ['1fr', 'auto auto'],
-            gap: 1,
-            maxWidth: ['100%', 300],
+            mb: 3,
           }}
         >
-          {!checkoutUrl ? (
-            <Fragment>
-              <Flex
-                style={{
-                  position: 'realtive',
-                  display: 'inline-block',
-                  position: 'relative',
-                }}
-              >
-                <Box as="span" sx={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', marginLeft: 2 }}>
-                  $
-                </Box>
-                <Input
-                  type="number"
-                  min="1"
-                  max="100"
-                  value={inputValue}
-                  disabled={isPosting}
-                  onChange={handleChange}
-                  sx={{
-                    paddingLeft: 3,
-                  }}
-                />
-              </Flex>
-              <Button disabled={isPosting} onClick={makeStripePayment} sx={{ py: isPosting ? [1, 0] : 2 }}>
-                {isPosting ? <Spinner sx={{ color: 'background', height: '24px' }} /> : 'Pay with Stripe'}
-              </Button>
-            </Fragment>
-          ) : (
-            <Button as="a" variant="secondary" href={checkoutUrl} target="_blank" rel="noopener">
-              Checkout
-            </Button>
-          )}
-        </Grid>
-
-        {response ? (
-          <Text as="small" variant="text.small" sx={{ color: hasError ? 'error' : 'success' }}>
-            {response}
+          <Heading as="h4" sx={{ fontSize: '32px', textAlign: 'center' }}>
+            Pay what you want
+          </Heading>
+          <Text
+            as="p"
+            sx={{
+              m: 0,
+              display: 'grid',
+              gap: 1,
+              gridTemplateColumns: ['auto', 'auto auto'],
+              justifyContent: 'center',
+              textAlign: ['center', 'left'],
+            }}
+          >
+            If you feel like supporting this project feel free to make a secure contribution <StripeLogo />
           </Text>
-        ) : null}
+        </Box>
       </Grid>
+      {response ? null : (
+        <Grid
+          sx={{
+            gap: 1,
+            maxWidth: 240,
+            mx: 'auto',
+          }}
+        >
+          <Grid
+            sx={{
+              gridTemplateColumns: 'auto 1fr',
+              gap: 1,
+            }}
+          >
+            <Flex
+              style={{
+                position: 'realtive',
+                display: 'inline-block',
+                position: 'relative',
+              }}
+            >
+              <Box as="span" sx={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', marginLeft: 2 }}>
+                $
+              </Box>
+              <Input
+                type="number"
+                min={1}
+                max={100}
+                value={inputValue}
+                disabled={isSubmitting}
+                onChange={handleChange}
+                sx={{
+                  paddingLeft: 3,
+                }}
+              />
+            </Flex>
+            <Button disabled={isSubmitting} onClick={makeStripePayment} sx={{ py: isSubmitting ? [1, 0] : 2 }}>
+              {isSubmitting ? <Spinner sx={{ color: 'background', height: '24px' }} /> : 'Buy me a pint'}
+            </Button>
+          </Grid>
+        </Grid>
+      )}
+      {hasError ? (
+        <Text as="small" variant="text.small" sx={{ display: 'block', color: 'error', textAlign: 'center' }}>
+          {response}
+        </Text>
+      ) : null}
     </ThemeProvider>
   );
 };

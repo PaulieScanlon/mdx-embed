@@ -34,6 +34,10 @@ export default {
     },
   },
   text: {
+    heading: {
+      color: 'grey',
+      fontFamily: 'body',
+    },
     default: {
       color: 'grey',
       fontSize: 'body',
