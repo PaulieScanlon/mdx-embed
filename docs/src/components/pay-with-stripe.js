@@ -4,7 +4,7 @@ import { ThemeProvider, Heading, Input, Button, Grid, Flex, Box, Link, Text, Spi
 
 import theme from '../theme';
 
-import { StripeLogo } from './stripe-logo.js';
+import { StripeLogo } from './stripe-logo';
 
 export const PayWithStripe: FunctionComponent = () => {
   const [inputValue, setInputValue] = useState(3);
@@ -31,7 +31,7 @@ export const PayWithStripe: FunctionComponent = () => {
 
     try {
       const response = await axios.post('https://paulieapi.gatsbyjs.io/api/make-stripe-payment', {
-        product: 'prod_K6dGWR54oYDK1q',
+        product: 'prod_KAgqqzBEBmuYkT',
         amount: inputValue,
         success_url: 'https://www.mdx-embed.com/',
         cancel_url: 'https://www.mdx-embed.com/',
