@@ -94,18 +94,26 @@ export const PayWithStripe: FunctionComponent = () => {
         >
           <Grid
             sx={{
-              gridTemplateColumns: 'auto 1fr',
+              gridTemplateColumns: 'auto 136px',
               gap: 1,
             }}
           >
             <Flex
               style={{
-                position: 'realtive',
-                display: 'inline-block',
                 position: 'relative',
+                display: 'inline-block',
               }}
             >
-              <Box as="span" sx={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', marginLeft: 2 }}>
+              <Box
+                as="span"
+                sx={{
+                  position: 'absolute',
+                  top: '50%',
+                  transform: 'translateY(-58%)',
+                  marginLeft: '6px',
+                  '-moz-transform': 'translateY(-42%)',
+                }}
+              >
                 $
               </Box>
               <Input
