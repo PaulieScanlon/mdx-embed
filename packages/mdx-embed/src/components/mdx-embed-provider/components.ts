@@ -31,7 +31,6 @@ import { Whimsical } from '../whimsical';
 import { Wikipedia } from '../wikipedia';
 import { Wistia } from '../wistia';
 import { YouTube } from '../youtube';
-import { YouTubeNoCookie } from '../youtube-nocookie';
 
 export const components = {
   AirtableBase,
@@ -68,5 +67,4 @@ export const components = {
   Wikipedia,
   Wistia,
   YouTube,
-  YouTubeNoCookie,
 } as any;
