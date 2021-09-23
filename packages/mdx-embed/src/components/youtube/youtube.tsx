@@ -15,6 +15,8 @@ export interface IYouTubeProps {
   };
   /** Auto play the video */
   autoPlay?: boolean;
+  /** No Cookie option */
+  noCookie?: boolean;
 }
 
 export const YouTube: FunctionComponent<IYouTubeProps> = ({
@@ -22,6 +24,7 @@ export const YouTube: FunctionComponent<IYouTubeProps> = ({
   aspectRatio = '16:9',
   autoPlay = false,
   skipTo = { h: 0, m: 0, s: 0 },
+  noCookie = false,
 }: IYouTubeProps) => {
   const { h, m, s } = skipTo;
 
@@ -29,6 +32,8 @@ export const YouTube: FunctionComponent<IYouTubeProps> = ({
   const tM = m * 60;
 
   const startTime = tH + tM + s;
+
+  const provider = noCookie ? "www.youtube-nocookie.com" : "www.youtube.com";
 
   return (
     <GeneralObserver>
@@ -43,7 +48,7 @@ export const YouTube: FunctionComponent<IYouTubeProps> = ({
         <iframe
           data-testid="youtube"
           title={`youTube-${youTubeId}`}
-          src={`https://www.youtube.com/embed/${youTubeId}?&autoplay=${autoPlay}&start=${startTime}`}
+          src={`https://${provider}/embed/${youTubeId}?&autoplay=${autoPlay}&start=${startTime}`}
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
