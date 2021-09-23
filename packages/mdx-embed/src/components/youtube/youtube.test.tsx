@@ -47,4 +47,19 @@ describe('<YouTube />', () => {
     expect(youTube).toBeDefined();
     expect(youTube).toHaveAttribute('src', expect.stringContaining('autoplay=true'));
   });
+
+  test('it renders the component using NoCookie provider', () => {
+    render(<YouTube youTubeId="PS2784YfPpw" noCookie={true} />);
+
+    act(() => {
+      (window as any).triggerGeneralObserver();
+      return undefined;
+    });
+
+    const youTube = screen.getByTestId('youtube');
+
+    expect(youTube).toBeDefined();
+    expect(youTube).toHaveAttribute('src', expect.stringContaining('www.youtube-nocookie.com'));
+
+  });
 });
