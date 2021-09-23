@@ -31,7 +31,6 @@ export { Whimsical } from './components/whimsical';
 export { Wikipedia } from './components/wikipedia';
 export { Wistia } from './components/wistia';
 export { YouTube } from './components/youtube';
-export { YouTubeNoCookie } from './components/youtube-nocookie';
 
 // Provider
 export { MDXEmbedProvider } from './components/mdx-embed-provider';
