@@ -19,7 +19,7 @@ context('<Twitch />', () => {
     cy.getIframeBody().find('.tw-absolute').should('not.have.css', 'left', '0%');
   });
 
-  it('it loads twitch channel', () => {
+  it.skip('it loads twitch channel', () => {
     cy.visit('/iframe.html?id=components-twitch--channel&viewMode=story');
 
     cy.get('[data-testid="twitch"]').should('not.be.undefined');
