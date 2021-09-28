@@ -21,7 +21,7 @@ describe('<YouTube />', () => {
   });
 
   test('it renders the component when provided a listId', () => {
-    render(<YouTube youTubeListId="PL5SvzogSTpeH1Szqw4tPi9ZfgXDbY8GU-" />);
+    render(<YouTube youTubePlaylistId="PL5SvzogSTpeH1Szqw4tPi9ZfgXDbY8GU-" />);
 
     act(() => {
       (window as any).triggerGeneralObserver();
