@@ -20,6 +20,17 @@ describe('<YouTube />', () => {
     expect(screen.getByTestId('youtube')).toBeDefined();
   });
 
+  test('it renders the component when provided a listId', () => {
+    render(<YouTube youTubePlaylistId="PL5SvzogSTpeH1Szqw4tPi9ZfgXDbY8GU-" />);
+
+    act(() => {
+      (window as any).triggerGeneralObserver();
+      return undefined;
+    });
+
+    expect(screen.getByTestId('youtube')).toBeDefined();
+  });
+
   test.only('it renders the component skipTo defined', () => {
     render(<YouTube youTubeId="PS2784YfPpw" skipTo={{ h: 0, m: 38, s: 44 }} />);
 

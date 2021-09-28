@@ -4,7 +4,9 @@ import { GeneralObserver } from '../general-observer';
 
 export interface IYouTubeProps {
   /** YouTube id */
-  youTubeId: string;
+  youTubeId?: string;
+  /** YouTube Playlist id */
+  youTubePlaylistId?: string;
   /** Aspect ratio of YouTube video */
   aspectRatio?: '1:1' | '16:9' | '4:3' | '3:2' | '8:5';
   /** Skip to a time in the video */
@@ -21,6 +23,7 @@ export interface IYouTubeProps {
 
 export const YouTube: FunctionComponent<IYouTubeProps> = ({
   youTubeId,
+  youTubePlaylistId,
   aspectRatio = '16:9',
   autoPlay = false,
   skipTo = { h: 0, m: 0, s: 0 },
@@ -33,7 +36,11 @@ export const YouTube: FunctionComponent<IYouTubeProps> = ({
 
   const startTime = tH + tM + s;
 
-  const provider = noCookie ? "www.youtube-nocookie.com" : "www.youtube.com";
+  const provider = noCookie ? 'www.youtube-nocookie.com' : 'www.youtube.com';
+  const baseUrl = `${provider}/embed/`;
+  const src = `${baseUrl}${
+    youTubeId ? `${youTubeId}?&autoplay=${autoPlay}&start=${startTime}` : `&videoseries?list=${youTubePlaylistId}`
+  }`;
 
   return (
     <GeneralObserver>
@@ -47,8 +54,8 @@ export const YouTube: FunctionComponent<IYouTubeProps> = ({
       >
         <iframe
           data-testid="youtube"
-          title={`youTube-${youTubeId}`}
-          src={`https://${provider}/embed/${youTubeId}?&autoplay=${autoPlay}&start=${startTime}`}
+          title={`youTube-${youTubeId ? youTubeId : youTubePlaylistId}`}
+          src={src}
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
