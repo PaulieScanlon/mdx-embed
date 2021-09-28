@@ -36,7 +36,7 @@ export const YouTube: FunctionComponent<IYouTubeProps> = ({
 
   const startTime = tH + tM + s;
 
-  const provider = noCookie ? 'www.youtube-nocookie.com' : 'www.youtube.com';
+  const provider = noCookie ? 'https://www.youtube-nocookie.com' : 'https://www.youtube.com';
   const baseUrl = `${provider}/embed/`;
   const src = `${baseUrl}${
     youTubeId ? `${youTubeId}?&autoplay=${autoPlay}&start=${startTime}` : `&videoseries?list=${youTubePlaylistId}`

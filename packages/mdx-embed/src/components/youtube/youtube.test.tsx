@@ -71,6 +71,5 @@ describe('<YouTube />', () => {
 
     expect(youTube).toBeDefined();
     expect(youTube).toHaveAttribute('src', expect.stringContaining('www.youtube-nocookie.com'));
-
   });
 });
