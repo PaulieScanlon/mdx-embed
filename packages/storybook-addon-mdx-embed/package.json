@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-mdx-embed",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Embed 3rd party media content in MDX - no import required",
   "main": "dist/index.js",
   "scripts": {
