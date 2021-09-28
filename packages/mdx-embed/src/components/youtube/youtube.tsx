@@ -36,14 +36,7 @@ export const YouTube: FunctionComponent<IYouTubeProps> = ({
 
   const startTime = tH + tM + s;
 
-<<<<<<< HEAD
-  const baseUrl = 'https://www.youtube.com/embed/';
-  const src = `${baseUrl}${
-    youTubeId ? `${youTubeId}?&autoplay=${autoPlay}&start=${startTime}` : `&videoseries?list=${youTubeListId}`
-  }`;
-=======
   const provider = noCookie ? "www.youtube-nocookie.com" : "www.youtube.com";
->>>>>>> 01e329f (Add Youtube Nocookie component (#231))
 
   return (
     <GeneralObserver>
@@ -57,13 +50,8 @@ export const YouTube: FunctionComponent<IYouTubeProps> = ({
       >
         <iframe
           data-testid="youtube"
-<<<<<<< HEAD
-          title={`youTube-${youTubeId ? youTubeId : youTubeListId}`}
-          src={src}
-=======
           title={`youTube-${youTubeId}`}
           src={`https://${provider}/embed/${youTubeId}?&autoplay=${autoPlay}&start=${startTime}`}
->>>>>>> 01e329f (Add Youtube Nocookie component (#231))
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
