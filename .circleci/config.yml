@@ -49,6 +49,7 @@ workflows:
           yarn: true
       - cypress/run:
           name: start-storybook-and-test
+          executor: with-node
           yarn: true
           build: yarn build
           requires:
