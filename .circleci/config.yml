@@ -4,10 +4,6 @@ orbs:
   cypress: cypress-io/cypress@1
   codecov: codecov/codecov@1.1.1
 
-machine:
-  node:
-    version: v14.15.0
-
 jobs:
   run-build:
     executor:
@@ -42,6 +38,9 @@ workflows:
       - collect-coverage
       - run-build
       - run-unit-tests
+      - node/install:
+          install-yarn: true
+          node-version: '14.15.0'
       - cypress/install:
           name: cypress-install
           yarn: true
