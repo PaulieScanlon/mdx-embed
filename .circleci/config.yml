@@ -42,6 +42,7 @@ workflows:
           name: cypress-install
           yarn: true
       - cypress/run:
+          executor: cypress/base-14
           name: start-storybook-and-test
           yarn: true
           build: yarn build
