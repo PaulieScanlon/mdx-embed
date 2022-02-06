@@ -8,6 +8,7 @@ jobs:
   run-build:
     executor:
       name: node/default
+      tag: '16'
     steps:
       - checkout
       - run: yarn install
@@ -16,7 +17,7 @@ jobs:
   run-unit-tests:
     executor:
       name: node/default
-      tag: '14.15.0'
+      tag: '16'
     steps:
       - checkout
       - run: yarn install
@@ -25,6 +26,7 @@ jobs:
   collect-coverage:
     executor:
       name: node/default
+      tag: '16'
     steps:
       - checkout
       - run: yarn install
