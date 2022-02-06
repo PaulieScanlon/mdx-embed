@@ -48,7 +48,7 @@ workflows:
       - run-unit-tests
       - cypress/install:
           name: cypress-install
-          executor: cypress/base-17-3-0
+          executor: cypress/base-16-0-0
           yarn: true
       - cypress/run:
           name: start-storybook-and-test
