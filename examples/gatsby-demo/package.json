@@ -26,10 +26,10 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
-    "gatsby": "^4.0.0",
+    "gatsby": "^4.6.2",
     "gatsby-plugin-mdx": "^3.6.0",
     "gatsby-plugin-mdx-embed": "*",
-    "gatsby-source-filesystem": "4.0.0",
+    "gatsby-source-filesystem": "^4.6.0",
     "mdx-embed": "*",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
