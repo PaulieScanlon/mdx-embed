@@ -2,7 +2,11 @@ version: 2.1
 orbs:
   node: circleci/node@5.0.0
   cypress: cypress-io/cypress@1
-  codecov: codecov/codecov@1.1.1
+executors:
+  with-chrome:
+    docker:
+      - image: 'cypress/browsers:node14.16.0'
+    codecov: codecov/codecov@1.1.1
 
 jobs:
   build:
@@ -48,7 +52,6 @@ workflows:
       - run-unit-tests
       - cypress/install:
           name: cypress-install
-          executor: cypress/base-14-19-0
           yarn: true
       - cypress/run:
           name: start-storybook-and-test
