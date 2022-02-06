@@ -38,10 +38,8 @@ workflows:
       - collect-coverage
       - run-build
       - run-unit-tests
-      - node/install:
-          install-yarn: true
-          node-version: '14.15.0'
       - cypress/install:
+          node-version: '14.15.0'
           name: cypress-install
           yarn: true
       - cypress/run:
