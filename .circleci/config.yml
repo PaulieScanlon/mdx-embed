@@ -16,6 +16,7 @@ jobs:
   run-unit-tests:
     executor:
       name: node/default
+      tag: '14.15.0'
     steps:
       - checkout
       - run: yarn install
