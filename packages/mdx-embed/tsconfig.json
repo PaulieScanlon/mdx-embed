@@ -24,8 +24,8 @@
     "jsx": "react",
     // Allow named exports rather than export * from
     "allowSyntheticDefaultImports": true,
-    // Set type roots to node_modules to avoid duplicates
-    "typeRoots": ["node_modules/@types"]
+    // Add types for both node and jest
+    "types": ["node", "jest"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/*.test.ts", "**/*.test.tsx"]
