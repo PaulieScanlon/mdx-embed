@@ -8,6 +8,7 @@ jobs:
   run-build:
     executor:
       name: node/default
+      version: 14.15.0
     steps:
       - checkout
       - run: yarn install
