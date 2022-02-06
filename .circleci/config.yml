@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
   node: circleci/node@5.0.0
-  cypress: cypress-io/cypress@1
+  cypress: cypress-io/cypress@1.29.0
   codecov: codecov/codecov@1.1.1
 
 jobs:
@@ -42,7 +42,7 @@ workflows:
           name: cypress-install
           yarn: true
       - cypress/run:
-          executor: cypress/base-14
+          executor: cypress/base-15
           name: start-storybook-and-test
           yarn: true
           build: yarn build
