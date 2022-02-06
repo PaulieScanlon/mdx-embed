@@ -5,10 +5,16 @@ orbs:
   codecov: codecov/codecov@1.1.1
 
 jobs:
+  build:
+    docker:
+      - image: cimg/node:17.4.0
+    steps:
+      - checkout
+      - run: node --version
+
   run-build:
     executor:
       name: node/default
-      tag: '16'
     steps:
       - checkout
       - run: yarn install
@@ -17,7 +23,6 @@ jobs:
   run-unit-tests:
     executor:
       name: node/default
-      tag: '16'
     steps:
       - checkout
       - run: yarn install
@@ -26,7 +31,6 @@ jobs:
   collect-coverage:
     executor:
       name: node/default
-      tag: '16'
     steps:
       - checkout
       - run: yarn install
@@ -39,13 +43,14 @@ workflows:
   all-the-things:
     jobs:
       - collect-coverage
+      - build
       - run-build
       - run-unit-tests
       - cypress/install:
           name: cypress-install
+          executor: cypress/base-14-7-0
           yarn: true
       - cypress/run:
-          executor: cypress/base-14-7-0
           name: start-storybook-and-test
           yarn: true
           build: yarn build
