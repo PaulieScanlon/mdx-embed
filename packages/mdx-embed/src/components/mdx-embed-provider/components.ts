@@ -11,7 +11,7 @@ import { Instagram } from '../instagram';
 import { Lbry } from '../lbry';
 import { LinkedInBadge } from '../linkedin';
 import { Pin, PinterestBoard, PinterestFollowButton } from '../pinterest';
-import { Replit } from './components/replit';
+import { Replit } from '../replit';
 import { SimplecastEpisode } from '../simplecast';
 import { SoundCloud } from '../soundcloud';
 import { Spotify } from '../spotify';
