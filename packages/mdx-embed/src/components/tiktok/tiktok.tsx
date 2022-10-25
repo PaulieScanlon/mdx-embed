@@ -7,6 +7,9 @@ export interface ITikTokProps {
 }
 
 export const TikTok: FunctionComponent<ITikTokProps> = ({ tikTokId }: ITikTokProps) => {
+  if (!tikTokId) {
+    return null;
+  }
   return (
     <GeneralObserver onEnter={() => handleTikTokLoad()}>
       <blockquote
