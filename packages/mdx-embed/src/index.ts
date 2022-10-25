@@ -11,6 +11,7 @@ export { Instagram } from './components/instagram';
 export { Lbry } from './components/lbry';
 export { LinkedInBadge } from './components/linkedin';
 export { Pin, PinterestBoard, PinterestFollowButton } from './components/pinterest';
+export { Replit } from './components/replit';
 export { SimplecastEpisode } from './components/simplecast';
 export { SoundCloud } from './components/soundcloud';
 export { Spotify } from './components/spotify';
