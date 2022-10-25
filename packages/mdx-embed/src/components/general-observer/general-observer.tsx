@@ -1,6 +1,8 @@
 import React, { FunctionComponent, useRef, useEffect, useState, RefObject } from 'react';
 
 interface IGeneralObserverProps {
+  /** React Children */
+  children: React.ReactNode;
   /** Fires when IntersectionObserver enters viewport */
   onEnter?: (id?: string) => void;
   /** The height of the placeholder div before the component renders in */
