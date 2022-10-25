@@ -79,7 +79,7 @@
   "peerDependencies": {
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react": "^16.x || ^17.x || ^18.x",
+    "react-dom": "^16.x || ^17.x || ^18.x"
   }
 }
