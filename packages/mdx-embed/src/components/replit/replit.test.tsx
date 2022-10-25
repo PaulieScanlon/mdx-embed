@@ -22,7 +22,7 @@ describe('<Snack />', () => {
 
   test('it renders the lite mode', () => {
     const repl = '@ritza/demo-embed';
-    render(<Replit repl={repl} mode='lite' />);
+    render(<Replit repl={repl} mode="lite" />);
 
     act(() => {
       (window as any).triggerGeneralObserver();

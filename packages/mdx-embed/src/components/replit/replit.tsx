@@ -15,19 +15,12 @@ export interface IReplitProps {
 }
 
 export const Replit: FunctionComponent<IReplitProps> = ({ repl, height = 500, mode = 'embed' }: IReplitProps) => {
-  
   const url = repl.startsWith('http') ? repl : `https://repl.it/${repl}`;
   const query = mode === 'embed' ? '?embed=true' : '?lite=true';
 
   return (
     <GeneralObserver height={height}>
-      <iframe
-        data-testid={"replit-" + mode}
-        frameBorder="0"
-        width="100%"
-        height={height}
-        src={url + query}
-      />
+      <iframe data-testid={'replit-' + mode} frameBorder="0" width="100%" height={height} src={url + query} />
     </GeneralObserver>
   );
 };
