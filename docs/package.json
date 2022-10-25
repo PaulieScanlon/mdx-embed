@@ -40,10 +40,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
+    "@babel/plugin-proposal-decorators": "^7.19.6",
+    "@babel/plugin-proposal-export-default-from": "^7.18.10",
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
     "babel-loader": "^8.1.0",
-    "husky": "^4.2.5",
-    "netlify-cli": "^12.0.11"
+    "husky": "^4.2.5"
   }
 }
