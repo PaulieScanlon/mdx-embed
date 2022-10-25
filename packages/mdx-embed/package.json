@@ -1,6 +1,6 @@
 {
   "name": "mdx-embed",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Embed 3rd party media content in MDX - no import required",
   "main": "dist/index.js",
   "types": "./dist/types/index.d.ts",
