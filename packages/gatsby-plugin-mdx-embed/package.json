@@ -39,8 +39,8 @@
     "@mdx-js/react": "^1.6.16",
     "gatsby": "^3.0.0 || ^4.0.0",
     "mdx-embed": "*",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react": "^16.x || ^17.x || ^18.x",
+    "react-dom": "^16.x || ^17.x || ^18.x"
   },
   "devDependencies": {
     "husky": "^4.2.5"
