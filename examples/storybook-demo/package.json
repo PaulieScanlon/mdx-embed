@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
   "dependencies": {
-    "@storybook/addon-docs": "^6.0.0",
-    "@storybook/addons": "^6.0.0",
-    "@storybook/react": "^6.0.0",
+    "@storybook/addon-docs": "^6.5.13",
+    "@storybook/addons": "^6.5.13",
+    "@storybook/react": "^6.5.13",
     "mdx-embed": "*",
     "storybook-addon-mdx-embed": "*"
   }

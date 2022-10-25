@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
   "dependencies": {
-    "@storybook/addon-docs": "^6.1.5",
-    "@storybook/addon-links": "^6.1.5",
-    "@storybook/addons": "^6.1.5",
-    "@storybook/react": "^6.2.9",
-    "@storybook/theming": "^6.1.5",
+    "@storybook/addon-docs": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/addons": "^6.5.13",
+    "@storybook/react": "^6.5.13",
+    "@storybook/theming": "^6.5.13",
     "axios": "^0.21.1",
     "mdx-embed": "*",
     "react-docgen-typescript": "^1.20.5",
@@ -39,7 +39,7 @@
     "theme-ui": "^0.3.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.4",
+    "@babel/core": "^7.19.6",
     "@mdx-js/mdx": "^1.6.16",
     "@mdx-js/react": "^1.6.16",
     "babel-loader": "^8.1.0",
