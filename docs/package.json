@@ -26,25 +26,22 @@
     "url": "https://github.com/PaulieScanlon/mdx-embed/issues"
   },
   "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
-  "dependencies": {
-    "@storybook/addon-docs": "^6.5.13",
-    "@storybook/addon-links": "^6.5.13",
-    "@storybook/addons": "^6.5.13",
-    "@storybook/react": "^6.5.13",
-    "@storybook/theming": "^6.5.13",
-    "axios": "^0.21.1",
-    "mdx-embed": "*",
-    "react-docgen-typescript": "^1.20.5",
-    "storybook-addon-mdx-embed": "*",
-    "theme-ui": "^0.3.4"
-  },
   "devDependencies": {
-    "@babel/core": "^7.19.6",
-    "@babel/plugin-proposal-decorators": "^7.19.6",
-    "@babel/plugin-proposal-export-default-from": "^7.18.10",
-    "@mdx-js/mdx": "^1.6.16",
-    "@mdx-js/react": "^1.6.16",
-    "babel-loader": "^8.1.0",
-    "husky": "^4.2.5"
+    "@babel/core": "^7.20.2",
+    "@storybook/addon-actions": "^6.5.0",
+    "@storybook/addon-essentials": "^6.5.0",
+    "@storybook/addon-interactions": "^6.5.0",
+    "@storybook/addon-links": "^6.5.0",
+    "@storybook/addons": "^6.5.0",
+    "@storybook/builder-webpack5": "^6.5.0",
+    "@storybook/manager-webpack5": "^6.5.0",
+    "@storybook/mdx2-csf": "^0.0.3",
+    "@storybook/react": "^6.5.0",
+    "@storybook/theming": "^6.5.0",
+    "babel-loader": "^8.3.0"
+  },
+  "dependencies": {
+    "mdx-embed": "*",
+    "storybook-addon-mdx-embed": "*"
   }
 }

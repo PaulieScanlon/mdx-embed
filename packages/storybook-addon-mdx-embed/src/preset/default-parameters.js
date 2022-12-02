@@ -1,5 +1,5 @@
 import React from 'react';
-import { DocsContainer } from '@storybook/addon-docs/blocks';
+import { DocsContainer } from '@storybook/addon-docs';
 import { MDXEmbedProvider } from 'mdx-embed';
 
 export const parameters = {

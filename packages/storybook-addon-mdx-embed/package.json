@@ -29,14 +29,14 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@storybook/addon-docs": "^6.0.0",
-    "@storybook/addons": "^6.0.0",
-    "@storybook/react": "^6.0.0",
-    "mdx-embed": "*"
+    "@storybook/react": "^6.5.0",
+    "mdx-embed": "*",
+    "@storybook/builder-webpack5": "^6.5.0",
+    "@storybook/manager-webpack5": "^6.5.0",
+    "@storybook/mdx2-csf": "^0.0.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.19.6",
+    "@babel/core": "^7.20.2",
     "@babel/plugin-transform-modules-commonjs": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
     "@babel/preset-react": "^7.18.6"
