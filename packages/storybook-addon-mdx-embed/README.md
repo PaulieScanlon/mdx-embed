@@ -3,7 +3,7 @@
 MDX Embed allows you to easily _embed_ popular 3rd party media content such as YouTube videos, Tweets, Instagram posts
 and many more straight into your `.mdx` - **no import required!**
 
-[https://mdx-embed.com/](https://www.mdx-embed.com/)
+[https://mdx-embed.netlify.app/](https://mdx-embed.netlify.app/)
 
 ## Install
 
@@ -50,4 +50,4 @@ export const parameters = {
 ```
 
 For more information about how to install the package please see the
-[docs](https://www.mdx-embed.com/?path=/docs/storybook-addon--page)
+[docs](https://mdx-embed.netlify.app/?path=/docs/storybook-addon--page)

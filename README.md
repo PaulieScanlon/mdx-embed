@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://mdx-embed.com">
-    <img alt="MDX Embed logo" src="https://www.mdx-embed.com/mdx-embed-logo.svg" width="180px" />
+    <img alt="MDX Embed logo" src="https://mdx-embed.netlify.app/mdx-embed-logo.svg" width="180px" />
   </a>
 </p>
 
@@ -19,9 +19,9 @@ and many more straight into your `.mdx` - **no import required!**
 
 ## 🚀 Getting started
 
-[https://mdx-embed.com/](https://www.mdx-embed.com/)
+[https://mdx-embed.netlify.app/](https://mdx-embed.netlify.app/)
 
-There are a number of way to use `mdx-embed`. Head over to the [docs site](https://www.mdx-embed.com/) for more
+There are a number of way to use `mdx-embed`. Head over to the [docs site](https://mdx-embed.netlify.app/) for more
 information on the current packages:
 
 ## 📦 npm packages

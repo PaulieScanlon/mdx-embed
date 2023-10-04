@@ -33,8 +33,8 @@ export const PayWithStripe: FunctionComponent = () => {
       const response = await axios.post('https://paulieapi.gatsbyjs.io/api/make-stripe-payment', {
         product: 'prod_KAgqqzBEBmuYkT',
         amount: inputValue,
-        success_url: 'https://www.mdx-embed.com/',
-        cancel_url: 'https://www.mdx-embed.com/',
+        success_url: 'https://mdx-embed.netlify.app/',
+        cancel_url: 'https://mdx-embed.netlify.app/',
       });
 
       setIsSubmitting(false);

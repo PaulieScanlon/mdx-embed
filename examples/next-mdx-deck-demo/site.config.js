@@ -3,8 +3,8 @@ export const siteConfig = {
   title: `MDX Embed in Next MDX Deck`,
   date: `2020 Sept 2nd`,
   author: {
-    url: `https://www.mdx-embed.com/`,
+    url: `https://mdx-embed.netlify.app/`,
   },
-}
+};
 
-export default siteConfig
+export default siteConfig;
