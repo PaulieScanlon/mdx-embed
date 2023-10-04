@@ -41,7 +41,7 @@ addons.setConfig({
     inputBorderRadius: 4,
 
     brandTitle: 'MDX Embed',
-    brandUrl: 'https://www.mdx-embed.com/',
+    brandUrl: 'https://mdx-embed.netlify.app/',
     brandImage: '/mdx-embed-logo.svg',
   }),
 });
