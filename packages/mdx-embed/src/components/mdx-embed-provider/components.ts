@@ -10,6 +10,7 @@ import { Gist } from '../gist';
 import { Instagram } from '../instagram';
 import { Lbry } from '../lbry';
 import { LinkedInBadge } from '../linkedin';
+import { MsStreamVideo } from '../microsoft/stream';
 import { Pin, PinterestBoard, PinterestFollowButton } from '../pinterest';
 import { Replit } from '../replit';
 import { SimplecastEpisode } from '../simplecast';
@@ -47,6 +48,7 @@ export const components = {
   Instagram,
   Lbry,
   LinkedInBadge,
+  MsStreamVideo,
   Pin,
   PinterestBoard,
   PinterestFollowButton,
