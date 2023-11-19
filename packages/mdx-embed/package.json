@@ -1,5 +1,5 @@
 {
-  "name": "mdx-embed",
+  "name": "@lacymorrow/mdx-embed",
   "version": "2.1.5",
   "description": "Embed 3rd party media content in MDX - no import required",
   "main": "dist/index.js",

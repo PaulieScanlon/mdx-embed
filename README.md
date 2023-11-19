@@ -32,7 +32,23 @@ information on the current packages:
 | [gatsby-plugin-mdx-embed](https://www.npmjs.com/package/gatsby-plugin-mdx-embed)     |   [![Known Vulnerabilities](https://snyk.io/test/npm/gatsby-plugin-mdx-embed/badge.svg)](https://snyk.io/test/npm/gatsby-plugin-mdx-embed)   |
 | [storybook-addon-mdx-embed](https://www.npmjs.com/package/storybook-addon-mdx-embed) | [![Known Vulnerabilities](https://snyk.io/test/npm/storybook-addon-mdx-embed/badge.svg)](https://snyk.io/test/npm/storybook-addon-mdx-embed) |
 
-<br />
+## 📚 Development
+
+### publish
+
+```bash
+# Change version in packages/mdx-embed/package.json
+
+npm i
+npm run build
+# Authenticate with npm github
+# https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#publishing-a-package
+
+npm publish
+```
+
+
+```
 
 ## 🕺 Core Team
 

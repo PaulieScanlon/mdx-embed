@@ -7,7 +7,5 @@
     },
     "postpublish": "npm run deploy"
   },
-  "packages": [
-    "packages/*"
-  ]
+  "packages": ["packages/*"]
 }
