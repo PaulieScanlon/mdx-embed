@@ -1,12 +1,8 @@
 {
-  "private": false,
   "name": "mdx-embed",
-  "version": "3.0.1",
+  "version": "2.0.0",
   "description": "Embed 3rd party media content in MDX - no import required",
   "main": "dist/index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "types": "./dist/types/index.d.ts",
   "scripts": {
     "prettier": "prettier --config ../../.prettierrc.js --ignore-path ../../.prettierignore --write \"**/*.{json,js,ts,tsx}\"",
@@ -29,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lacymorrow/mdx-embed.git"
+    "url": "git+https://github.com/PaulieScanlon/mdx-embed.git"
   },
   "author": "Paul Scanlon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lacymorrow/mdx-embed/issues"
+    "url": "https://github.com/PaulieScanlon/mdx-embed/issues"
   },
-  "homepage": "https://github.com/lacymorrow/mdx-embed#readme",
+  "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
   "keywords": [
     "mdx",
     "mdx-embed"

@@ -1,8 +1,5 @@
 {
   "private": true,
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "prettier": "yarn workspace mdx-embed prettier && yarn workspace gatsby-plugin-mdx-embed prettier && yarn workspace docs prettier",
     "lint": "yarn workspace mdx-embed lint",
