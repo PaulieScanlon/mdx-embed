@@ -35,8 +35,8 @@
   },
   "name": "mdx-embed",
   "devDependencies": {
-    "cypress": "^5.1.0",
-    "lerna": "^3.22.1",
-    "start-server-and-test": "^1.11.3"
+    "cypress": "^13.5.1",
+    "lerna": "^7.4.2",
+    "start-server-and-test": "^2.0.3"
   }
 }

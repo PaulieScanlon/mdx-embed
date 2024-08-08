@@ -30,10 +30,14 @@ export const Wikipedia: FunctionComponent<IWikipediaProps> = ({ wikipediaLink, h
       .then((response) => response.text())
       .then((response) => {
         if (response) {
+          const body = response
+            .replace(/<a rel="mw:WikiLink"/g, '<a target="_blank" rel="mw:WikiLink"')
+            .replace(/<a href="\/wiki\/"/g, '<a href="https://en.wikipedia.org/wiki/')
+            .replace(/\/w\/load.php/g, 'https://en.wikipedia.org/w/');
           setWikiResponse({
             isLoading: false,
             hasError: false,
-            body: response.replace(/<a rel="mw:WikiLink"/g, '<a target="_blank" rel="mw:WikiLink"'),
+            body,
           });
         }
 

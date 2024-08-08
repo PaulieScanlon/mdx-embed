@@ -1,6 +1,6 @@
 {
-  "name": "mdx-embed",
-  "version": "1.1.2",
+  "name": "mdx-embed2",
+  "version": "2.0.1",
   "description": "Embed 3rd party media content in MDX - no import required",
   "main": "dist/index.js",
   "types": "./dist/types/index.d.ts",
@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PaulieScanlon/mdx-embed.git"
+    "url": "git+https://github.com/lacymorrow/mdx-embed.git"
   },
   "author": "Paul Scanlon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PaulieScanlon/mdx-embed/issues"
+    "url": "https://github.com/lacymorrow/mdx-embed/issues"
   },
-  "homepage": "https://github.com/PaulieScanlon/mdx-embed#readme",
+  "homepage": "https://github.com/lacymorrow/mdx-embed#readme",
   "keywords": [
     "mdx",
     "mdx-embed"
@@ -56,7 +56,7 @@
     "@types/jest": "^27.4.0",
     "@types/mdx-js__react": "^1.5.2",
     "@types/node": "^17.0.15",
-    "@types/react": "18.0.22",
+    "@types/react": "^18.3.3",
     "@types/react-dom": "18.0.7",
     "@types/testing-library__dom": "^7.5.0",
     "@types/testing-library__jest-dom": "^5.14.5",
@@ -77,8 +77,8 @@
     "typescript": "^3.9.7"
   },
   "peerDependencies": {
-    "@mdx-js/mdx": "^1.6.16",
-    "@mdx-js/react": "^1.6.16",
+    "@mdx-js/mdx": "^3.0.0",
+    "@mdx-js/react": "^3.0.0",
     "react": "^16.x || ^17.x || ^18.x",
     "react-dom": "^16.x || ^17.x || ^18.x"
   }

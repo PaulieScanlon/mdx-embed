@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useRef, useEffect, useState, RefObject } from 'react';
+import React, { FunctionComponent, RefObject, useEffect, useRef, useState } from 'react';
 
 interface IGeneralObserverProps {
   /** React Children */

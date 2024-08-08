@@ -1,5 +1,5 @@
-import React from 'react';
-import { waitFor, render, screen, act } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
+import React, { act } from 'react';
 
 import { Gist } from './';
 

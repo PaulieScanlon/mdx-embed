@@ -32,7 +32,6 @@ information on the current packages:
 | [gatsby-plugin-mdx-embed](https://www.npmjs.com/package/gatsby-plugin-mdx-embed)     |   [![Known Vulnerabilities](https://snyk.io/test/npm/gatsby-plugin-mdx-embed/badge.svg)](https://snyk.io/test/npm/gatsby-plugin-mdx-embed)   |
 | [storybook-addon-mdx-embed](https://www.npmjs.com/package/storybook-addon-mdx-embed) | [![Known Vulnerabilities](https://snyk.io/test/npm/storybook-addon-mdx-embed/badge.svg)](https://snyk.io/test/npm/storybook-addon-mdx-embed) |
 
-<br />
 
 ## 🕺 Core Team
 
